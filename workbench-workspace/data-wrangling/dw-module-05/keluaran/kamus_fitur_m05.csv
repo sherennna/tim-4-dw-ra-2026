@@ -1,0 +1,55 @@
+kolom,peran,tipe,sumber,definisi,transformasi
+id_entitas,kunci,str,pelanggan_m04.id_entitas,entitas pelanggan (Modul 4); bersama `bagian` menjadi kunci,-
+bagian,kunci,str,transaksi_m04.waktu_wib,latih: pesanan 2025-01-01 s.d. 2026-03-31; uji: 2026-04-01 s.d. 2026-06-30,-
+frekuensi,mentah,int64,transaksi_m04.id_pesanan,banyak pesanan berstatus selesai pada bagian itu,-
+omzet,mentah,float64,transaksi_m04.total_bayar,"jumlah total_bayar baris berstatus selesai (rupiah, sudah memuat ongkir)",-
+nilai_rata_pesanan,mentah,float64,omzet; frekuensi,omzet dibagi frekuensi (rupiah per pesanan),-
+jumlah_unit,mentah,int64,transaksi_m04.jumlah,jumlah unit pada baris berstatus selesai,-
+n_kategori,mentah,int64,produk_m04.kategori,banyak kategori produk berbeda yang dibeli (produk tak dikenal tidak dihitung),-
+rata_diskon,mentah,float64,transaksi_m04.diskon_persen,rata-rata diskon_persen baris berstatus selesai (persen),-
+nilai_batal,mentah,float64,transaksi_m04.total_bayar,jumlah total_bayar baris berstatus dibatalkan atau dikembalikan; 0 bila tidak ada,-
+recency_hari,mentah,int64,transaksi_m04.waktu_wib,hari dari pesanan selesai terakhir sampai akhir jendela bagian,-
+ada_grosir,keterangan,bool,transaksi_m04.pembelian_grosir,True bila ada baris pembelian grosir (Modul 3); tidak masuk matriks,-
+kanal,mentah,str,transaksi_m04.kanal,"web, app, atau keduanya",-
+kategori_favorit,mentah,str,produk_m04.kategori,kategori dengan total belanja terbesar; `Tidak dikenal` bila semua produknya di luar katalog,-
+metode_bayar_utama,mentah,str,transaksi_m04.metode_bayar,metode bayar dengan total belanja terbesar,-
+provinsi,mentah,str,pelanggan_m04.provinsi,provinsi domisili entitas,-
+kelompok_usia,mentah,str,pelanggan_m04.tahun_lahir,"usia pada 2026: <25, 25-34, 35-44, 45+, atau tidak_diketahui",-
+produk_favorit,mentah,str,transaksi_m04.kode_produk,kode produk dengan total belanja terbesar,-
+t_frekuensi,transformasi,float64,frekuensi,frekuensi pada skala model,log1p lalu z-score (pusat dan sebar dari bagian latih)
+t_omzet,transformasi,float64,omzet,omzet pada skala model,log1p lalu z-score (pusat dan sebar dari bagian latih)
+t_nilai_rata_pesanan,transformasi,float64,nilai_rata_pesanan,nilai_rata_pesanan pada skala model,log1p lalu z-score (pusat dan sebar dari bagian latih)
+t_jumlah_unit,transformasi,float64,jumlah_unit,jumlah_unit pada skala model,log1p lalu z-score (pusat dan sebar dari bagian latih)
+t_nilai_batal,transformasi,float64,nilai_batal,nilai_batal pada skala model,log1p lalu z-score (pusat dan sebar dari bagian latih)
+t_n_kategori,transformasi,float64,n_kategori,n_kategori pada skala model,z-score (pusat dan sebar dari bagian latih)
+t_rata_diskon,transformasi,float64,rata_diskon,rata_diskon pada skala model,z-score (pusat dan sebar dari bagian latih)
+t_recency_hari,transformasi,float64,recency_hari,recency_hari pada skala model,z-score (pusat dan sebar dari bagian latih)
+t_kanal__app,transformasi,float64,kanal,1 bila kanal = app,one-hot tanpa kolom dibuang; kategori tak dikenal -> semua 0
+t_kanal__keduanya,transformasi,float64,kanal,1 bila kanal = keduanya,one-hot tanpa kolom dibuang; kategori tak dikenal -> semua 0
+t_kanal__web,transformasi,float64,kanal,1 bila kanal = web,one-hot tanpa kolom dibuang; kategori tak dikenal -> semua 0
+t_kategori_favorit__kain_tenun,transformasi,float64,kategori_favorit,1 bila kategori_favorit = Kain Tenun,one-hot tanpa kolom dibuang; kategori tak dikenal -> semua 0
+t_kategori_favorit__kerajinan,transformasi,float64,kategori_favorit,1 bila kategori_favorit = Kerajinan,one-hot tanpa kolom dibuang; kategori tak dikenal -> semua 0
+t_kategori_favorit__kopi,transformasi,float64,kategori_favorit,1 bila kategori_favorit = Kopi,one-hot tanpa kolom dibuang; kategori tak dikenal -> semua 0
+t_kategori_favorit__makanan_ringan,transformasi,float64,kategori_favorit,1 bila kategori_favorit = Makanan Ringan,one-hot tanpa kolom dibuang; kategori tak dikenal -> semua 0
+t_kategori_favorit__olahan_ikan,transformasi,float64,kategori_favorit,1 bila kategori_favorit = Olahan Ikan,one-hot tanpa kolom dibuang; kategori tak dikenal -> semua 0
+t_kategori_favorit__rempah,transformasi,float64,kategori_favorit,1 bila kategori_favorit = Rempah,one-hot tanpa kolom dibuang; kategori tak dikenal -> semua 0
+t_kategori_favorit__sayur_dan_buah_segar,transformasi,float64,kategori_favorit,1 bila kategori_favorit = Sayur dan Buah Segar,one-hot tanpa kolom dibuang; kategori tak dikenal -> semua 0
+t_kategori_favorit__tidak_dikenal,transformasi,float64,kategori_favorit,1 bila kategori_favorit = Tidak dikenal,one-hot tanpa kolom dibuang; kategori tak dikenal -> semua 0
+t_metode_bayar_utama__cod,transformasi,float64,metode_bayar_utama,1 bila metode_bayar_utama = COD,one-hot tanpa kolom dibuang; kategori tak dikenal -> semua 0
+t_metode_bayar_utama__e_wallet,transformasi,float64,metode_bayar_utama,1 bila metode_bayar_utama = E-Wallet,one-hot tanpa kolom dibuang; kategori tak dikenal -> semua 0
+t_metode_bayar_utama__kartu_kredit,transformasi,float64,metode_bayar_utama,1 bila metode_bayar_utama = Kartu Kredit,one-hot tanpa kolom dibuang; kategori tak dikenal -> semua 0
+t_metode_bayar_utama__paylater,transformasi,float64,metode_bayar_utama,1 bila metode_bayar_utama = Paylater,one-hot tanpa kolom dibuang; kategori tak dikenal -> semua 0
+t_metode_bayar_utama__transfer_bank,transformasi,float64,metode_bayar_utama,1 bila metode_bayar_utama = Transfer Bank,one-hot tanpa kolom dibuang; kategori tak dikenal -> semua 0
+t_provinsi__aceh,transformasi,float64,provinsi,1 bila provinsi = Aceh,one-hot tanpa kolom dibuang; kategori tak dikenal -> semua 0
+t_provinsi__bengkulu,transformasi,float64,provinsi,1 bila provinsi = Bengkulu,one-hot tanpa kolom dibuang; kategori tak dikenal -> semua 0
+t_provinsi__jambi,transformasi,float64,provinsi,1 bila provinsi = Jambi,one-hot tanpa kolom dibuang; kategori tak dikenal -> semua 0
+t_provinsi__kepulauan_bangka_belitung,transformasi,float64,provinsi,1 bila provinsi = Kepulauan Bangka Belitung,one-hot tanpa kolom dibuang; kategori tak dikenal -> semua 0
+t_provinsi__kepulauan_riau,transformasi,float64,provinsi,1 bila provinsi = Kepulauan Riau,one-hot tanpa kolom dibuang; kategori tak dikenal -> semua 0
+t_provinsi__lampung,transformasi,float64,provinsi,1 bila provinsi = Lampung,one-hot tanpa kolom dibuang; kategori tak dikenal -> semua 0
+t_provinsi__riau,transformasi,float64,provinsi,1 bila provinsi = Riau,one-hot tanpa kolom dibuang; kategori tak dikenal -> semua 0
+t_provinsi__sumatera_barat,transformasi,float64,provinsi,1 bila provinsi = Sumatera Barat,one-hot tanpa kolom dibuang; kategori tak dikenal -> semua 0
+t_provinsi__sumatera_selatan,transformasi,float64,provinsi,1 bila provinsi = Sumatera Selatan,one-hot tanpa kolom dibuang; kategori tak dikenal -> semua 0
+t_provinsi__sumatera_utara,transformasi,float64,provinsi,1 bila provinsi = Sumatera Utara,one-hot tanpa kolom dibuang; kategori tak dikenal -> semua 0
+t_kelompok_usia,transformasi,float64,kelompok_usia,kode urutan usia 0..3 dibagi 3,ordinal urutan eksplisit; tidak_diketahui -> median kode bagian latih
+t_usia_tidak_diketahui,transformasi,float64,kelompok_usia,1 bila kelompok usia tidak diketahui,indikator nilai isian
+t_produk_favorit_frek,transformasi,float64,produk_favorit,porsi entitas bagian latih yang produk favoritnya sama,frequency encoding; kode tak dikenal -> 0

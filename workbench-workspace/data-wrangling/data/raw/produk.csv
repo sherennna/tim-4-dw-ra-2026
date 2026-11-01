@@ -1,0 +1,851 @@
+kode_produk,nama_produk,kategori,harga_katalog,berat,id_toko,nama_toko,provinsi_toko,perlu_pendingin,rating_toko
+LS-KOP-0001,Kopi Aceh 1,Kopi,Rp128.000,"0,05 kg",T067,Toko 067,Aceh,Tidak,3.7
+LS-SAY-0002,Sayur dan Buah Segar Bengkulu 2,Sayur dan Buah Segar,74500,0.95kg,T135,Toko 135,Bengkulu,Ya,3.6
+LS-REM-0003,Rempah Belitung 3,Rempah,47500,150 g,T003,Toko 003,Kepulauan Bangka Belitung,Tidak,3.7
+LS-KAI-0004,Kain Tenun Selatan 4,Kain Tenun,Rp1.330.500,0.3kg,T109,Toko 109,Sumatera Selatan,Tidak,3.8
+LS-MAK-0005,Makanan Ringan Utara 5,Makanan Ringan,Rp25.500,250gr,T126,Toko 126,Sumatera Utara,Tidak,4.2
+LS-KER-0006,Kerajinan Lampung 6,Kerajinan,248500,"0,45 kg",T089,Toko 089,Lampung,Tidak,0.0
+LS-MAK-0007,Makanan Ringan Lampung 7,Makanan Ringan,Rp36.000,0.35kg,T090,Toko 090,Lampung,Tidak,4.5
+LS-OLA-0008,Olahan Ikan Utara 8,Olahan Ikan,Rp 79.000,0.2kg,T139,Toko 139,Sumatera Utara,Ya,3.2
+LS-OLA-0009,Olahan Ikan Aceh 9,Olahan Ikan,Rp52.000,250 g,T088,Toko 088,Aceh,Ya,4.2
+LS-SAY-0010,Sayur dan Buah Segar Barat 10,Sayur dan Buah Segar,"74.500,00","1,1 kg",T169,Toko 169,Sumatera Barat,Ya,3.6
+LS-KER-0011,Kerajinan Lampung 11,Kerajinan,496000,"0,7 kg",T111,Toko 111,Lampung,Tidak,4.3
+LS-OLA-0012,Olahan Ikan Selatan 12,OLAHAN IKAN,Rp87.500,450 g,T120,Toko 120,Sumatera Selatan,Ya,4.1
+LS-KER-0013,Kerajinan Aceh 13,Kerajinan,Rp533.500,1150 g,T140,Toko 140,Aceh,T,4.9
+LS-MAK-0014,Makanan Ringan Riau 14,Makanan Ringan,47500,"0,25 kg",T012,Toko 012,Riau,Tidak,4.3
+LS-OLA-0015,Olahan Ikan Barat 15,Olahan Ikan,Rp34.500,400 g,T067,Toko 067,Sumatera Barat,Ya,4.8
+LS-OLA-0016,Olahan Ikan Riau 16,Olahan Ikan,Rp80.500,"0,45 kg",T122,Toko 122,Kepulauan Riau,Ya,4.2
+LS-REM-0017,Rempah Bengkulu 17,REMPAH,Rp33.000,0.15kg,T047,Toko 047,Bengkulu,Tidak,3.6
+LS-OLA-0018,Olahan Ikan Aceh 18,Olahan Ikan,Rp79.000,0.35kg,T168,Toko 168,Aceh,Y,4.5
+LS-MAK-0019,Makanan Ringan Belitung 19,Makanan Ringan,"59.000,00",200 g,T113,Toko 113,Kepulauan Bangka Belitung,Tidak,4.2
+LS-REM-0020,Rempah Aceh 20,Rempah,Rp 58.500,150 g,T090,Toko 090,Aceh,Tidak,4.4
+LS-KAI-0021,Kain Tenun Bengkulu 21,Kain Tenun,Rp1.155.000,400 g,T138,Toko 138,Bengkulu,T,3.7
+LS-OLA-0022,Olahan Ikan Riau 22,Olahan Ikan,Rp 27.000,300gr,T049,Toko 049,Riau,Ya,4.3
+LS-REM-0023,Rempah Selatan 23,Rempah,Rp 46.500,250gr,T103,Toko 103,Sumatera Selatan,Tidak,4.8
+LS-KER-0024,Kerajinan Jambi 24,Kerajinan,313000,250 g,T053,Toko 053,Jambi,0,4.1
+LS-KOP-0025,Kopi Riau 25,Kopi,Rp38.500,400 g,T014,Toko 014,Riau,Tidak,4.8
+LS-KER-0026,Kerajinan Aceh 26,Kerajinan,Rp 454.500,950gr,T168,Toko 168,Aceh,Tidak,4.6
+LS-KER-0027,Kerajinan Barat 27,Kerajinan,Rp 152.500,650gr,T003,Toko 003,Sumatera Barat,0,4.0
+LS-KER-0028,Kerajinan Riau 28,Kerajinan,45500,"0,2 kg",T060,Toko 060,Kepulauan Riau,Tidak,4.8
+LS-MAK-0029,Makanan Ringan Riau 29,Makanan Ringan,"47.000,00",400gr,T094,Toko 094,Riau,T,4.1
+LS-KOP-0030,Kopi Selatan 30,Kopi ,"53.500,00",250 g,T127,Toko 127,Sumatera Selatan,Tidak,4.2
+LS-OLA-0031,Olahan Ikan Selatan 31,Olahan Ikan,"68.500,00",350gr,T066,Toko 066,Sumatera Selatan,Y,4.1
+LS-KOP-0032,Kopi Utara 32,Kopi,Rp47.500,"0,35 kg",T133,Toko 133,Sumatera Utara,T,4.8
+LS-MAK-0033,Makanan Ringan Belitung 33,Makanan Ringan,25500,"0,2 kg",T057,Toko 057,Kepulauan Bangka Belitung,T,4.9
+LS-SAY-0034,Sayur dan Buah Segar Riau 34,Sayur dan Buah Segar,"74.000,00",850gr,T023,Toko 023,Riau,Ya,4.6
+LS-KOP-0035,Kopi Bengkulu 35,Kopi,Rp140.500,"0,1 kg",T117,Toko 117,Bengkulu,Tidak,4.1
+LS-KER-0036,Kerajinan Jambi 36,Kerajinan,Rp 133.500,600 g,T150,Toko 150,Jambi,Tidak,3.6
+LS-OLA-0037,Olahan Ikan Lampung 37,Olahan Ikan,Rp 34.000,400 g,T070,Toko 070,Lampung,Ya,4.4
+LS-KOP-0038,Kopi Jambi 38,Kopi,111000,350 g,T023,Toko 023,Jambi,0,4.6
+LS-OLA-0039,Olahan Ikan Aceh 39,Olahan Ikan,82000,300 g,T012,Toko 012,Aceh,Ya,3.6
+LS-KAI-0040,Kain Tenun Bengkulu 40,Kain Tenun,684000,400 g,T099,Toko 099,Bengkulu,Tidak,3.6
+LS-MAK-0041,Makanan Ringan Aceh 41,Makanan Ringan,Rp55.500,"0,3 kg",T079,Toko 079,Aceh,Tidak,3.2
+LS-REM-0042,Rempah Riau 42,Rempah,Rp61.000,200 g,T160,Toko 160,Riau,0,3.3
+LS-KOP-0043,Kopi Barat 43,Kopi,170000,250gr,T002,Toko 002,Sumatera Barat,Tidak,4.1
+LS-OLA-0044,Olahan Ikan Riau 44,Olahan Ikan,43500,"0,3 kg",T137,Toko 137,Riau,Ya,4.4
+LS-OLA-0045,Olahan Ikan Barat 45,Olahan Ikan,Rp37.000,300 g,T178,Toko 178,Sumatera Barat,Ya,4.1
+LS-KAI-0046,Kain Tenun Lampung 46,Kain Tenun,Rp330.500,250 g,T041,Toko 041,Lampung,Tidak,4.8
+LS-OLA-0047,Olahan Ikan Bengkulu 47,Olahan Ikan,Rp103.500,0.2kg,T166,Toko 166,Bengkulu,Ya,4.1
+LS-KOP-0048,Kopi Belitung 48,Kopi,"173.500,00",250 g,T044,Toko 044,Kepulauan Bangka Belitung,Tidak,4.5
+LS-MAK-0049,Makanan Ringan Jambi 49,Makanan Ringan,Rp49.500,250 g,T036,Toko 036,Jambi,Tidak,3.8
+LS-KOP-0050,Kopi Riau 50,Kopi,77000,"0,2 kg",T018,Toko 018,Riau,Tidak,3.6
+LS-REM-0051,Rempah Utara 51,Rempah,89000,100 g,T058,Toko 058,Sumatera Utara,0,3.8
+LS-KER-0052,Kerajinan Selatan 52,Kerajinan,Rp 569.000,"0,15 kg",T053,Toko 053,Sumatera Selatan,Tidak,4.6
+LS-KOP-0053,Kopi Barat 53,Kopi,113500,100gr,T008,Toko 008,Sumatera Barat,T,4.2
+LS-KOP-0054,Kopi Lampung 54,Kopi,Rp 85.500,200 g,T075,Toko 075,Lampung,0,4.3
+LS-KAI-0055,Kain Tenun Belitung 55,Kain Tenun,Rp829.000,350 g,T038,Toko 038,Kepulauan Bangka Belitung,Tidak,5.0
+LS-KER-0056,Kerajinan Belitung 56,Kerajinan,Rp 416.000,"0,95 kg",T017,Toko 017,Kepulauan Bangka Belitung,Tidak,4.2
+LS-KOP-0057,Kopi Lampung 57,Kopi,Rp59.500,150 g,T049,Toko 049,Lampung,Tidak,3.4
+LS-MAK-0058,Makanan Ringan Bengkulu 58,Makanan Ringan,Rp 23.000,350 g,T164,Toko 164,Bengkulu,Tidak,3.9
+LS-SAY-0059,Sayur dan Buah Segar Selatan 59,Sayur dan Buah Segar,16500,850gr,T031,Toko 031,Sumatera Selatan,Ya,3.6
+LS-KER-0060,Kerajinan Lampung 60,Kerajinan,"395.500,00","0,7 kg",T168,Toko 168,Lampung,Tidak,4.6
+LS-OLA-0061,Olahan Ikan Aceh 61,Olahan Ikan,"30.500,00","0,35 kg",T058,Toko 058,Aceh,1,3.7
+LS-KER-0062,Kerajinan Jambi 62,Kerajinan,Rp 531.500,"1,25 kg",T014,Toko 014,Jambi,Tidak,4.7
+LS-OLA-0063,Olahan Ikan Riau 63,Olahan Ikan,46500,0.35kg,T093,Toko 093,Kepulauan Riau,Y,4.9
+LS-REM-0064,Rempah Barat 64,Rempah,Rp 49.000,0.2kg,T043,Toko 043,Sumatera Barat,0,4.2
+LS-OLA-0065,Olahan Ikan Barat 65,Olahan Ikan,Rp 119.000,0.25kg,T112,Toko 112,Sumatera Barat,1,4.2
+LS-OLA-0066,Olahan Ikan Barat 66,Olahan Ikan,Rp26.000,100 g,T119,Toko 119,Sumatera Barat,Ya,4.3
+LS-REM-0067,Rempah Riau 67,Rempah,74500,0.05kg,T004,Toko 004,Riau,Tidak,4.0
+LS-MAK-0068,Makanan Ringan Jambi 68,Makanan Ringan,"52.000,00","0,2 kg",T127,Toko 127,Jambi,Tidak,4.0
+LS-OLA-0069,Olahan Ikan Selatan 69,Olahan Ikan,49000,250 g,T129,Toko 129,Sumatera Selatan,Y,3.3
+LS-REM-0070,Rempah Selatan 70,Rempah,Rp74.000,0.2kg,T145,Toko 145,Sumatera Selatan,0,4.6
+LS-SAY-0071,Sayur dan Buah Segar Lampung 71,Sayur dan Buah Segar,61000,"1,45 kg",T046,Toko 046,Lampung,Ya,4.0
+LS-OLA-0072,Olahan Ikan Selatan 72,Olahan Ikan,"89.000,00",350 g,T121,Toko 121,Sumatera Selatan,Ya,4.1
+LS-MAK-0073,Makanan Ringan Barat 73,Makanan Ringan,16000,250 g,T075,Toko 075,Sumatera Barat,Tidak,0.0
+LS-KOP-0074,Kopi Belitung 74,Kopi,"148.500,00",0.4kg,T011,Toko 011,Kepulauan Bangka Belitung,Tidak,4.9
+LS-REM-0075,Rempah Belitung 75,Rempah,33000,0.1kg,T094,Toko 094,Kepulauan Bangka Belitung,Tidak,3.7
+LS-KER-0076,Kerajinan Aceh 76,Kerajinan,Rp 453.500,"0,9 kg",T081,Toko 081,Aceh,0,4.6
+LS-MAK-0077,Makanan Ringan Lampung 77,Makanan Ringan,Rp59.000,200gr,T065,Toko 065,Lampung,Tidak,4.5
+LS-OLA-0078,Olahan Ikan Selatan 78,Olahan Ikan,"100.500,00","0,5 kg",T156,Toko 156,Sumatera Selatan,Ya,4.0
+LS-MAK-0079,Makanan Ringan Barat 79,Makanan Ringan,Rp52.500,0.2kg,T163,Toko 163,Sumatera Barat,Tidak,0.0
+LS-KOP-0080,Kopi Riau 80,Kopi,Rp 148.000,150 g,T030,Toko 030,Kepulauan Riau,Tidak,3.3
+LS-KER-0081,Kerajinan Barat 81,Kerajinan,Rp235.500,0.8kg,T171,Toko 171,Sumatera Barat,Tidak,3.3
+LS-KOP-0082,Kopi Belitung 82,Kopi,158500,250gr,T173,Toko 173,Kepulauan Bangka Belitung,Tidak,4.5
+LS-SAY-0083,Sayur dan Buah Segar Bengkulu 83,Sayur dan Buah Segar,Rp45.000,950gr,T111,Toko 111,Bengkulu,Ya,3.9
+LS-KER-0084,Kerajinan Belitung 84,Kerajinan,Rp534.000,"0,2 kg",T075,Toko 075,Kepulauan Bangka Belitung,Tidak,4.5
+LS-KOP-0085,Kopi Riau 85,Kopi,147500,"0,2 kg",T145,Toko 145,Riau,Tidak,4.2
+LS-REM-0086,Rempah Aceh 86,Rempah,16000,200gr,T096,Toko 096,Aceh,0,3.6
+LS-REM-0087,Rempah Barat 87,Rempah,42500,"0,3 kg",T105,Toko 105,Sumatera Barat,0,5.0
+LS-MAK-0088,Makanan Ringan Selatan 88,Makanan Ringan,Rp 42.500,250gr,T011,Toko 011,Sumatera Selatan,Tidak,3.3
+LS-SAY-0089,Sayur dan Buah Segar Bengkulu 89,Sayur dan Buah Segar,Rp36.000,"1,95 kg",T075,Toko 075,Bengkulu,Ya,3.5
+LS-MAK-0090,Makanan Ringan Utara 90,Makanan Ringan,39500,0.3kg,T015,Toko 015,Sumatera Utara,Tidak,3.3
+LS-OLA-0091,Olahan Ikan Riau 91,Olahan Ikan,"79.000,00",400 g,T150,Toko 150,Riau,Ya,4.1
+LS-MAK-0092,Makanan Ringan Riau 92,MAKANAN RINGAN,Rp 30.500,"0,25 kg",T031,Toko 031,Riau,Tidak,3.8
+LS-KOP-0093,Kopi Utara 93,Kopi,Rp173.500,250 g,T083,Toko 083,Sumatera Utara,Tidak,4.5
+LS-SAY-0094,Sayur dan Buah Segar Utara 94,Sayur dan Buah Segar,28000,1150 g,T136,Toko 136,Sumatera Utara,1,3.5
+LS-SAY-0095,Sayur dan Buah Segar Bengkulu 95,Sayur dan Buah Segar,"37.500,00",700 g,T142,Toko 142,Bengkulu,Ya,3.8
+LS-OLA-0096,Olahan Ikan Aceh 96,Olahan Ikan,87500,250 g,T115,Toko 115,Aceh,Y,4.9
+LS-KER-0097,Kerajinan Belitung 97,Kerajinan,"209.000,00",900 g,T143,Toko 143,Kepulauan Bangka Belitung,T,4.0
+LS-MAK-0098,Makanan Ringan Utara 98,Makanan Ringan,"15.000,00",300 g,T104,Toko 104,Sumatera Utara,Tidak,3.2
+LS-MAK-0099,Makanan Ringan Lampung 99,Makanan Ringan,Rp25.000,200gr,T158,Toko 158,Lampung,Tidak,4.9
+LS-OLA-0100,Olahan Ikan Jambi 100,Olahan Ikan,Rp105.000,100 g,T098,Toko 098,Jambi,Ya,4.5
+LS-KAI-0101,Kain Tenun Barat 101,Kain Tenun,"966.000,00",0.45kg,T120,Toko 120,Sumatera Barat,Tidak,3.7
+LS-SAY-0102,Sayur dan Buah Segar Lampung 102,Sayur dan Buah Segar,Rp 51.000,1150gr,T136,Toko 136,Lampung,Ya,4.8
+LS-KOP-0103,Kopi Barat 103,Kopi,Rp86.000,250 g,T106,Toko 106,Sumatera Barat,Tidak,4.0
+LS-MAK-0104,Makanan Ringan Bengkulu 104,Makanan Ringan,51500,0.3kg,T145,Toko 145,Bengkulu,Tidak,4.3
+LS-KOP-0105,Kopi Belitung 105,Kopi,Rp157.000,100 g,T147,Toko 147,Kepulauan Bangka Belitung,Tidak,3.5
+LS-SAY-0106,Sayur dan Buah Segar Utara 106,Sayur dan Buah Segar,Rp41.500,"1,2 kg",T011,Toko 011,Sumatera Utara,Ya,4.6
+LS-SAY-0107,Sayur dan Buah Segar Barat 107,Sayur dan Buah Segar,Rp37.000,1000 g,T053,Toko 053,Sumatera Barat,Ya,3.3
+LS-REM-0108,Rempah Riau 108,Rempah,"72.500,00","0,3 kg",T157,Toko 157,Riau,Tidak,3.6
+LS-MAK-0109,Makanan Ringan Riau 109,Makanan Ringan,"54.000,00",50 g,T124,Toko 124,Kepulauan Riau,Tidak,4.4
+LS-MAK-0110,Makanan Ringan Selatan 110,Makanan Ringan,Rp13.000,200 g,T037,Toko 037,Sumatera Selatan,0,4.7
+LS-SAY-0111,Sayur dan Buah Segar Bengkulu 111,Sayur dan Buah Segar,Rp50.000,750gr,T176,Toko 176,Bengkulu,Ya,3.7
+LS-SAY-0112,Sayur dan Buah Segar Riau 112,Sayur dan Buah Segar,72000,1000gr,T134,Toko 134,Kepulauan Riau,Ya,4.0
+LS-KER-0113,Kerajinan Belitung 113,Kerajinan,Rp431.500,50 g,T123,Toko 123,Kepulauan Bangka Belitung,Tidak,3.8
+LS-KOP-0114,Kopi Riau 114,Kopi,Rp 41.500,200 g,T031,Toko 031,Riau,Tidak,4.2
+LS-KER-0115,Kerajinan Lampung 115,Kerajinan,Rp514.500,"0,6 kg",T120,Toko 120,Lampung,Tidak,3.4
+LS-MAK-0116,Makanan Ringan Aceh 116,Makanan Ringan,Rp30.000,0.25kg,T110,Toko 110,Aceh,Tidak,3.9
+LS-OLA-0117,Olahan Ikan Bengkulu 117,Olahan Ikan,"92.000,00",400 g,T026,Toko 026,Bengkulu,Ya,4.0
+LS-REM-0118,Rempah Riau 118,Rempah,87500,150 g,T040,Toko 040,Kepulauan Riau,Tidak,4.9
+LS-SAY-0119,Sayur dan Buah Segar Barat 119,Sayur dan Buah Segar,Rp49.500,1350 g,T012,Toko 012,Sumatera Barat,Y,4.7
+LS-MAK-0120,Makanan Ringan Riau 120,Makanan Ringan,"26.000,00",250 g,T101,Toko 101,Kepulauan Riau,Tidak,4.9
+LS-KOP-0121,Kopi Selatan 121,Kopi,147500,250 g,T042,Toko 042,Sumatera Selatan,Tidak,4.7
+LS-SAY-0122,Sayur dan Buah Segar Belitung 122,Sayur dan Buah Segar,45000,900 g,T161,Toko 161,Kepulauan Bangka Belitung,1,4.8
+LS-KER-0123,Kerajinan Belitung 123,Kerajinan,Rp112.000,850gr,T093,Toko 093,Kepulauan Bangka Belitung,0,4.0
+LS-KOP-0124,Kopi Utara 124,Kopi,"86.500,00",350 g,T073,Toko 073,Sumatera Utara,Tidak,3.9
+LS-SAY-0125,Sayur dan Buah Segar Barat 125,Sayur dan Buah Segar,Rp60.500,"0,45 kg",T054,Toko 054,Sumatera Barat,Ya,3.9
+LS-MAK-0126,Makanan Ringan Riau 126,Makanan Ringan,"34.500,00",100 g,T047,Toko 047,Kepulauan Riau,Tidak,3.6
+LS-KER-0127,Kerajinan Riau 127,Kerajinan,401500,0.4kg,T139,Toko 139,Kepulauan Riau,0,5.0
+LS-SAY-0128,Sayur dan Buah Segar Bengkulu 128,Sayur dan Buah Segar,Rp36.000,1kg,T167,Toko 167,Bengkulu,Ya,4.4
+LS-MAK-0129,Makanan Ringan Selatan 129,Makanan Ringan,Rp 18.500,200 g,T129,Toko 129,Sumatera Selatan,Tidak,4.9
+LS-REM-0130,Rempah Bengkulu 130,Rempah,Rp26.500,0.25kg,T106,Toko 106,Bengkulu,0,4.3
+LS-REM-0131,Rempah Belitung 131,Rempah,Rp53.000,150 g,T047,Toko 047,Kepulauan Bangka Belitung,Tidak,4.1
+LS-REM-0132,Rempah Belitung 132,Rempah,Rp26.000,50 g,T058,Toko 058,Kepulauan Bangka Belitung,Tidak,4.6
+LS-OLA-0133,Olahan Ikan Riau 133,Olahan Ikan,"61.500,00",250gr,T138,Toko 138,Riau,1,3.5
+LS-KOP-0134,Kopi Belitung 134,Kopi,"166.000,00",150 g,T172,Toko 172,Kepulauan Bangka Belitung,Tidak,4.4
+LS-MAK-0135,Makanan Ringan Jambi 135,Makanan Ringan,"24.500,00",0.25kg,T074,Toko 074,Jambi,Tidak,3.7
+LS-MAK-0136,Makanan Ringan Riau 136,Makanan Ringan,54000,200 g,T021,Toko 021,Kepulauan Riau,0,4.4
+LS-KER-0137,Kerajinan Barat 137,Kerajinan,"493.000,00",850 g,T148,Toko 148,Sumatera Barat,Tidak,3.7
+LS-REM-0138,Rempah Utara 138,Rempah,Rp39.500,50gr,T154,Toko 154,Sumatera Utara,Tidak,3.8
+LS-MAK-0139,Makanan Ringan Barat 139,Makanan Ringan,"12.500,00",0.15kg,T085,Toko 085,Sumatera Barat,0,4.7
+LS-SAY-0140,Sayur dan Buah Segar Riau 140,Sayur dan Buah Segar,Rp14.000,1000 g,T118,Toko 118,Riau,Ya,0.0
+LS-OLA-0141,Olahan Ikan Jambi 141,Olahan Ikan,Rp40.500,0.1kg,T020,Toko 020,Jambi,Ya,4.2
+LS-SAY-0142,Sayur dan Buah Segar Aceh 142,Sayur dan Buah Segar,56500,350 g,T126,Toko 126,Aceh,Y,4.0
+LS-KOP-0143,Kopi Belitung 143,Kopi,Rp115.500,"0,3 kg",T130,Toko 130,Kepulauan Bangka Belitung,Tidak,4.9
+LS-KAI-0144,Kain Tenun Riau 144,Kain Tenun,Rp945.000,350gr,T039,Toko 039,Kepulauan Riau,0,3.3
+LS-REM-0145,Rempah Jambi 145,Rempah,15000,100 g,T046,Toko 046,Jambi,0,4.6
+LS-REM-0146,Rempah Riau 146,Rempah,78500,100 g,T005,Toko 005,Riau,Tidak,3.6
+LS-KER-0147,Kerajinan Selatan 147,Kerajinan,Rp301.000,"0,95 kg",T146,Toko 146,Sumatera Selatan,Tidak,0.0
+LS-KOP-0148,Kopi Barat 148,Kopi,Rp171.000,150 g,T082,Toko 082,Sumatera Barat,Tidak,0.0
+LS-OLA-0149,Olahan Ikan Barat 149,Olahan Ikan,29500,"0,35 kg",T156,Toko 156,Sumatera Barat,Ya,4.8
+LS-SAY-0150,Sayur dan Buah Segar Aceh 150,Sayur dan Buah Segar,Rp40.000,1000gr,T134,Toko 134,Aceh,Ya,4.3
+LS-KOP-0151,Kopi Lampung 151,Kopi,"80.000,00",200 g,T041,Toko 041,Lampung,0,3.6
+LS-KAI-0152,Kain Tenun Barat 152,Kain Tenun,610500,350 g,T126,Toko 126,Sumatera Barat,Tidak,3.4
+LS-KOP-0153,Kopi Aceh 153,Kopi,Rp127.000,"0,2 kg",T126,Toko 126,Aceh,Tidak,3.2
+LS-MAK-0154,Makanan Ringan Jambi 154,Makanan Ringan,"55.000,00",350 g,T087,Toko 087,Jambi,Tidak,3.7
+LS-KER-0155,Kerajinan Riau 155,Kerajinan,Rp 390.000,850 g,T158,Toko 158,Kepulauan Riau,Tidak,4.7
+LS-REM-0156,Rempah Jambi 156,Rempah,Rp 48.000,"0,3 kg",T133,Toko 133,Jambi,Tidak,4.0
+LS-MAK-0157,Makanan Ringan Riau 157,Makanan Ringan,Rp15.000,"0,2 kg",T171,Toko 171,Kepulauan Riau,T,4.9
+LS-MAK-0158,Makanan Ringan Belitung 158,Makanan Ringan,28000,300 g,T144,Toko 144,Kepulauan Bangka Belitung,0,5.0
+LS-KOP-0159,Kopi Utara 159,Kopi,Rp81.500,250gr,T111,Toko 111,Sumatera Utara,T,3.7
+LS-KAI-0160,Kain Tenun Riau 160,Kain Tenun,411500,450 g,T141,Toko 141,Kepulauan Riau,Tidak,4.3
+LS-KOP-0161,Kopi Selatan 161,Kopi,38000,250gr,T056,Toko 056,Sumatera Selatan,Tidak,4.5
+LS-SAY-0162,Sayur dan Buah Segar Utara 162,Sayur dan Buah Segar,Rp 24.500,1200 g,T022,Toko 022,Sumatera Utara,Ya,4.2
+LS-KOP-0163,Kopi Bengkulu 163,Kopi,Rp82.000,200 g,T086,Toko 086,Bengkulu,Tidak,4.7
+LS-KOP-0164,Kopi Aceh 164,Kopi,150000,200 g,T048,Toko 048,Aceh,T,3.7
+LS-KAI-0165,Kain Tenun Bengkulu 165,Kain Tenun,Rp873.500,500 g,T143,Toko 143,Bengkulu,Tidak,3.5
+LS-MAK-0166,Makanan Ringan Riau 166,Makanan Ringan,Rp25.500,"0,3 kg",T096,Toko 096,Riau,Tidak,3.3
+LS-SAY-0167,Sayur dan Buah Segar Bengkulu 167,Sayur dan Buah Segar,31000,0.5kg,T046,Toko 046,Bengkulu,Ya,3.4
+LS-KER-0168,Kerajinan Aceh 168,Kerajinan,Rp599.500,950 g,T093,Toko 093,Aceh,0,3.3
+LS-KER-0169,Kerajinan Belitung 169,Kerajinan,323500,500 g,T070,Toko 070,Kepulauan Bangka Belitung,Tidak,3.9
+LS-KER-0170,Kerajinan Selatan 170,Kerajinan,263500,0.85kg,T023,Toko 023,Sumatera Selatan,Tidak,3.3
+LS-MAK-0171,Makanan Ringan Barat 171,Makanan Ringan,Rp49.500,300 g,T164,Toko 164,Sumatera Barat,Tidak,4.1
+LS-REM-0172,Rempah Riau 172,Rempah,75500,50 g,T032,Toko 032,Riau,T,4.7
+LS-KOP-0173,Kopi Riau 173,Kopi,35500,150 g,T167,Toko 167,Riau,Tidak,3.6
+LS-KER-0174,Kerajinan Bengkulu 174,Kerajinan,Rp587.500,1150 g,T043,Toko 043,Bengkulu,Tidak,0.0
+LS-MAK-0175,Makanan Ringan Riau 175,Makanan Ringan,Rp38.000,"0,05 kg",T071,Toko 071,Kepulauan Riau,Tidak,4.9
+LS-MAK-0176,Makanan Ringan Belitung 176,Makanan Ringan,"55.000,00","0,35 kg",T045,Toko 045,Kepulauan Bangka Belitung,0,4.0
+LS-OLA-0177,Olahan Ikan Lampung 177,Olahan Ikan,Rp 73.000,"0,25 kg",T029,Toko 029,Lampung,Ya,4.6
+LS-KAI-0178,Kain Tenun Riau 178,Kain Tenun,1498500,400 g,T075,Toko 075,Riau,Tidak,0.0
+LS-KER-0179,Kerajinan Aceh 179,Kerajinan,Rp362.500,350 g,T067,Toko 067,Aceh,Tidak,3.4
+LS-REM-0180,Rempah Utara 180,Rempah,Rp50.500,250 g,T106,Toko 106,Sumatera Utara,Tidak,0.0
+LS-MAK-0181,Makanan Ringan Utara 181,Makanan Ringan,"50.000,00","0,25 kg",T006,Toko 006,Sumatera Utara,Tidak,3.9
+LS-KOP-0182,Kopi Riau 182,Kopi,Rp127.000,250gr,T145,Toko 145,Kepulauan Riau,Tidak,3.3
+LS-SAY-0183,Sayur dan Buah Segar Belitung 183,Sayur dan Buah Segar,Rp68.000,"1,2 kg",T088,Toko 088,Kepulauan Bangka Belitung,Y,4.0
+LS-KOP-0184,Kopi Riau 184,kopi,"72.000,00",150gr,T088,Toko 088,Kepulauan Riau,Tidak,4.4
+LS-KER-0185,Kerajinan Bengkulu 185,Kerajinan,178500,600 g,T061,Toko 061,Bengkulu,Tidak,4.7
+LS-KOP-0186,Kopi Belitung 186,Kopi,105000,"0,25 kg",T080,Toko 080,Kepulauan Bangka Belitung,Tidak,4.5
+LS-OLA-0187,Olahan Ikan Riau 187,Olahan Ikan,Rp80.500,350 g,T099,Toko 099,Kepulauan Riau,Y,3.6
+LS-KOP-0188,Kopi Aceh 188,Kopi,81000,150 g,T114,Toko 114,Aceh,T,3.5
+LS-KER-0189,Kerajinan Belitung 189,Kerajinan,219000,350gr,T089,Toko 089,Kepulauan Bangka Belitung,Tidak,4.0
+LS-MAK-0190,Makanan Ringan Riau 190,Makanan Ringan,Rp42.000,"0,35 kg",T060,Toko 060,Riau,Tidak,3.5
+LS-MAK-0191,Makanan Ringan Utara 191,Makanan Ringan,Rp 42.500,200gr,T095,Toko 095,Sumatera Utara,Tidak,4.5
+LS-KAI-0192,Kain Tenun Riau 192,Kain Tenun,Rp1.167.000,600 g,T087,Toko 087,Kepulauan Riau,Tidak,3.7
+LS-KOP-0193,Kopi Lampung 193,Kopi,Rp128.000,"0,1 kg",T136,Toko 136,Lampung,0,4.5
+LS-KOP-0194,Kopi Selatan 194,Kopi,Rp 179.500,0.05kg,T024,Toko 024,Sumatera Selatan,T,3.3
+LS-MAK-0195,Makanan Ringan Riau 195,Makanan Ringan,Rp13.500,"0,3 kg",T141,Toko 141,Riau,Tidak,4.7
+LS-KER-0196,Kerajinan Jambi 196,Kerajinan,Rp 590.000,0.85kg,T036,Toko 036,Jambi,T,3.7
+LS-MAK-0197,Makanan Ringan Riau 197,Makanan Ringan,Rp18.000,150 g,T124,Toko 124,Kepulauan Riau,0,3.7
+LS-MAK-0198,Makanan Ringan Jambi 198,Makanan Ringan,Rp18.000,0.15kg,T121,Toko 121,Jambi,Tidak,3.8
+LS-REM-0199,Rempah Aceh 199,Rempah,Rp73.000,"0,2 kg",T075,Toko 075,Aceh,Tidak,3.6
+LS-OLA-0200,Olahan Ikan Riau 200,Olahan Ikan,29000,350gr,T009,Toko 009,Riau,Y,4.4
+LS-REM-0201,Rempah Selatan 201,Rempah,Rp35.500,150gr,T109,Toko 109,Sumatera Selatan,T,4.4
+LS-MAK-0202,Makanan Ringan Lampung 202,Makanan Ringan,Rp23.500,300 g,T122,Toko 122,Lampung,Tidak,0.0
+LS-KOP-0203,Kopi Bengkulu 203,Kopi,161500,0.4kg,T162,Toko 162,Bengkulu,Tidak,3.5
+LS-KOP-0204,Kopi Jambi 204,Kopi,"115.500,00",100 g,T165,Toko 165,Jambi,0,4.1
+LS-KOP-0205,Kopi Selatan 205,Kopi,178000,100 g,T112,Toko 112,Sumatera Selatan,Tidak,0.0
+LS-SAY-0206,Sayur dan Buah Segar Utara 206,Sayur dan Buah Segar,28500,1.3kg,T124,Toko 124,Sumatera Utara,Ya,4.6
+LS-KOP-0207,Kopi Bengkulu 207,Kopi,Rp162.500,150 g,T167,Toko 167,Bengkulu,Tidak,4.7
+LS-MAK-0208,Makanan Ringan Aceh 208,Makanan Ringan,Rp33.000,200 g,T149,Toko 149,Aceh,0,4.8
+LS-OLA-0209,Olahan Ikan Lampung 209,Olahan Ikan,Rp77.500,500 g,T115,Toko 115,Lampung,1,4.8
+LS-KOP-0210,Kopi Selatan 210,Kopi,178500,400 g,T105,Toko 105,Sumatera Selatan,Tidak,3.4
+LS-SAY-0211,Sayur dan Buah Segar Riau 211,Sayur dan Buah Segar,73500,1050 g,T012,Toko 012,Riau,Ya,4.7
+LS-KOP-0212,Kopi Belitung 212,Kopi,Rp47.000,"0,25 kg",T026,Toko 026,Kepulauan Bangka Belitung,T,4.5
+LS-SAY-0213,Sayur dan Buah Segar Utara 213,Sayur dan Buah Segar,Rp43.500,300 g,T062,Toko 062,Sumatera Utara,Ya,4.3
+LS-SAY-0214,Sayur dan Buah Segar Bengkulu 214,Sayur dan Buah Segar,Rp 31.500,0.1kg,T013,Toko 013,Bengkulu,Ya,3.2
+LS-MAK-0215,Makanan Ringan Bengkulu 215,Makanan Ringan,52000,200gr,T127,Toko 127,Bengkulu,T,3.9
+LS-OLA-0216,Olahan Ikan Aceh 216,Olahan Ikan,101500,150 g,T053,Toko 053,Aceh,Ya,4.6
+LS-REM-0217,Rempah Utara 217,Rempah,Rp 28.500,250 g,T008,Toko 008,Sumatera Utara,0,3.8
+LS-KAI-0218,Kain Tenun Aceh 218,Kain Tenun,Rp 932.500,50 g,T011,Toko 011,Aceh,Tidak,0.0
+LS-KOP-0219,Kopi Barat 219,Kopi,Rp168.500,0.1kg,T061,Toko 061,Sumatera Barat,Tidak,4.3
+LS-KOP-0220,Kopi Riau 220,Kopi,"146.500,00",400gr,T013,Toko 013,Kepulauan Riau,Tidak,3.9
+LS-KAI-0221,Kain Tenun Riau 221,Kain Tenun,"247.500,00",0.35kg,T135,Toko 135,Riau,Tidak,3.8
+LS-KER-0222,Kerajinan Utara 222,Kerajinan,Rp443.500,350 g,T169,Toko 169,Sumatera Utara,Tidak,4.9
+LS-SAY-0223,Sayur dan Buah Segar Riau 223,Sayur dan Buah Segar,"72.000,00",800gr,T070,Toko 070,Kepulauan Riau,1,4.5
+LS-SAY-0224,Sayur dan Buah Segar Jambi 224,Sayur dan Buah Segar,Rp41.000,450 g,T175,Toko 175,Jambi,1,3.2
+LS-KOP-0225,Kopi Bengkulu 225,Kopi,Rp167.500,350 g,T069,Toko 069,Bengkulu,Tidak,3.9
+LS-MAK-0226,Makanan Ringan Riau 226,Makanan Ringan,Rp 37.000,0.3kg,T106,Toko 106,Kepulauan Riau,Tidak,0.0
+LS-MAK-0227,Makanan Ringan Jambi 227,Makanan Ringan,Rp45.000,150gr,T162,Toko 162,Jambi,Tidak,3.3
+LS-KOP-0228,Kopi Utara 228,Kopi,Rp 149.500,0.25kg,T123,Toko 123,Sumatera Utara,Tidak,0.0
+LS-REM-0229,Rempah Belitung 229,Rempah,Rp36.000,"0,1 kg",T175,Toko 175,Kepulauan Bangka Belitung,Tidak,3.2
+LS-OLA-0230,Olahan Ikan Bengkulu 230,Olahan Ikan,35500,"0,25 kg",T021,Toko 021,Bengkulu,1,4.6
+LS-KER-0231,Kerajinan Aceh 231,Kerajinan,Rp 50.000,650 g,T169,Toko 169,Aceh,Tidak,0.0
+LS-KER-0232,Kerajinan Bengkulu 232,Kerajinan,Rp221.500,0.65kg,T003,Toko 003,Bengkulu,Tidak,4.6
+LS-REM-0233,Rempah Riau 233,Rempah,67500,"0,2 kg",T130,Toko 130,Riau,T,4.3
+LS-OLA-0234,Olahan Ikan Belitung 234,Olahan Ikan,Rp103.500,"0,35 kg",T136,Toko 136,Kepulauan Bangka Belitung,Ya,4.8
+LS-REM-0235,Rempah Riau 235,Rempah,"57.000,00","0,25 kg",T148,Toko 148,Kepulauan Riau,Tidak,4.9
+LS-OLA-0236,Olahan Ikan Barat 236,Olahan Ikan,Rp64.500,0.1kg,T167,Toko 167,Sumatera Barat,Ya,4.3
+LS-OLA-0237,Olahan Ikan Selatan 237,Olahan Ikan,"84.000,00",150 g,T095,Toko 095,Sumatera Selatan,1,0.0
+LS-MAK-0238,Makanan Ringan Riau 238,Makanan Ringan,23000,"0,15 kg",T028,Toko 028,Riau,T,3.7
+LS-KOP-0239,Kopi Utara 239,Kopi,Rp139.500,250gr,T109,Toko 109,Sumatera Utara,Tidak,3.6
+LS-MAK-0240,Makanan Ringan Jambi 240,MAKANAN RINGAN,Rp36.500,0.15kg,T030,Toko 030,Jambi,Tidak,3.5
+LS-MAK-0241,Makanan Ringan Jambi 241,Makanan Ringan,Rp11.500,400 g,T133,Toko 133,Jambi,Tidak,4.4
+LS-KAI-0242,Kain Tenun Utara 242,Kain Tenun,Rp 1.088.000,"0,75 kg",T151,Toko 151,Sumatera Utara,Tidak,3.9
+LS-REM-0243,Rempah Belitung 243,Rempah,Rp24.500,150 g,T074,Toko 074,Kepulauan Bangka Belitung,Tidak,0.0
+LS-KOP-0244,Kopi Barat 244,Kopi,Rp 176.000,200gr,T070,Toko 070,Sumatera Barat,Tidak,4.0
+LS-KER-0245,Kerajinan Jambi 245,Kerajinan,Rp219.500,400gr,T036,Toko 036,Jambi,Tidak,3.4
+LS-KER-0246,Kerajinan Belitung 246,Kerajinan,102500,1000 g,T137,Toko 137,Kepulauan Bangka Belitung,Tidak,4.0
+LS-KER-0247,Kerajinan Jambi 247,Kerajinan,104500,0.75kg,T030,Toko 030,Jambi,T,3.4
+LS-KOP-0248,Kopi Jambi 248,Kopi,58500,"0,25 kg",T083,Toko 083,Jambi,0,4.6
+LS-MAK-0249,Makanan Ringan Utara 249,Makanan Ringan,"35.500,00",200 g,T123,Toko 123,Sumatera Utara,Tidak,0.0
+LS-REM-0250,Rempah Selatan 250,REMPAH,"55.500,00",200 g,T053,Toko 053,Sumatera Selatan,0,3.7
+LS-MAK-0251,Makanan Ringan Riau 251,Makanan Ringan,40000,150 g,T011,Toko 011,Kepulauan Riau,0,3.6
+LS-KOP-0252,Kopi Barat 252,Kopi,114000,350 g,T010,Toko 010,Sumatera Barat,T,4.5
+LS-REM-0253,Rempah Barat 253,Rempah,37500,100 g,T050,Toko 050,Sumatera Barat,Tidak,3.5
+LS-KER-0254,Kerajinan Riau 254,Kerajinan,Rp553.500,700 g,T174,Toko 174,Kepulauan Riau,Tidak,4.7
+LS-MAK-0255,Makanan Ringan Selatan 255,Makanan Ringan,38500,100gr,T173,Toko 173,Sumatera Selatan,Tidak,3.3
+LS-KOP-0256,Kopi Selatan 256,Kopi,Rp51.000,"0,25 kg",T108,Toko 108,Sumatera Selatan,Tidak,4.0
+LS-REM-0257,Rempah Selatan 257,Rempah,Rp37.500,200 g,T069,Toko 069,Sumatera Selatan,T,3.7
+LS-OLA-0258,Olahan Ikan Riau 258,Olahan Ikan,Rp 110.000,"0,35 kg",T044,Toko 044,Riau,Ya,0.0
+LS-REM-0259,Rempah Jambi 259,Rempah,41500,"0,2 kg",T050,Toko 050,Jambi,Tidak,4.1
+LS-OLA-0260,Olahan Ikan Jambi 260,Olahan Ikan,Rp 83.500,350gr,T101,Toko 101,Jambi,Ya,3.4
+LS-KER-0261,Kerajinan Bengkulu 261,Kerajinan,Rp206.500,300 g,T096,Toko 096,Bengkulu,Tidak,4.2
+LS-OLA-0262,Olahan Ikan Riau 262,Olahan Ikan,115500,0.35kg,T077,Toko 077,Kepulauan Riau,Ya,0.0
+LS-SAY-0263,Sayur dan Buah Segar Aceh 263,Sayur dan Buah Segar,"48.500,00","0,95 kg",T114,Toko 114,Aceh,Ya,3.3
+LS-MAK-0264,Makanan Ringan Riau 264,Makanan Ringan,47500,250gr,T165,Toko 165,Kepulauan Riau,T,0.0
+LS-REM-0265,Rempah Selatan 265,Rempah,24000,150 g,T056,Toko 056,Sumatera Selatan,Tidak,4.9
+LS-KAI-0266,Kain Tenun Belitung 266,Kain Tenun,Rp1.247.000,500 g,T003,Toko 003,Kepulauan Bangka Belitung,Tidak,4.7
+LS-KOP-0267,Kopi Riau 267,Kopi,Rp101.000,150 g,T097,Toko 097,Kepulauan Riau,Tidak,4.7
+LS-KOP-0268,Kopi Bengkulu 268,Kopi,Rp157.500,250 g,T142,Toko 142,Bengkulu,Tidak,4.3
+LS-OLA-0269,Olahan Ikan Utara 269,Olahan Ikan ,67000,"0,35 kg",T124,Toko 124,Sumatera Utara,1,3.4
+LS-OLA-0270,Olahan Ikan Riau 270,Olahan Ikan,Rp51.000,200gr,T019,Toko 019,Kepulauan Riau,1,0.0
+LS-REM-0271,Rempah Lampung 271,Rempah,Rp85.000,100gr,T007,Toko 007,Lampung,T,3.9
+LS-MAK-0272,Makanan Ringan Selatan 272,Makanan Ringan,Rp55.000,0.25kg,T082,Toko 082,Sumatera Selatan,Tidak,3.8
+LS-OLA-0273,Olahan Ikan Riau 273,Olahan Ikan,Rp117.000,150 g,T082,Toko 082,Riau,1,0.0
+LS-OLA-0274,Olahan Ikan Riau 274,Olahan Ikan,"101.500,00","0,4 kg",T059,Toko 059,Riau,Ya,3.3
+LS-KAI-0275,Kain Tenun Barat 275,Kain Tenun,Rp 926.500,450 g,T164,Toko 164,Sumatera Barat,Tidak,3.8
+LS-OLA-0276,Olahan Ikan Aceh 276,Olahan Ikan,105500,0.3kg,T053,Toko 053,Aceh,1,4.5
+LS-REM-0277,Rempah Barat 277,Rempah,Rp67.500,100 g,T086,Toko 086,Sumatera Barat,Tidak,3.8
+LS-KER-0278,Kerajinan Belitung 278,Kerajinan,184000,700 g,T078,Toko 078,Kepulauan Bangka Belitung,Tidak,4.9
+LS-KER-0279,Kerajinan Utara 279,Kerajinan,Rp152.500,400 g,T052,Toko 052,Sumatera Utara,Tidak,4.9
+LS-KOP-0280,Kopi Utara 280,Kopi,180000,"0,1 kg",T080,Toko 080,Sumatera Utara,Tidak,3.2
+LS-KOP-0281,Kopi Aceh 281,Kopi,83500,"0,25 kg",T070,Toko 070,Aceh,Tidak,5.0
+LS-KOP-0282,Kopi Utara 282,Kopi,Rp42.500,250gr,T130,Toko 130,Sumatera Utara,Tidak,4.9
+LS-KAI-0283,Kain Tenun Aceh 283,Kain Tenun,Rp 613.500,0.2kg,T060,Toko 060,Aceh,Tidak,0.0
+LS-MAK-0284,Makanan Ringan Aceh 284,Makanan Ringan,Rp19.000,0.25kg,T179,Toko 179,Aceh,T,0.0
+LS-KOP-0285,Kopi Lampung 285,Kopi,"139.500,00","0,3 kg",T028,Toko 028,Lampung,Tidak,4.8
+LS-MAK-0286,Makanan Ringan Belitung 286,Makanan Ringan,Rp31.500,"0,2 kg",T072,Toko 072,Kepulauan Bangka Belitung,Tidak,4.8
+LS-OLA-0287,Olahan Ikan Riau 287,Olahan Ikan,Rp55.000,0.1kg,T142,Toko 142,Kepulauan Riau,Ya,4.7
+LS-OLA-0288,Olahan Ikan Selatan 288,Olahan Ikan,"46.500,00","0,15 kg",T109,Toko 109,Sumatera Selatan,Ya,3.6
+LS-OLA-0289,Olahan Ikan Aceh 289,Olahan Ikan,Rp90.500,0.45kg,T141,Toko 141,Aceh,Ya,4.1
+LS-SAY-0290,Sayur dan Buah Segar Riau 290,Sayur dan Buah Segar,71000,"0,85 kg",T017,Toko 017,Riau,1,3.9
+LS-SAY-0291,Sayur dan Buah Segar Bengkulu 291,Sayur dan Buah Segar,31000,"1,4 kg",T112,Toko 112,Bengkulu,Ya,4.5
+LS-KOP-0292,Kopi Utara 292,Kopi,130000,400 g,T093,Toko 093,Sumatera Utara,Tidak,3.3
+LS-OLA-0293,Olahan Ikan Aceh 293,Olahan Ikan,27500,0.3kg,T165,Toko 165,Aceh,1,3.4
+LS-REM-0294,Rempah Lampung 294,Rempah,Rp36.500,0.15kg,T104,Toko 104,Lampung,Tidak,3.9
+LS-OLA-0295,Olahan Ikan Jambi 295,Olahan Ikan,Rp26.000,350 g,T096,Toko 096,Jambi,1,4.0
+LS-OLA-0296,Olahan Ikan Aceh 296,Olahan Ikan,Rp119.000,0.3kg,T144,Toko 144,Aceh,Ya,4.8
+LS-OLA-0297,Olahan Ikan Selatan 297,Olahan Ikan,Rp 34.000,400 g,T133,Toko 133,Sumatera Selatan,1,4.9
+LS-SAY-0298,Sayur dan Buah Segar Selatan 298,Sayur dan Buah Segar,Rp36.500,"1,3 kg",T080,Toko 080,Sumatera Selatan,Ya,4.0
+LS-MAK-0299,Makanan Ringan Utara 299,Makanan Ringan,"37.500,00",250 g,T039,Toko 039,Sumatera Utara,0,3.6
+LS-REM-0300,Rempah Selatan 300,Rempah,Rp 71.000,150gr,T071,Toko 071,Sumatera Selatan,Tidak,3.2
+LS-SAY-0301,Sayur dan Buah Segar Aceh 301,Sayur dan Buah Segar,Rp40.000,350 g,T007,Toko 007,Aceh,Ya,3.7
+LS-REM-0302,Rempah Barat 302,Rempah,Rp47.000,"0,15 kg",T165,Toko 165,Sumatera Barat,Tidak,3.3
+LS-REM-0303,Rempah Jambi 303,Rempah,Rp54.000,200 g,T062,Toko 062,Jambi,0,4.7
+LS-REM-0304,Rempah Jambi 304,Rempah,Rp38.000,0.35kg,T061,Toko 061,Jambi,0,4.2
+LS-KER-0305,Kerajinan Aceh 305,Kerajinan,Rp594.500,1 kg,T054,Toko 054,Aceh,Tidak,4.1
+LS-KAI-0306,Kain Tenun Bengkulu 306,Kain Tenun,"1.084.500,00",450 g,T062,Toko 062,Bengkulu,Tidak,3.2
+LS-OLA-0307,Olahan Ikan Riau 307,Olahan Ikan,"32.500,00",250 g,T103,Toko 103,Riau,Ya,4.3
+LS-REM-0308,Rempah Barat 308,Rempah,Rp 63.000,150 g,T163,Toko 163,Sumatera Barat,Tidak,5.0
+LS-KER-0309,Kerajinan Bengkulu 309,Kerajinan,Rp334.500,1000 g,T178,Toko 178,Bengkulu,T,4.2
+LS-KOP-0310,Kopi Jambi 310,Kopi,Rp111.500,"0,25 kg",T043,Toko 043,Jambi,Tidak,4.3
+LS-KAI-0311,Kain Tenun Aceh 311,Kain Tenun,Rp446.000,450 g,T103,Toko 103,Aceh,0,4.4
+LS-MAK-0312,Makanan Ringan Barat 312,Makanan Ringan,Rp59.000,"0,25 kg",T047,Toko 047,Sumatera Barat,Tidak,3.6
+LS-KER-0313,Kerajinan Riau 313,Kerajinan,80000,"0,7 kg",T149,Toko 149,Riau,T,3.5
+LS-KOP-0314,Kopi Lampung 314,Kopi,Rp136.500,50 g,T095,Toko 095,Lampung,Tidak,3.7
+LS-MAK-0315,Makanan Ringan Lampung 315,MAKANAN RINGAN,41500,"0,2 kg",T048,Toko 048,Lampung,T,3.9
+LS-MAK-0316,Makanan Ringan Riau 316,Makanan Ringan,Rp 56.000,250gr,T009,Toko 009,Riau,0,3.3
+LS-OLA-0317,Olahan Ikan Riau 317,Olahan Ikan,32000,"0,15 kg",T047,Toko 047,Kepulauan Riau,Ya,3.4
+LS-OLA-0318,Olahan Ikan Aceh 318,Olahan Ikan,42000,200gr,T164,Toko 164,Aceh,Y,3.2
+LS-REM-0319,Rempah Selatan 319,Rempah,Rp45.000,200gr,T093,Toko 093,Sumatera Selatan,Tidak,3.3
+LS-KOP-0320,Kopi Riau 320,Kopi,Rp61.500,200 g,T066,Toko 066,Kepulauan Riau,T,4.7
+LS-MAK-0321,Makanan Ringan Bengkulu 321,Makanan Ringan,"41.000,00",150 g,T042,Toko 042,Bengkulu,Tidak,4.8
+LS-REM-0322,Rempah Jambi 322,Rempah,56000,350 g,T083,Toko 083,Jambi,Tidak,0.0
+LS-KOP-0323,Kopi Riau 323,Kopi,108500,350 g,T071,Toko 071,Kepulauan Riau,Tidak,4.7
+LS-OLA-0324,Olahan Ikan Barat 324,Olahan Ikan,Rp48.500,0.2kg,T160,Toko 160,Sumatera Barat,1,4.1
+LS-OLA-0325,Olahan Ikan Belitung 325,Olahan Ikan,Rp71.500,250 g,T054,Toko 054,Kepulauan Bangka Belitung,Ya,3.3
+LS-REM-0326,Rempah Barat 326,Rempah,66500,"0,15 kg",T176,Toko 176,Sumatera Barat,Tidak,3.9
+LS-MAK-0327,Makanan Ringan Riau 327,Makanan Ringan,Rp 41.000,250 g,T087,Toko 087,Riau,Tidak,4.5
+LS-MAK-0328,Makanan Ringan Selatan 328,Makanan Ringan,Rp40.000,150gr,T089,Toko 089,Sumatera Selatan,Tidak,4.8
+LS-REM-0329,Rempah Barat 329,Rempah,Rp 39.000,"0,25 kg",T124,Toko 124,Sumatera Barat,Tidak,3.5
+LS-SAY-0330,Sayur dan Buah Segar Belitung 330,Sayur dan Buah Segar,16500,800gr,T125,Toko 125,Kepulauan Bangka Belitung,Ya,4.1
+LS-KOP-0331,Kopi Aceh 331,Kopi,"169.500,00",200 g,T014,Toko 014,Aceh,Tidak,3.3
+LS-MAK-0332,Makanan Ringan Riau 332,Makanan Ringan,49000,0.3kg,T126,Toko 126,Riau,Tidak,3.7
+LS-KOP-0333,Kopi Riau 333,Kopi,145000,250 g,T074,Toko 074,Kepulauan Riau,Tidak,4.7
+LS-SAY-0334,Sayur dan Buah Segar Riau 334,Sayur dan Buah Segar,37500,"1,1 kg",T161,Toko 161,Riau,1,4.9
+LS-KER-0335,Kerajinan Aceh 335,KERAJINAN,168500,600 g,T125,Toko 125,Aceh,Tidak,0.0
+LS-SAY-0336,Sayur dan Buah Segar Riau 336,Sayur dan Buah Segar,"30.500,00",1.15kg,T076,Toko 076,Riau,Ya,5.0
+LS-KOP-0337,Kopi Lampung 337,Kopi,Rp40.500,0.2kg,T123,Toko 123,Lampung,T,4.9
+LS-MAK-0338,Makanan Ringan Belitung 338,Makanan Ringan,Rp20.000,300 g,T090,Toko 090,Kepulauan Bangka Belitung,Tidak,3.5
+LS-KAI-0339,Kain Tenun Aceh 339,Kain Tenun,Rp402.000,0.45kg,T038,Toko 038,Aceh,Tidak,4.9
+LS-KAI-0340,Kain Tenun Riau 340,Kain Tenun,Rp1.239.500,550 g,T140,Toko 140,Kepulauan Riau,Tidak,3.8
+LS-OLA-0341,Olahan Ikan Lampung 341,Olahan Ikan,Rp95.500,0.2kg,T138,Toko 138,Lampung,Ya,0.0
+LS-KER-0342,Kerajinan Bengkulu 342,Kerajinan,301000,550gr,T099,Toko 099,Bengkulu,0,4.3
+LS-KOP-0343,Kopi Aceh 343,Kopi,134500,300gr,T025,Toko 025,Aceh,T,3.8
+LS-MAK-0344,Makanan Ringan Lampung 344,Makanan Ringan,42000,350gr,T074,Toko 074,Lampung,Tidak,4.5
+LS-OLA-0345,Olahan Ikan Utara 345,Olahan Ikan,Rp 86.000,150 g,T093,Toko 093,Sumatera Utara,Ya,3.3
+LS-KAI-0346,Kain Tenun Belitung 346,Kain Tenun,955500,0.5kg,T093,Toko 093,Kepulauan Bangka Belitung,Tidak,4.3
+LS-KER-0347,Kerajinan Riau 347,Kerajinan,Rp257.000,"0,6 kg",T029,Toko 029,Kepulauan Riau,Tidak,4.6
+LS-KAI-0348,Kain Tenun Jambi 348,Kain Tenun,Rp1.180.500,450 g,T140,Toko 140,Jambi,Tidak,3.8
+LS-MAK-0349,Makanan Ringan Belitung 349,Makanan Ringan,"34.000,00",0.3kg,T122,Toko 122,Kepulauan Bangka Belitung,T,4.4
+LS-KAI-0350,Kain Tenun Jambi 350,Kain Tenun,"1.027.500,00",250gr,T175,Toko 175,Jambi,Tidak,4.7
+LS-REM-0351,Rempah Riau 351,Rempah,"46.500,00","0,2 kg",T083,Toko 083,Kepulauan Riau,Tidak,3.9
+LS-SAY-0352,Sayur dan Buah Segar Riau 352,Sayur dan Buah Segar,Rp67.000,1050gr,T115,Toko 115,Riau,Ya,4.1
+LS-KOP-0353,Kopi Riau 353,Kopi,Rp 73.500,150 g,T108,Toko 108,Kepulauan Riau,Tidak,4.0
+LS-SAY-0354,Sayur dan Buah Segar Bengkulu 354,Sayur dan Buah Segar,"26.000,00",0.8kg,T101,Toko 101,Bengkulu,1,0.0
+LS-OLA-0355,Olahan Ikan Riau 355,Olahan Ikan,35500,450 g,T086,Toko 086,Kepulauan Riau,Ya,0.0
+LS-KOP-0356,Kopi Lampung 356,Kopi,Rp122.500,250 g,T139,Toko 139,Lampung,Tidak,4.7
+LS-REM-0357,Rempah Utara 357,Rempah,Rp19.000,"0,25 kg",T169,Toko 169,Sumatera Utara,T,3.7
+LS-REM-0358,Rempah Belitung 358,Rempah,62500,200 g,T084,Toko 084,Kepulauan Bangka Belitung,Tidak,4.2
+LS-SAY-0359,Sayur dan Buah Segar Lampung 359,Sayur dan Buah Segar,Rp19.000,1650 g,T001,Toko 001,Lampung,Y,3.4
+LS-REM-0360,Rempah Riau 360,Rempah,"43.000,00","0,25 kg",T090,Toko 090,Riau,Tidak,3.9
+LS-REM-0361,Rempah Lampung 361,Rempah,Rp24.500,200gr,T008,Toko 008,Lampung,0,4.9
+LS-SAY-0362,Sayur dan Buah Segar Aceh 362,Sayur dan Buah Segar,Rp 50.500,"0,7 kg",T075,Toko 075,Aceh,Ya,4.0
+LS-KER-0363,Kerajinan Bengkulu 363,Kerajinan,Rp 598.000,700gr,T122,Toko 122,Bengkulu,Tidak,4.6
+LS-MAK-0364,Makanan Ringan Lampung 364,Makanan Ringan,Rp42.000,200gr,T145,Toko 145,Lampung,Tidak,4.0
+LS-OLA-0365,Olahan Ikan Riau 365,Olahan Ikan,"61.500,00",400 g,T112,Toko 112,Riau,Ya,3.9
+LS-MAK-0366,Makanan Ringan Lampung 366,Makanan Ringan,Rp29.500,200gr,T155,Toko 155,Lampung,0,3.7
+LS-KER-0367,Kerajinan Jambi 367,Kerajinan,"525.000,00",600 g,T151,Toko 151,Jambi,Tidak,0.0
+LS-KOP-0368,Kopi Lampung 368,Kopi,Rp175.000,150 g,T162,Toko 162,Lampung,Tidak,4.2
+LS-KER-0369,Kerajinan Riau 369,Kerajinan,Rp 516.000,700gr,T156,Toko 156,Kepulauan Riau,T,3.3
+LS-SAY-0370,Sayur dan Buah Segar Lampung 370,Sayur dan Buah Segar,Rp 43.500,1450 g,T014,Toko 014,Lampung,Ya,4.3
+LS-REM-0371,Rempah Riau 371,Rempah,36000,"0,15 kg",T025,Toko 025,Kepulauan Riau,Tidak,3.3
+LS-MAK-0372,Makanan Ringan Belitung 372,Makanan Ringan,20000,250 g,T109,Toko 109,Kepulauan Bangka Belitung,Tidak,4.7
+LS-KAI-0373,Kain Tenun Aceh 373,Kain Tenun ,Rp1.305.500,0.25kg,T166,Toko 166,Aceh,T,0.0
+LS-OLA-0374,Olahan Ikan Selatan 374,Olahan Ikan,77000,300gr,T142,Toko 142,Sumatera Selatan,Ya,4.5
+LS-KER-0375,Kerajinan Utara 375,Kerajinan,Rp455.500,1150 g,T177,Toko 177,Sumatera Utara,Tidak,3.4
+LS-KAI-0376,Kain Tenun Bengkulu 376,Kain Tenun,Rp 1.119.500,550 g,T152,Toko 152,Bengkulu,Tidak,0.0
+LS-KER-0377,Kerajinan Selatan 377,Kerajinan,Rp116.000,1250gr,T069,Toko 069,Sumatera Selatan,Tidak,4.8
+LS-MAK-0378,Makanan Ringan Riau 378,Makanan Ringan,"34.000,00",250gr,T162,Toko 162,Kepulauan Riau,Tidak,4.2
+LS-REM-0379,Rempah Utara 379,Rempah,Rp52.000,200gr,T072,Toko 072,Sumatera Utara,Tidak,4.2
+LS-REM-0380,Rempah Bengkulu 380,Rempah,"32.500,00","0,25 kg",T014,Toko 014,Bengkulu,0,4.4
+LS-KOP-0381,Kopi Belitung 381,Kopi,Rp 130.500,0.35kg,T178,Toko 178,Kepulauan Bangka Belitung,Tidak,3.3
+LS-SAY-0382,Sayur dan Buah Segar Lampung 382,Sayur dan Buah Segar,Rp 79.000,1200gr,T055,Toko 055,Lampung,Ya,3.4
+LS-KER-0383,Kerajinan Utara 383,Kerajinan,"145.000,00",600 g,T075,Toko 075,Sumatera Utara,Tidak,4.2
+LS-MAK-0384,Makanan Ringan Lampung 384,makanan ringan,Rp15.000,200 g,T032,Toko 032,Lampung,Tidak,3.6
+LS-SAY-0385,Sayur dan Buah Segar Belitung 385,SAYUR DAN BUAH SEGAR,Rp73.500,1100gr,T034,Toko 034,Kepulauan Bangka Belitung,Ya,0.0
+LS-REM-0386,Rempah Barat 386,Rempah,81000,200gr,T030,Toko 030,Sumatera Barat,Tidak,3.7
+LS-KOP-0387,Kopi Lampung 387,Kopi,125500,0.3kg,T001,Toko 001,Lampung,Tidak,3.6
+LS-MAK-0388,Makanan Ringan Lampung 388,Makanan Ringan,18000,0.25kg,T155,Toko 155,Lampung,Tidak,4.1
+LS-KER-0389,Kerajinan Bengkulu 389,Kerajinan,Rp410.000,900 g,T136,Toko 136,Bengkulu,T,4.4
+LS-OLA-0390,Olahan Ikan Jambi 390,Olahan Ikan,Rp79.500,0.35kg,T162,Toko 162,Jambi,Ya,3.4
+LS-OLA-0391,Olahan Ikan Barat 391,Olahan Ikan,Rp86.000,450gr,T175,Toko 175,Sumatera Barat,Ya,3.8
+LS-SAY-0392,Sayur dan Buah Segar Bengkulu 392,Sayur dan Buah Segar,13500,1150gr,T107,Toko 107,Bengkulu,Ya,4.7
+LS-SAY-0393,Sayur dan Buah Segar Riau 393,Sayur dan Buah Segar,Rp59.000,"0,9 kg",T133,Toko 133,Kepulauan Riau,Ya,4.2
+LS-KER-0394,Kerajinan Utara 394,Kerajinan,Rp 518.000,1700 g,T076,Toko 076,Sumatera Utara,Tidak,4.3
+LS-REM-0395,Rempah Belitung 395,Rempah,"30.500,00",350gr,T070,Toko 070,Kepulauan Bangka Belitung,Tidak,4.4
+LS-OLA-0396,Olahan Ikan Aceh 396,Olahan Ikan,Rp 76.500,100gr,T053,Toko 053,Aceh,Ya,3.4
+LS-KER-0397,Kerajinan Lampung 397,Kerajinan,541000,950 g,T140,Toko 140,Lampung,Tidak,4.2
+LS-KER-0398,Kerajinan Jambi 398,Kerajinan,434500,"0,35 kg",T169,Toko 169,Jambi,T,4.8
+LS-KOP-0399,Kopi Belitung 399,Kopi,Rp65.500,150gr,T124,Toko 124,Kepulauan Bangka Belitung,0,4.4
+LS-KER-0400,Kerajinan Riau 400,Kerajinan,Rp501.000,1050 g,T009,Toko 009,Kepulauan Riau,Tidak,3.5
+LS-MAK-0401,Makanan Ringan Riau 401,Makanan Ringan,Rp 52.000,200 g,T097,Toko 097,Kepulauan Riau,0,3.9
+LS-MAK-0402,Makanan Ringan Belitung 402,Makanan Ringan,45500,0.15kg,T155,Toko 155,Kepulauan Bangka Belitung,Tidak,4.4
+LS-OLA-0403,Olahan Ikan Barat 403,Olahan Ikan,Rp 32.000,50 g,T073,Toko 073,Sumatera Barat,Ya,0.0
+LS-MAK-0404,Makanan Ringan Aceh 404,Makanan Ringan,43000,0.3kg,T139,Toko 139,Aceh,0,3.2
+LS-MAK-0405,Makanan Ringan Utara 405,Makanan Ringan,52000,200 g,T021,Toko 021,Sumatera Utara,Tidak,3.9
+LS-KER-0406,Kerajinan Selatan 406,Kerajinan,58000,1200gr,T171,Toko 171,Sumatera Selatan,Tidak,3.8
+LS-KER-0407,Kerajinan Jambi 407,Kerajinan,393000,"0,35 kg",T013,Toko 013,Jambi,Tidak,4.2
+LS-SAY-0408,Sayur dan Buah Segar Belitung 408,Sayur dan Buah Segar,61500,150 g,T038,Toko 038,Kepulauan Bangka Belitung,Y,3.2
+LS-KOP-0409,Kopi Bengkulu 409,Kopi,87500,200 g,T037,Toko 037,Bengkulu,T,0.0
+LS-KER-0410,Kerajinan Barat 410,Kerajinan,Rp59.500,"0,3 kg",T167,Toko 167,Sumatera Barat,Tidak,3.5
+LS-MAK-0411,Makanan Ringan Bengkulu 411,Makanan Ringan,42500,150 g,T034,Toko 034,Bengkulu,Tidak,4.6
+LS-REM-0412,Rempah Belitung 412,Rempah,Rp67.500,150gr,T005,Toko 005,Kepulauan Bangka Belitung,Tidak,0.0
+LS-KOP-0413,Kopi Riau 413,Kopi,"155.000,00",250gr,T174,Toko 174,Kepulauan Riau,Tidak,3.2
+LS-KAI-0414,Kain Tenun Utara 414,Kain Tenun,161500,600 g,T044,Toko 044,Sumatera Utara,Tidak,3.7
+LS-MAK-0415,Makanan Ringan Barat 415,Makanan Ringan,Rp 50.500,"0,2 kg",T098,Toko 098,Sumatera Barat,T,3.5
+LS-REM-0416,Rempah Lampung 416,Rempah,Rp 51.000,100 g,T066,Toko 066,Lampung,0,4.3
+LS-MAK-0417,Makanan Ringan Aceh 417,Makanan Ringan,56500,0.25kg,T113,Toko 113,Aceh,Tidak,4.9
+LS-KOP-0418,Kopi Lampung 418,Kopi,Rp62.000,0.1kg,T136,Toko 136,Lampung,Tidak,4.9
+LS-MAK-0419,Makanan Ringan Jambi 419,Makanan Ringan,49000,200gr,T030,Toko 030,Jambi,Tidak,3.2
+LS-REM-0420,Rempah Jambi 420,Rempah,44500,0.15kg,T056,Toko 056,Jambi,0,4.3
+LS-MAK-0421,Makanan Ringan Lampung 421,Makanan Ringan,Rp 43.500,250gr,T029,Toko 029,Lampung,Tidak,4.7
+LS-OLA-0422,Olahan Ikan Lampung 422,Olahan Ikan,68500,"0,3 kg",T013,Toko 013,Lampung,Ya,4.8
+LS-REM-0423,Rempah Selatan 423,Rempah,25500,0.05kg,T133,Toko 133,Sumatera Selatan,T,4.5
+LS-KER-0424,Kerajinan Lampung 424,Kerajinan,"264.500,00",750 g,T105,Toko 105,Lampung,Tidak,3.3
+LS-KER-0425,Kerajinan Utara 425,Kerajinan,Rp408.500,1100 g,T109,Toko 109,Sumatera Utara,Tidak,3.5
+LS-KOP-0426,Kopi Barat 426,Kopi,Rp 102.000,0.4kg,T037,Toko 037,Sumatera Barat,T,4.5
+LS-OLA-0427,Olahan Ikan Barat 427,Olahan Ikan,Rp95.500,0.4kg,T046,Toko 046,Sumatera Barat,Ya,4.4
+LS-KOP-0428,Kopi Belitung 428,Kopi,Rp63.000,300 g,T089,Toko 089,Kepulauan Bangka Belitung,Tidak,3.5
+LS-KOP-0429,Kopi Barat 429,Kopi,Rp 52.000,250 g,T030,Toko 030,Sumatera Barat,T,3.9
+LS-REM-0430,Rempah Lampung 430,Rempah,Rp 25.500,"0,2 kg",T166,Toko 166,Lampung,0,4.4
+LS-KOP-0431,Kopi Bengkulu 431,Kopi,Rp173.500,300 g,T015,Toko 015,Bengkulu,Tidak,5.0
+LS-MAK-0432,Makanan Ringan Aceh 432,Makanan Ringan,Rp56.000,350 g,T138,Toko 138,Aceh,Tidak,4.5
+LS-KER-0433,Kerajinan Bengkulu 433,Kerajinan,"541.000,00","0,7 kg",T128,Toko 128,Bengkulu,T,4.1
+LS-KOP-0434,Kopi Jambi 434,Kopi,"138.000,00",300gr,T175,Toko 175,Jambi,Tidak,4.3
+LS-KOP-0435,Kopi Jambi 435,Kopi,84000,"0,25 kg",T155,Toko 155,Jambi,Tidak,3.8
+LS-MAK-0436,Makanan Ringan Riau 436,Makanan Ringan,35000,250 g,T164,Toko 164,Kepulauan Riau,T,4.3
+LS-KOP-0437,Kopi Lampung 437,Kopi,"81.500,00",450 g,T169,Toko 169,Lampung,0,4.9
+LS-KER-0438,Kerajinan Jambi 438,Kerajinan,"475.500,00",150gr,T007,Toko 007,Jambi,Tidak,4.1
+LS-KAI-0439,Kain Tenun Lampung 439,Kain Tenun,"196.500,00","0,3 kg",T172,Toko 172,Lampung,Tidak,3.6
+LS-REM-0440,Rempah Bengkulu 440,Rempah,Rp 80.000,100 g,T082,Toko 082,Bengkulu,0,4.3
+LS-KER-0441,Kerajinan Aceh 441,Kerajinan,Rp552.000,550 g,T030,Toko 030,Aceh,Tidak,4.5
+LS-MAK-0442,Makanan Ringan Riau 442,Makanan Ringan,Rp55.000,0.2kg,T097,Toko 097,Riau,0,4.2
+LS-REM-0443,Rempah Jambi 443,Rempah,85000,100 g,T134,Toko 134,Jambi,0,3.4
+LS-SAY-0444,Sayur dan Buah Segar Utara 444,Sayur dan Buah Segar,Rp41.000,1200 g,T154,Toko 154,Sumatera Utara,1,4.5
+LS-SAY-0445,Sayur dan Buah Segar Riau 445,Sayur dan Buah Segar,"73.000,00",850 g,T095,Toko 095,Kepulauan Riau,Ya,4.0
+LS-KOP-0446,Kopi Belitung 446,Kopi,Rp102.500,250 g,T086,Toko 086,Kepulauan Bangka Belitung,Tidak,3.3
+LS-KER-0447,Kerajinan Belitung 447,Kerajinan,Rp472.500,700gr,T178,Toko 178,Kepulauan Bangka Belitung,0,4.4
+LS-KER-0448,Kerajinan Belitung 448,Kerajinan,Rp570.000,450 g,T013,Toko 013,Kepulauan Bangka Belitung,Tidak,4.7
+LS-MAK-0449,Makanan Ringan Jambi 449,Makanan Ringan,Rp23.500,50gr,T096,Toko 096,Jambi,0,4.8
+LS-OLA-0450,Olahan Ikan Belitung 450,Olahan Ikan,33000,50 g,T165,Toko 165,Kepulauan Bangka Belitung,1,3.6
+LS-MAK-0451,Makanan Ringan Bengkulu 451,Makanan Ringan,Rp14.500,200 g,T114,Toko 114,Bengkulu,0,3.5
+LS-KOP-0452,Kopi Jambi 452,Kopi,Rp64.000,0.35kg,T150,Toko 150,Jambi,Tidak,3.5
+LS-KOP-0453,Kopi Jambi 453,Kopi,Rp37.000,"0,15 kg",T167,Toko 167,Jambi,Tidak,3.8
+LS-MAK-0454,Makanan Ringan Riau 454,Makanan Ringan,Rp44.500,"0,2 kg",T030,Toko 030,Riau,T,4.7
+LS-SAY-0455,Sayur dan Buah Segar Barat 455,Sayur dan Buah Segar,17500,1350gr,T029,Toko 029,Sumatera Barat,Y,3.4
+LS-KER-0456,Kerajinan Bengkulu 456,Kerajinan,Rp198.500,500 g,T039,Toko 039,Bengkulu,Tidak,4.4
+LS-KAI-0457,Kain Tenun Utara 457,KAIN TENUN,Rp512.500,"0,3 kg",T026,Toko 026,Sumatera Utara,T,4.0
+LS-MAK-0458,Makanan Ringan Riau 458,Makanan Ringan,"36.500,00",250gr,T142,Toko 142,Riau,0,4.9
+LS-MAK-0459,Makanan Ringan Riau 459,Makanan Ringan,"10.500,00",250 g,T122,Toko 122,Kepulauan Riau,Tidak,4.2
+LS-SAY-0460,Sayur dan Buah Segar Riau 460,Sayur dan Buah Segar,Rp 41.500,1050 g,T039,Toko 039,Kepulauan Riau,Ya,4.1
+LS-REM-0461,Rempah Riau 461,Rempah,Rp18.000,300 g,T127,Toko 127,Riau,Tidak,4.0
+LS-REM-0462,Rempah Bengkulu 462,Rempah ,Rp17.500,200gr,T041,Toko 041,Bengkulu,Tidak,3.4
+LS-MAK-0463,Makanan Ringan Riau 463,Makanan Ringan,Rp32.500,100 g,T177,Toko 177,Riau,Tidak,4.6
+LS-KAI-0464,Kain Tenun Lampung 464,Kain Tenun,"867.000,00",400 g,T110,Toko 110,Lampung,Tidak,3.7
+LS-OLA-0465,Olahan Ikan Selatan 465,Olahan Ikan,Rp84.000,200 g,T159,Toko 159,Sumatera Selatan,1,4.3
+LS-SAY-0466,Sayur dan Buah Segar Riau 466,Sayur dan Buah Segar,17000,1.35kg,T133,Toko 133,Kepulauan Riau,Ya,4.1
+LS-KOP-0467,Kopi Barat 467,Kopi,Rp64.000,0.2kg,T057,Toko 057,Sumatera Barat,0,4.7
+LS-KOP-0468,Kopi Utara 468,Kopi,"46.500,00","0,1 kg",T033,Toko 033,Sumatera Utara,Tidak,4.1
+LS-KER-0469,Kerajinan Jambi 469,Kerajinan,Rp 461.000,750 g,T112,Toko 112,Jambi,0,3.4
+LS-MAK-0470,Makanan Ringan Selatan 470,Makanan Ringan,Rp39.500,200 g,T155,Toko 155,Sumatera Selatan,Tidak,4.6
+LS-KOP-0471,Kopi Selatan 471,Kopi,"61.000,00",200gr,T076,Toko 076,Sumatera Selatan,Tidak,4.1
+LS-MAK-0472,Makanan Ringan Aceh 472,makanan ringan,Rp 18.000,300 g,T064,Toko 064,Aceh,0,3.4
+LS-KER-0473,Kerajinan Barat 473,Kerajinan,Rp542.000,0.6kg,T155,Toko 155,Sumatera Barat,Tidak,4.7
+LS-REM-0474,Rempah Utara 474,Rempah,Rp55.000,150gr,T108,Toko 108,Sumatera Utara,T,4.1
+LS-MAK-0475,Makanan Ringan Bengkulu 475,Makanan Ringan,27500,250 g,T097,Toko 097,Bengkulu,Tidak,3.6
+LS-MAK-0476,Makanan Ringan Riau 476,Makanan Ringan,Rp 38.000,300 g,T040,Toko 040,Kepulauan Riau,Tidak,4.2
+LS-OLA-0477,Olahan Ikan Barat 477,Olahan Ikan,Rp109.500,200 g,T172,Toko 172,Sumatera Barat,Ya,3.5
+LS-MAK-0478,Makanan Ringan Riau 478,Makanan Ringan,Rp 33.000,250 g,T144,Toko 144,Riau,0,4.2
+LS-OLA-0479,Olahan Ikan Utara 479,Olahan Ikan,94000,450 g,T120,Toko 120,Sumatera Utara,Ya,3.5
+LS-MAK-0480,Makanan Ringan Aceh 480,Makanan Ringan,Rp 23.500,300 g,T061,Toko 061,Aceh,Tidak,4.4
+LS-SAY-0481,Sayur dan Buah Segar Jambi 481,Sayur dan Buah Segar,63000,1000 g,T027,Toko 027,Jambi,Ya,4.1
+LS-MAK-0482,Makanan Ringan Barat 482,Makanan Ringan,Rp13.500,250 g,T062,Toko 062,Sumatera Barat,0,4.8
+LS-REM-0483,Rempah Utara 483,Rempah,49500,50 g,T162,Toko 162,Sumatera Utara,Tidak,3.9
+LS-KER-0484,Kerajinan Barat 484,Kerajinan,Rp 197.000,"0,05 kg",T170,Toko 170,Sumatera Barat,Tidak,4.2
+LS-REM-0485,Rempah Riau 485,Rempah,34500,150 g,T038,Toko 038,Kepulauan Riau,T,4.7
+LS-REM-0486,Rempah Jambi 486,Rempah,84000,0.2kg,T017,Toko 017,Jambi,Tidak,3.9
+LS-KAI-0487,Kain Tenun Riau 487,Kain Tenun,1166000,400gr,T129,Toko 129,Kepulauan Riau,Tidak,4.4
+LS-SAY-0488,Sayur dan Buah Segar Jambi 488,Sayur dan Buah Segar,"71.000,00",450gr,T022,Toko 022,Jambi,Ya,4.0
+LS-KOP-0489,Kopi Barat 489,Kopi,Rp148.000,100 g,T164,Toko 164,Sumatera Barat,Tidak,3.3
+LS-KAI-0490,Kain Tenun Belitung 490,Kain Tenun,Rp922.500,300 g,T005,Toko 005,Kepulauan Bangka Belitung,Tidak,3.9
+LS-KER-0491,Kerajinan Aceh 491,Kerajinan,Rp421.500,900 g,T103,Toko 103,Aceh,Tidak,3.6
+LS-MAK-0492,Makanan Ringan Selatan 492,Makanan Ringan,Rp27.500,"0,1 kg",T153,Toko 153,Sumatera Selatan,Tidak,4.7
+LS-REM-0493,Rempah Barat 493,Rempah,Rp73.500,150 g,T166,Toko 166,Sumatera Barat,Tidak,3.8
+LS-KAI-0494,Kain Tenun Lampung 494,Kain Tenun,Rp1.240.500,600gr,T052,Toko 052,Lampung,0,4.9
+LS-OLA-0495,Olahan Ikan Utara 495,Olahan Ikan,Rp83.500,150 g,T010,Toko 010,Sumatera Utara,Y,4.8
+LS-REM-0496,Rempah Riau 496,Rempah,Rp54.000,250 g,T045,Toko 045,Kepulauan Riau,Tidak,4.7
+LS-MAK-0497,Makanan Ringan Belitung 497,Makanan Ringan,"30.000,00",0.4kg,T148,Toko 148,Kepulauan Bangka Belitung,Tidak,3.2
+LS-MAK-0498,Makanan Ringan Bengkulu 498,Makanan Ringan,Rp 14.500,"0,3 kg",T135,Toko 135,Bengkulu,Tidak,3.7
+LS-KOP-0499,Kopi Jambi 499,Kopi,Rp59.500,50gr,T157,Toko 157,Jambi,T,4.8
+LS-KOP-0500,Kopi Lampung 500,Kopi,Rp 71.500,100 g,T136,Toko 136,Lampung,T,4.9
+LS-REM-0501,Rempah Jambi 501,Rempah,Rp54.500,"0,35 kg",T011,Toko 011,Jambi,Tidak,4.9
+LS-REM-0502,Rempah Utara 502,Rempah,61000,100 g,T054,Toko 054,Sumatera Utara,T,3.5
+LS-OLA-0503,Olahan Ikan Aceh 503,Olahan Ikan,Rp110.500,0.15kg,T112,Toko 112,Aceh,Ya,3.9
+LS-KOP-0504,Kopi Selatan 504,Kopi,Rp 71.000,200gr,T103,Toko 103,Sumatera Selatan,0,3.6
+LS-MAK-0505,Makanan Ringan Aceh 505,Makanan Ringan,49000,0.3kg,T067,Toko 067,Aceh,T,4.2
+LS-KER-0506,Kerajinan Bengkulu 506,Kerajinan,317000,600 g,T074,Toko 074,Bengkulu,Tidak,4.7
+LS-MAK-0507,Makanan Ringan Belitung 507,Makanan Ringan,41000,300 g,T133,Toko 133,Kepulauan Bangka Belitung,Tidak,3.8
+LS-KER-0508,Kerajinan Belitung 508,Kerajinan,188000,0.25kg,T175,Toko 175,Kepulauan Bangka Belitung,Tidak,3.7
+LS-REM-0509,Rempah Lampung 509,Rempah,84500,150gr,T096,Toko 096,Lampung,Tidak,4.4
+LS-SAY-0510,Sayur dan Buah Segar Bengkulu 510,Sayur dan Buah Segar,74500,0.6kg,T055,Toko 055,Bengkulu,Ya,4.0
+LS-KAI-0511,Kain Tenun Barat 511,Kain Tenun,"968.000,00",0.35kg,T134,Toko 134,Sumatera Barat,T,4.0
+LS-MAK-0512,Makanan Ringan Barat 512,Makanan Ringan,44500,0.15kg,T128,Toko 128,Sumatera Barat,Tidak,4.0
+LS-REM-0513,Rempah Utara 513,Rempah,Rp69.500,"0,25 kg",T090,Toko 090,Sumatera Utara,0,4.8
+LS-KOP-0514,Kopi Jambi 514,Kopi,Rp178.500,200 g,T179,Toko 179,Jambi,Tidak,3.9
+LS-KOP-0515,Kopi Riau 515,Kopi ,Rp81.000,350 g,T089,Toko 089,Riau,0,4.5
+LS-SAY-0516,Sayur dan Buah Segar Lampung 516,Sayur dan Buah Segar,68500,1250 g,T066,Toko 066,Lampung,Ya,4.1
+LS-REM-0517,Rempah Riau 517,Rempah,"16.500,00",0.1kg,T073,Toko 073,Kepulauan Riau,Tidak,4.4
+LS-KAI-0518,Kain Tenun Barat 518,Kain Tenun,849500,0.5kg,T097,Toko 097,Sumatera Barat,0,4.2
+LS-MAK-0519,Makanan Ringan Barat 519,Makanan Ringan,Rp51.500,"0,2 kg",T024,Toko 024,Sumatera Barat,0,3.9
+LS-OLA-0520,Olahan Ikan Riau 520,Olahan Ikan,92000,"0,4 kg",T159,Toko 159,Kepulauan Riau,Ya,4.0
+LS-KOP-0521,Kopi Barat 521,Kopi,"142.500,00",250gr,T084,Toko 084,Sumatera Barat,Tidak,4.5
+LS-SAY-0522,Sayur dan Buah Segar Aceh 522,Sayur dan Buah Segar,"24.500,00",900 g,T147,Toko 147,Aceh,Ya,4.6
+LS-SAY-0523,Sayur dan Buah Segar Lampung 523,Sayur dan Buah Segar,43000,1.1kg,T009,Toko 009,Lampung,Ya,3.3
+LS-KER-0524,Kerajinan Riau 524,Kerajinan,Rp497.500,1kg,T139,Toko 139,Kepulauan Riau,T,3.6
+LS-KOP-0525,Kopi Belitung 525,Kopi,Rp 128.500,200 g,T111,Toko 111,Kepulauan Bangka Belitung,Tidak,4.9
+LS-OLA-0526,Olahan Ikan Belitung 526,Olahan Ikan,"50.500,00",300 g,T032,Toko 032,Kepulauan Bangka Belitung,Ya,3.2
+LS-OLA-0527,Olahan Ikan Belitung 527,Olahan Ikan,Rp115.500,0.25kg,T006,Toko 006,Kepulauan Bangka Belitung,1,3.8
+LS-KER-0528,Kerajinan Utara 528,Kerajinan,209000,0.65kg,T089,Toko 089,Sumatera Utara,T,4.5
+LS-KAI-0529,Kain Tenun Riau 529,Kain Tenun ,Rp890.000,450 g,T081,Toko 081,Kepulauan Riau,T,0.0
+LS-KAI-0530,Kain Tenun Jambi 530,Kain Tenun,Rp163.500,"0,35 kg",T007,Toko 007,Jambi,Tidak,4.9
+LS-KER-0531,Kerajinan Riau 531,Kerajinan,Rp 80.000,600 g,T176,Toko 176,Kepulauan Riau,0,4.6
+LS-MAK-0532,Makanan Ringan Riau 532,makanan ringan,Rp56.000,0.25kg,T179,Toko 179,Riau,Tidak,3.4
+LS-OLA-0533,Olahan Ikan Riau 533,Olahan Ikan,Rp41.000,350 g,T025,Toko 025,Kepulauan Riau,1,0.0
+LS-OLA-0534,Olahan Ikan Bengkulu 534,Olahan Ikan,Rp31.500,350 g,T138,Toko 138,Bengkulu,Y,4.1
+LS-KER-0535,Kerajinan Riau 535,Kerajinan,Rp495.500,0.75kg,T051,Toko 051,Riau,0,3.4
+LS-MAK-0536,Makanan Ringan Aceh 536,Makanan Ringan,39500,300 g,T142,Toko 142,Aceh,Tidak,4.6
+LS-SAY-0537,Sayur dan Buah Segar Riau 537,Sayur dan Buah Segar,40500,1300 g,T156,Toko 156,Riau,Ya,3.3
+LS-SAY-0538,Sayur dan Buah Segar Bengkulu 538,Sayur dan Buah Segar,Rp48.500,"0,4 kg",T100,Toko 100,Bengkulu,Ya,4.9
+LS-REM-0539,Rempah Selatan 539,Rempah,Rp 75.500,250 g,T041,Toko 041,Sumatera Selatan,Tidak,4.3
+LS-KOP-0540,Kopi Riau 540,Kopi,Rp126.000,300 g,T179,Toko 179,Riau,0,4.9
+LS-REM-0541,Rempah Barat 541,Rempah,86000,100 g,T067,Toko 067,Sumatera Barat,T,3.8
+LS-MAK-0542,Makanan Ringan Riau 542,Makanan Ringan,"43.000,00",0.05kg,T115,Toko 115,Riau,T,4.6
+LS-MAK-0543,Makanan Ringan Selatan 543,Makanan Ringan,"31.000,00",200 g,T046,Toko 046,Sumatera Selatan,0,3.6
+LS-MAK-0544,Makanan Ringan Utara 544,Makanan Ringan,46500,350 g,T062,Toko 062,Sumatera Utara,Tidak,4.7
+LS-REM-0545,Rempah Jambi 545,Rempah,22000,"0,25 kg",T170,Toko 170,Jambi,Tidak,3.9
+LS-SAY-0546,Sayur dan Buah Segar Bengkulu 546,Sayur dan Buah Segar,Rp28.500,950gr,T110,Toko 110,Bengkulu,Y,4.9
+LS-MAK-0547,Makanan Ringan Aceh 547,Makanan Ringan,Rp28.500,50 g,T141,Toko 141,Aceh,T,4.2
+LS-REM-0548,Rempah Lampung 548,Rempah,Rp 63.000,50 g,T021,Toko 021,Lampung,T,4.9
+LS-KOP-0549,Kopi Barat 549,Kopi,Rp108.000,400 g,T120,Toko 120,Sumatera Barat,Tidak,4.1
+LS-SAY-0550,Sayur dan Buah Segar Utara 550,Sayur dan Buah Segar,Rp74.500,1000 g,T049,Toko 049,Sumatera Utara,Ya,4.9
+LS-REM-0551,Rempah Jambi 551,Rempah,29000,200gr,T012,Toko 012,Jambi,Tidak,4.9
+LS-KAI-0552,Kain Tenun Belitung 552,Kain Tenun,Rp564.000,650gr,T107,Toko 107,Kepulauan Bangka Belitung,0,3.7
+LS-SAY-0553,Sayur dan Buah Segar Riau 553,Sayur dan Buah Segar,46500,950 g,T030,Toko 030,Kepulauan Riau,1,4.8
+LS-KAI-0554,Kain Tenun Belitung 554,Kain Tenun,"1.374.000,00",0.35kg,T086,Toko 086,Kepulauan Bangka Belitung,Tidak,4.8
+LS-KER-0555,Kerajinan Riau 555,Kerajinan,Rp207.500,0.2kg,T056,Toko 056,Riau,Tidak,4.7
+LS-MAK-0556,Makanan Ringan Jambi 556,Makanan Ringan,Rp18.000,150 g,T101,Toko 101,Jambi,Tidak,4.5
+LS-KOP-0557,Kopi Riau 557,Kopi,"158.000,00",300gr,T005,Toko 005,Riau,Tidak,3.5
+LS-MAK-0558,Makanan Ringan Jambi 558,Makanan Ringan,Rp 17.000,"0,2 kg",T075,Toko 075,Jambi,Tidak,4.7
+LS-REM-0559,Rempah Belitung 559,Rempah,Rp 84.000,0.2kg,T082,Toko 082,Kepulauan Bangka Belitung,Tidak,4.4
+LS-KOP-0560,Kopi Aceh 560,Kopi,Rp67.500,250 g,T126,Toko 126,Aceh,Tidak,3.9
+LS-KER-0561,Kerajinan Riau 561,Kerajinan,Rp233.500,900 g,T122,Toko 122,Kepulauan Riau,Tidak,5.0
+LS-KOP-0562,Kopi Selatan 562,Kopi,Rp168.500,150 g,T133,Toko 133,Sumatera Selatan,Tidak,4.8
+LS-MAK-0563,Makanan Ringan Barat 563,Makanan Ringan,48000,"0,1 kg",T039,Toko 039,Sumatera Barat,Tidak,3.5
+LS-KER-0564,Kerajinan Barat 564,Kerajinan,437500,1100gr,T128,Toko 128,Sumatera Barat,Tidak,0.0
+LS-OLA-0565,Olahan Ikan Belitung 565,Olahan Ikan,Rp34.500,0.4kg,T122,Toko 122,Kepulauan Bangka Belitung,Ya,3.6
+LS-KOP-0566,Kopi Lampung 566,Kopi,109500,350 g,T007,Toko 007,Lampung,Tidak,3.8
+LS-KOP-0567,Kopi Barat 567,Kopi,Rp166.000,50 g,T139,Toko 139,Sumatera Barat,T,4.1
+LS-KOP-0568,Kopi Aceh 568,Kopi,Rp98.500,300gr,T034,Toko 034,Aceh,Tidak,0.0
+LS-KER-0569,Kerajinan Barat 569,Kerajinan,Rp566.500,1000gr,T007,Toko 007,Sumatera Barat,Tidak,0.0
+LS-KER-0570,Kerajinan Belitung 570,Kerajinan,Rp77.000,750 g,T069,Toko 069,Kepulauan Bangka Belitung,Tidak,3.8
+LS-KOP-0571,Kopi Jambi 571,Kopi,"38.500,00","0,35 kg",T072,Toko 072,Jambi,Tidak,3.6
+LS-OLA-0572,Olahan Ikan Bengkulu 572,Olahan Ikan,Rp61.500,150 g,T033,Toko 033,Bengkulu,Ya,5.0
+LS-REM-0573,Rempah Belitung 573,Rempah,25000,0.15kg,T069,Toko 069,Kepulauan Bangka Belitung,Tidak,3.8
+LS-SAY-0574,Sayur dan Buah Segar Belitung 574,Sayur dan Buah Segar,63500,1.3kg,T167,Toko 167,Kepulauan Bangka Belitung,Y,4.5
+LS-OLA-0575,Olahan Ikan Riau 575,Olahan Ikan,"115.000,00",0.1kg,T138,Toko 138,Riau,Ya,3.5
+LS-KOP-0576,Kopi Belitung 576,Kopi,95500,300 g,T171,Toko 171,Kepulauan Bangka Belitung,Tidak,4.0
+LS-MAK-0577,Makanan Ringan Riau 577,Makanan Ringan,15500,450gr,T041,Toko 041,Riau,Tidak,3.2
+LS-SAY-0578,Sayur dan Buah Segar Riau 578,Sayur dan Buah Segar,Rp 19.500,1150 g,T017,Toko 017,Kepulauan Riau,Ya,4.6
+LS-OLA-0579,Olahan Ikan Aceh 579,Olahan Ikan,50500,"0,3 kg",T127,Toko 127,Aceh,1,4.4
+LS-KER-0580,Kerajinan Lampung 580,Kerajinan,Rp 230.500,950gr,T095,Toko 095,Lampung,0,3.5
+LS-OLA-0581,Olahan Ikan Aceh 581,Olahan Ikan,Rp47.500,"0,05 kg",T139,Toko 139,Aceh,Ya,5.0
+LS-KER-0582,Kerajinan Barat 582,Kerajinan,"201.500,00",900gr,T179,Toko 179,Sumatera Barat,Tidak,5.0
+LS-SAY-0583,Sayur dan Buah Segar Belitung 583,Sayur dan Buah Segar,"54.500,00",450 g,T106,Toko 106,Kepulauan Bangka Belitung,Ya,3.3
+LS-REM-0584,Rempah Bengkulu 584,Rempah ,30000,100 g,T104,Toko 104,Bengkulu,Tidak,4.0
+LS-MAK-0585,Makanan Ringan Jambi 585,MAKANAN RINGAN,40000,150gr,T112,Toko 112,Jambi,Tidak,4.4
+LS-REM-0586,Rempah Bengkulu 586,Rempah,"58.000,00",200gr,T133,Toko 133,Bengkulu,0,3.8
+LS-KOP-0587,Kopi Lampung 587,Kopi,Rp52.500,250 g,T098,Toko 098,Lampung,Tidak,3.4
+LS-KOP-0588,Kopi Lampung 588,Kopi,Rp 140.500,"0,2 kg",T149,Toko 149,Lampung,0,0.0
+LS-MAK-0589,Makanan Ringan Belitung 589,Makanan Ringan,"43.000,00",0.4kg,T093,Toko 093,Kepulauan Bangka Belitung,Tidak,4.8
+LS-SAY-0590,Sayur dan Buah Segar Barat 590,Sayur dan Buah Segar,Rp36.000,1.2kg,T017,Toko 017,Sumatera Barat,Ya,3.4
+LS-REM-0591,Rempah Belitung 591,Rempah,Rp 73.500,0.05kg,T158,Toko 158,Kepulauan Bangka Belitung,Tidak,3.4
+LS-KER-0592,Kerajinan Lampung 592,Kerajinan,577000,400gr,T079,Toko 079,Lampung,Tidak,4.0
+LS-KAI-0593,Kain Tenun Selatan 593,Kain Tenun,466000,50gr,T089,Toko 089,Sumatera Selatan,0,3.6
+LS-MAK-0594,Makanan Ringan Jambi 594,Makanan Ringan,Rp45.500,300gr,T125,Toko 125,Jambi,Tidak,3.9
+LS-KAI-0595,Kain Tenun Bengkulu 595,Kain Tenun,747000,650gr,T116,Toko 116,Bengkulu,Tidak,4.0
+LS-KOP-0596,Kopi Bengkulu 596,Kopi,Rp 92.500,0.25kg,T002,Toko 002,Bengkulu,Tidak,0.0
+LS-KAI-0597,Kain Tenun Riau 597,Kain Tenun,Rp1.257.000,150 g,T070,Toko 070,Kepulauan Riau,Tidak,4.0
+LS-SAY-0598,Sayur dan Buah Segar Belitung 598,Sayur dan Buah Segar,75500,"1,05 kg",T013,Toko 013,Kepulauan Bangka Belitung,1,4.0
+LS-OLA-0599,Olahan Ikan Lampung 599,Olahan Ikan,107500,150 g,T165,Toko 165,Lampung,Ya,4.9
+LS-KER-0600,Kerajinan Belitung 600,Kerajinan,Rp 407.000,0.8kg,T096,Toko 096,Kepulauan Bangka Belitung,Tidak,4.4
+LS-MAK-0601,Makanan Ringan Barat 601,Makanan Ringan,Rp29.000,200gr,T163,Toko 163,Sumatera Barat,Tidak,3.6
+LS-REM-0602,Rempah Aceh 602,Rempah,Rp26.500,0.1kg,T147,Toko 147,Aceh,T,4.8
+LS-REM-0603,Rempah Barat 603,Rempah,Rp59.000,0.15kg,T042,Toko 042,Sumatera Barat,0,4.5
+LS-KAI-0604,Kain Tenun Riau 604,Kain Tenun,Rp960.000,150 g,T149,Toko 149,Kepulauan Riau,Tidak,0.0
+LS-SAY-0605,Sayur dan Buah Segar Aceh 605,Sayur dan Buah Segar,Rp 45.500,650 g,T094,Toko 094,Aceh,1,3.3
+LS-KOP-0606,Kopi Barat 606,Kopi,Rp160.500,150 g,T157,Toko 157,Sumatera Barat,Tidak,3.9
+LS-REM-0607,Rempah Barat 607,Rempah,52500,0.15kg,T063,Toko 063,Sumatera Barat,Tidak,4.7
+LS-KOP-0608,Kopi Jambi 608,Kopi,117000,250gr,T018,Toko 018,Jambi,Tidak,4.2
+LS-MAK-0609,Makanan Ringan Bengkulu 609,Makanan Ringan,Rp17.500,300gr,T167,Toko 167,Bengkulu,Tidak,4.0
+LS-MAK-0610,Makanan Ringan Utara 610,Makanan Ringan,Rp12.000,"0,25 kg",T029,Toko 029,Sumatera Utara,Tidak,4.2
+LS-KER-0611,Kerajinan Riau 611,Kerajinan,Rp69.000,750 g,T109,Toko 109,Riau,Tidak,3.8
+LS-OLA-0612,Olahan Ikan Belitung 612,Olahan Ikan,33500,250gr,T171,Toko 171,Kepulauan Bangka Belitung,Ya,4.0
+LS-OLA-0613,Olahan Ikan Jambi 613,Olahan Ikan,Rp78.500,200gr,T004,Toko 004,Jambi,Ya,4.5
+LS-KOP-0614,Kopi Lampung 614,Kopi,Rp137.000,250 g,T064,Toko 064,Lampung,Tidak,4.6
+LS-KOP-0615,Kopi Utara 615,Kopi,166000,100 g,T001,Toko 001,Sumatera Utara,Tidak,4.0
+LS-REM-0616,Rempah Lampung 616,Rempah,Rp62.000,"0,25 kg",T060,Toko 060,Lampung,Tidak,3.6
+LS-REM-0617,Rempah Utara 617,Rempah,Rp73.500,200gr,T099,Toko 099,Sumatera Utara,Tidak,3.6
+LS-REM-0618,Rempah Belitung 618,Rempah,Rp58.000,150 g,T020,Toko 020,Kepulauan Bangka Belitung,Tidak,4.3
+LS-SAY-0619,Sayur dan Buah Segar Bengkulu 619,Sayur dan Buah Segar,Rp55.500,0.45kg,T002,Toko 002,Bengkulu,Ya,4.6
+LS-MAK-0620,Makanan Ringan Riau 620,Makanan Ringan,Rp16.500,450 g,T157,Toko 157,Kepulauan Riau,T,4.3
+LS-MAK-0621,Makanan Ringan Bengkulu 621,Makanan Ringan,Rp52.000,200 g,T093,Toko 093,Bengkulu,Tidak,4.9
+LS-REM-0622,Rempah Belitung 622,Rempah,20500,"0,05 kg",T041,Toko 041,Kepulauan Bangka Belitung,Tidak,3.8
+LS-KER-0623,Kerajinan Jambi 623,Kerajinan,552000,"0,65 kg",T164,Toko 164,Jambi,Tidak,4.9
+LS-KOP-0624,Kopi Lampung 624,Kopi,Rp60.500,"0,25 kg",T017,Toko 017,Lampung,Tidak,3.6
+LS-REM-0625,Rempah Riau 625,Rempah,30500,"0,15 kg",T067,Toko 067,Riau,Tidak,3.4
+LS-KOP-0626,Kopi Selatan 626,Kopi,Rp121.000,"0,15 kg",T095,Toko 095,Sumatera Selatan,Tidak,3.7
+LS-KAI-0627,Kain Tenun Aceh 627,Kain Tenun,Rp1.051.000,450 g,T170,Toko 170,Aceh,Tidak,3.2
+LS-SAY-0628,Sayur dan Buah Segar Aceh 628,Sayur dan Buah Segar,Rp 26.000,1150 g,T145,Toko 145,Aceh,Y,4.3
+LS-OLA-0629,Olahan Ikan Lampung 629,Olahan Ikan,"57.000,00",0.25kg,T051,Toko 051,Lampung,Ya,3.7
+LS-REM-0630,Rempah Jambi 630,Rempah,Rp28.500,0.15kg,T099,Toko 099,Jambi,0,0.0
+LS-KER-0631,Kerajinan Barat 631,Kerajinan,Rp561.500,650gr,T068,Toko 068,Sumatera Barat,Tidak,4.1
+LS-OLA-0632,Olahan Ikan Selatan 632,Olahan Ikan,47000,0.3kg,T043,Toko 043,Sumatera Selatan,Y,5.0
+LS-SAY-0633,Sayur dan Buah Segar Utara 633,Sayur dan Buah Segar,Rp13.000,0.9kg,T060,Toko 060,Sumatera Utara,Ya,4.9
+LS-REM-0634,Rempah Riau 634,Rempah,Rp39.000,"0,25 kg",T071,Toko 071,Riau,Tidak,3.3
+LS-MAK-0635,Makanan Ringan Barat 635,Makanan Ringan,21500,300gr,T147,Toko 147,Sumatera Barat,Tidak,4.3
+LS-MAK-0636,Makanan Ringan Barat 636,Makanan Ringan,Rp57.000,100gr,T153,Toko 153,Sumatera Barat,T,4.7
+LS-MAK-0637,Makanan Ringan Selatan 637,Makanan Ringan,Rp 20.000,150 g,T100,Toko 100,Sumatera Selatan,T,4.0
+LS-KOP-0638,Kopi Bengkulu 638,Kopi,Rp156.000,"0,35 kg",T108,Toko 108,Bengkulu,Tidak,4.8
+LS-MAK-0639,Makanan Ringan Bengkulu 639,Makanan Ringan,Rp14.500,200gr,T039,Toko 039,Bengkulu,Tidak,0.0
+LS-MAK-0640,Makanan Ringan Barat 640,Makanan Ringan,Rp17.500,"0,1 kg",T016,Toko 016,Sumatera Barat,Tidak,4.8
+LS-MAK-0641,Makanan Ringan Jambi 641,Makanan Ringan,Rp16.500,0.15kg,T143,Toko 143,Jambi,Tidak,4.5
+LS-KOP-0642,Kopi Belitung 642,Kopi,"72.500,00",250 g,T002,Toko 002,Kepulauan Bangka Belitung,T,4.2
+LS-REM-0643,Rempah Utara 643,Rempah,52000,0.1kg,T115,Toko 115,Sumatera Utara,0,3.6
+LS-OLA-0644,Olahan Ikan Belitung 644,Olahan Ikan,30000,300 g,T137,Toko 137,Kepulauan Bangka Belitung,Ya,3.5
+LS-SAY-0645,Sayur dan Buah Segar Barat 645,Sayur dan Buah Segar,Rp42.000,1450gr,T130,Toko 130,Sumatera Barat,Y,3.8
+LS-KAI-0646,Kain Tenun Jambi 646,Kain Tenun,1383000,"0,35 kg",T134,Toko 134,Jambi,0,4.9
+LS-MAK-0647,Makanan Ringan Belitung 647,Makanan Ringan,51500,150 g,T020,Toko 020,Kepulauan Bangka Belitung,Tidak,3.6
+LS-KOP-0648,Kopi Bengkulu 648,Kopi,Rp50.500,200 g,T017,Toko 017,Bengkulu,0,4.2
+LS-MAK-0649,Makanan Ringan Aceh 649,Makanan Ringan,Rp12.000,0.35kg,T097,Toko 097,Aceh,Tidak,4.5
+LS-REM-0650,Rempah Riau 650,Rempah,"35.000,00",50 g,T084,Toko 084,Kepulauan Riau,Tidak,4.5
+LS-KOP-0651,Kopi Bengkulu 651,Kopi,Rp42.000,400gr,T023,Toko 023,Bengkulu,Tidak,4.6
+LS-KER-0652,Kerajinan Barat 652,Kerajinan,Rp457.500,0.9kg,T101,Toko 101,Sumatera Barat,0,3.9
+LS-KOP-0653,Kopi Lampung 653,Kopi,Rp129.500,250 g,T007,Toko 007,Lampung,T,4.3
+LS-OLA-0654,Olahan Ikan Barat 654,Olahan Ikan,102000,400 g,T029,Toko 029,Sumatera Barat,1,4.5
+LS-SAY-0655,Sayur dan Buah Segar Riau 655,Sayur dan Buah Segar,Rp15.500,1750 g,T157,Toko 157,Kepulauan Riau,Ya,3.9
+LS-KER-0656,Kerajinan Aceh 656,Kerajinan,191000,1.05kg,T046,Toko 046,Aceh,0,4.1
+LS-REM-0657,Rempah Riau 657,Rempah,Rp 38.500,0.1kg,T006,Toko 006,Kepulauan Riau,Tidak,4.3
+LS-REM-0658,Rempah Barat 658,Rempah,74500,150 g,T097,Toko 097,Sumatera Barat,Tidak,0.0
+LS-KAI-0659,Kain Tenun Jambi 659,Kain Tenun,Rp1.439.000,200 g,T084,Toko 084,Jambi,Tidak,5.0
+LS-MAK-0660,Makanan Ringan Selatan 660,Makanan Ringan,19500,0.15kg,T033,Toko 033,Sumatera Selatan,Tidak,4.4
+LS-REM-0661,Rempah Lampung 661,Rempah,33500,"0,25 kg",T165,Toko 165,Lampung,T,4.5
+LS-MAK-0662,Makanan Ringan Belitung 662,Makanan Ringan,Rp18.500,400 g,T120,Toko 120,Kepulauan Bangka Belitung,Tidak,3.5
+LS-REM-0663,Rempah Lampung 663,Rempah,"38.000,00",250 g,T055,Toko 055,Lampung,Tidak,4.3
+LS-KER-0664,Kerajinan Belitung 664,Kerajinan,358000,600 g,T032,Toko 032,Kepulauan Bangka Belitung,Tidak,3.9
+LS-KAI-0665,Kain Tenun Utara 665,Kain Tenun,Rp592.000,0.75kg,T067,Toko 067,Sumatera Utara,Tidak,4.9
+LS-REM-0666,Rempah Jambi 666,Rempah,Rp18.500,"0,35 kg",T133,Toko 133,Jambi,T,4.1
+LS-MAK-0667,Makanan Ringan Selatan 667,Makanan Ringan,Rp 52.500,350 g,T075,Toko 075,Sumatera Selatan,Tidak,3.9
+LS-MAK-0668,Makanan Ringan Lampung 668,Makanan Ringan,15500,0.25kg,T046,Toko 046,Lampung,Tidak,4.5
+LS-KOP-0669,Kopi Utara 669,Kopi,Rp86.500,0.25kg,T081,Toko 081,Sumatera Utara,Tidak,0.0
+LS-KOP-0670,Kopi Aceh 670,Kopi,Rp141.000,250 g,T059,Toko 059,Aceh,0,4.9
+LS-REM-0671,Rempah Utara 671,Rempah,Rp49.000,350gr,T160,Toko 160,Sumatera Utara,Tidak,4.7
+LS-MAK-0672,Makanan Ringan Utara 672,Makanan Ringan,Rp56.500,"0,1 kg",T017,Toko 017,Sumatera Utara,Tidak,4.1
+LS-MAK-0673,Makanan Ringan Selatan 673,Makanan Ringan,56000,300 g,T090,Toko 090,Sumatera Selatan,Tidak,4.7
+LS-REM-0674,Rempah Aceh 674,Rempah,76500,150 g,T097,Toko 097,Aceh,Tidak,4.9
+LS-SAY-0675,Sayur dan Buah Segar Aceh 675,Sayur dan Buah Segar,64500,900gr,T113,Toko 113,Aceh,Ya,4.3
+LS-KOP-0676,Kopi Aceh 676,Kopi,Rp61.500,0.2kg,T042,Toko 042,Aceh,0,4.6
+LS-SAY-0677,Sayur dan Buah Segar Riau 677,Sayur dan Buah Segar,Rp 64.500,1250 g,T129,Toko 129,Kepulauan Riau,Ya,0.0
+LS-REM-0678,Rempah Jambi 678,Rempah,33500,"0,1 kg",T123,Toko 123,Jambi,Tidak,4.9
+LS-KOP-0679,Kopi Riau 679,Kopi,171500,200 g,T095,Toko 095,Riau,T,4.4
+LS-KOP-0680,Kopi Jambi 680,Kopi,Rp 93.000,300 g,T122,Toko 122,Jambi,Tidak,4.0
+LS-SAY-0681,Sayur dan Buah Segar Jambi 681,Sayur dan Buah Segar,Rp64.500,1kg,T075,Toko 075,Jambi,Y,3.6
+LS-MAK-0682,Makanan Ringan Bengkulu 682,Makanan Ringan,Rp56.000,350 g,T150,Toko 150,Bengkulu,0,4.2
+LS-KOP-0683,Kopi Bengkulu 683,Kopi,165000,"0,25 kg",T036,Toko 036,Bengkulu,Tidak,3.5
+LS-MAK-0684,Makanan Ringan Belitung 684,Makanan Ringan,Rp 20.000,250 g,T149,Toko 149,Kepulauan Bangka Belitung,Tidak,4.3
+LS-REM-0685,Rempah Aceh 685,Rempah,Rp 30.000,200 g,T131,Toko 131,Aceh,Tidak,3.8
+LS-REM-0686,Rempah Riau 686,Rempah,Rp 74.500,150 g,T123,Toko 123,Riau,Tidak,4.5
+LS-SAY-0687,Sayur dan Buah Segar Bengkulu 687,Sayur dan Buah Segar,Rp38.000,650 g,T128,Toko 128,Bengkulu,Y,3.6
+LS-OLA-0688,Olahan Ikan Lampung 688,Olahan Ikan,"52.500,00",0.3kg,T175,Toko 175,Lampung,Ya,4.8
+LS-KAI-0689,Kain Tenun Jambi 689,Kain Tenun,Rp 579.000,300 g,T027,Toko 027,Jambi,Tidak,0.0
+LS-KER-0690,Kerajinan Utara 690,Kerajinan,404500,"1,05 kg",T143,Toko 143,Sumatera Utara,T,3.4
+LS-REM-0691,Rempah Riau 691,Rempah,22000,300 g,T067,Toko 067,Riau,T,3.8
+LS-KOP-0692,Kopi Selatan 692,Kopi,Rp108.500,300gr,T176,Toko 176,Sumatera Selatan,Tidak,4.9
+LS-KOP-0693,Kopi Lampung 693,KOPI,"127.000,00",350 g,T040,Toko 040,Lampung,T,4.2
+LS-MAK-0694,Makanan Ringan Bengkulu 694,Makanan Ringan,17000,100 g,T144,Toko 144,Bengkulu,Tidak,4.9
+LS-MAK-0695,Makanan Ringan Jambi 695,Makanan Ringan,"33.500,00",350gr,T013,Toko 013,Jambi,Tidak,3.7
+LS-OLA-0696,Olahan Ikan Selatan 696,Olahan Ikan,"59.500,00",0.25kg,T165,Toko 165,Sumatera Selatan,Ya,0.0
+LS-KOP-0697,Kopi Jambi 697,Kopi,48000,300 g,T149,Toko 149,Jambi,T,4.8
+LS-OLA-0698,Olahan Ikan Barat 698,Olahan Ikan,"54.500,00",150 g,T095,Toko 095,Sumatera Barat,1,4.9
+LS-KAI-0699,Kain Tenun Aceh 699,Kain Tenun,551500,"0,3 kg",T164,Toko 164,Aceh,Tidak,3.6
+LS-SAY-0700,Sayur dan Buah Segar Lampung 700,Sayur dan Buah Segar,38500,1300 g,T151,Toko 151,Lampung,Ya,0.0
+LS-KOP-0701,Kopi Bengkulu 701,Kopi,"167.500,00",100 g,T026,Toko 026,Bengkulu,Tidak,3.5
+LS-SAY-0702,Sayur dan Buah Segar Selatan 702,Sayur dan Buah Segar,Rp 54.000,750 g,T106,Toko 106,Sumatera Selatan,Ya,0.0
+LS-KER-0703,Kerajinan Riau 703,Kerajinan,Rp452.500,"0,5 kg",T157,Toko 157,Riau,Tidak,4.2
+LS-MAK-0704,Makanan Ringan Selatan 704,Makanan Ringan,"20.500,00",0.15kg,T125,Toko 125,Sumatera Selatan,Tidak,4.3
+LS-SAY-0705,Sayur dan Buah Segar Jambi 705,sayur dan buah segar,Rp17.000,1.25kg,T044,Toko 044,Jambi,Y,3.9
+LS-REM-0706,Rempah Selatan 706,Rempah,66500,0.2kg,T097,Toko 097,Sumatera Selatan,T,3.8
+LS-MAK-0707,Makanan Ringan Riau 707,Makanan Ringan,Rp32.500,"0,05 kg",T126,Toko 126,Riau,Tidak,5.0
+LS-KER-0708,Kerajinan Utara 708,Kerajinan,"170.000,00",500 g,T119,Toko 119,Sumatera Utara,Tidak,4.5
+LS-KAI-0709,Kain Tenun Barat 709,Kain Tenun,979500,0.6kg,T062,Toko 062,Sumatera Barat,Tidak,3.6
+LS-KAI-0710,Kain Tenun Belitung 710,Kain Tenun,Rp1.405.500,300gr,T019,Toko 019,Kepulauan Bangka Belitung,0,4.4
+LS-SAY-0711,Sayur dan Buah Segar Selatan 711,Sayur dan Buah Segar,Rp13.000,"0,6 kg",T085,Toko 085,Sumatera Selatan,Ya,3.8
+LS-OLA-0712,Olahan Ikan Utara 712,Olahan Ikan,115000,200gr,T102,Toko 102,Sumatera Utara,Y,4.0
+LS-OLA-0713,Olahan Ikan Barat 713,Olahan Ikan,66500,150 g,T143,Toko 143,Sumatera Barat,Ya,3.3
+LS-SAY-0714,Sayur dan Buah Segar Jambi 714,Sayur dan Buah Segar,63500,1.25kg,T021,Toko 021,Jambi,Ya,3.9
+LS-REM-0715,Rempah Jambi 715,Rempah,Rp84.000,100 g,T023,Toko 023,Jambi,Tidak,4.4
+LS-OLA-0716,Olahan Ikan Selatan 716,Olahan Ikan,Rp102.000,500 g,T004,Toko 004,Sumatera Selatan,Y,4.1
+LS-KAI-0717,Kain Tenun Jambi 717,Kain Tenun,799500,250 g,T153,Toko 153,Jambi,Tidak,3.9
+LS-MAK-0718,Makanan Ringan Selatan 718,Makanan Ringan,Rp54.000,0.3kg,T127,Toko 127,Sumatera Selatan,Tidak,4.5
+LS-REM-0719,Rempah Jambi 719,Rempah,Rp 34.000,100 g,T103,Toko 103,Jambi,T,4.7
+LS-OLA-0720,Olahan Ikan Barat 720,Olahan Ikan,64500,500gr,T017,Toko 017,Sumatera Barat,1,4.5
+LS-KOP-0721,Kopi Barat 721,Kopi,Rp48.500,150gr,T134,Toko 134,Sumatera Barat,Tidak,3.3
+LS-MAK-0722,Makanan Ringan Lampung 722,Makanan Ringan,Rp 31.000,200 g,T172,Toko 172,Lampung,T,3.7
+LS-KOP-0723,Kopi Lampung 723,Kopi,Rp50.000,"0,35 kg",T019,Toko 019,Lampung,Tidak,4.9
+LS-SAY-0724,Sayur dan Buah Segar Aceh 724,Sayur dan Buah Segar,"30.500,00","0,9 kg",T032,Toko 032,Aceh,1,4.0
+LS-KAI-0725,Kain Tenun Bengkulu 725,Kain Tenun,Rp1.095.500,550 g,T164,Toko 164,Bengkulu,T,3.9
+LS-KOP-0726,Kopi Barat 726,Kopi,Rp76.500,0.25kg,T053,Toko 053,Sumatera Barat,Tidak,4.2
+LS-REM-0727,Rempah Barat 727,Rempah,46000,"0,15 kg",T106,Toko 106,Sumatera Barat,0,0.0
+LS-OLA-0728,Olahan Ikan Utara 728,Olahan Ikan,Rp117.500,350 g,T076,Toko 076,Sumatera Utara,Ya,3.6
+LS-KOP-0729,Kopi Belitung 729,Kopi,Rp 136.500,50 g,T144,Toko 144,Kepulauan Bangka Belitung,Tidak,4.7
+LS-KOP-0730,Kopi Utara 730,Kopi,Rp176.000,150gr,T044,Toko 044,Sumatera Utara,Tidak,3.5
+LS-SAY-0731,Sayur dan Buah Segar Aceh 731,Sayur dan Buah Segar,39500,1000 g,T030,Toko 030,Aceh,Ya,4.9
+LS-KAI-0732,Kain Tenun Bengkulu 732,Kain Tenun,Rp633.500,0.6kg,T014,Toko 014,Bengkulu,Tidak,3.6
+LS-SAY-0733,Sayur dan Buah Segar Selatan 733,Sayur dan Buah Segar,"29.000,00",1.35kg,T097,Toko 097,Sumatera Selatan,1,3.5
+LS-REM-0734,Rempah Barat 734,Rempah,Rp 51.000,250 g,T070,Toko 070,Sumatera Barat,Tidak,3.5
+LS-REM-0735,Rempah Barat 735,Rempah,Rp 89.000,150 g,T095,Toko 095,Sumatera Barat,0,3.9
+LS-REM-0736,Rempah Lampung 736,Rempah,Rp 66.000,250 g,T058,Toko 058,Lampung,Tidak,4.2
+LS-REM-0737,Rempah Utara 737,Rempah,"35.500,00",300 g,T171,Toko 171,Sumatera Utara,Tidak,4.5
+LS-OLA-0738,Olahan Ikan Riau 738,Olahan Ikan,"104.000,00",250 g,T152,Toko 152,Riau,Ya,4.5
+LS-REM-0739,Rempah Riau 739,Rempah,"87.000,00","0,15 kg",T072,Toko 072,Riau,Tidak,4.9
+LS-SAY-0740,Sayur dan Buah Segar Jambi 740,Sayur dan Buah Segar,"64.500,00",0.9kg,T141,Toko 141,Jambi,Ya,4.0
+LS-KOP-0741,Kopi Barat 741,Kopi,144000,300 g,T099,Toko 099,Sumatera Barat,Tidak,3.4
+LS-KOP-0742,Kopi Aceh 742,Kopi,"129.000,00","0,25 kg",T090,Toko 090,Aceh,Tidak,3.6
+LS-OLA-0743,Olahan Ikan Utara 743,Olahan Ikan,Rp72.500,400gr,T074,Toko 074,Sumatera Utara,Y,3.4
+LS-OLA-0744,Olahan Ikan Barat 744,Olahan Ikan,Rp119.500,0.35kg,T072,Toko 072,Sumatera Barat,Ya,4.4
+LS-REM-0745,Rempah Belitung 745,Rempah,56500,250 g,T070,Toko 070,Kepulauan Bangka Belitung,Tidak,4.2
+LS-KER-0746,Kerajinan Aceh 746,Kerajinan,Rp 571.000,1000 g,T017,Toko 017,Aceh,Tidak,3.5
+LS-KER-0747,Kerajinan Barat 747,Kerajinan,598000,750gr,T158,Toko 158,Sumatera Barat,0,0.0
+LS-MAK-0748,Makanan Ringan Barat 748,Makanan Ringan,Rp30.500,350gr,T006,Toko 006,Sumatera Barat,T,3.6
+LS-SAY-0749,Sayur dan Buah Segar Riau 749,Sayur dan Buah Segar,"46.500,00","0,8 kg",T031,Toko 031,Kepulauan Riau,Y,3.3
+LS-KOP-0750,Kopi Riau 750,Kopi,35500,250gr,T083,Toko 083,Kepulauan Riau,Tidak,4.8
+LS-KOP-0751,Kopi Barat 751,Kopi,Rp162.500,100gr,T027,Toko 027,Sumatera Barat,Tidak,4.9
+LS-SAY-0752,Sayur dan Buah Segar Selatan 752,Sayur dan Buah Segar,Rp16.500,1700 g,T175,Toko 175,Sumatera Selatan,Y,3.8
+LS-OLA-0753,Olahan Ikan Utara 753,Olahan Ikan,Rp54.000,50 g,T140,Toko 140,Sumatera Utara,Ya,3.5
+LS-KER-0754,Kerajinan Riau 754,Kerajinan,101000,700 g,T171,Toko 171,Kepulauan Riau,0,4.3
+LS-KER-0755,Kerajinan Jambi 755,Kerajinan,Rp555.500,700gr,T061,Toko 061,Jambi,Tidak,4.1
+LS-OLA-0756,Olahan Ikan Selatan 756,Olahan Ikan,116500,350 g,T039,Toko 039,Sumatera Selatan,Ya,4.3
+LS-REM-0757,Rempah Aceh 757,Rempah,Rp70.000,50gr,T095,Toko 095,Aceh,Tidak,4.9
+LS-REM-0758,Rempah Belitung 758,Rempah,24000,150 g,T158,Toko 158,Kepulauan Bangka Belitung,Tidak,3.9
+LS-SAY-0759,Sayur dan Buah Segar Lampung 759,Sayur dan Buah Segar,30000,1.65kg,T126,Toko 126,Lampung,Ya,3.4
+LS-OLA-0760,Olahan Ikan Barat 760,Olahan Ikan,Rp 27.500,250gr,T106,Toko 106,Sumatera Barat,Ya,4.3
+LS-REM-0761,Rempah Aceh 761,Rempah,Rp18.000,0.2kg,T027,Toko 027,Aceh,T,3.9
+LS-SAY-0762,Sayur dan Buah Segar Utara 762,Sayur dan Buah Segar,77000,350 g,T087,Toko 087,Sumatera Utara,Ya,3.9
+LS-OLA-0763,Olahan Ikan Aceh 763,Olahan Ikan,Rp58.000,"0,3 kg",T042,Toko 042,Aceh,Ya,3.7
+LS-OLA-0764,Olahan Ikan Riau 764,Olahan Ikan,Rp77.000,250gr,T122,Toko 122,Kepulauan Riau,Ya,3.9
+LS-MAK-0765,Makanan Ringan Riau 765,Makanan Ringan,Rp20.500,0.3kg,T068,Toko 068,Riau,T,0.0
+LS-OLA-0766,Olahan Ikan Belitung 766,Olahan Ikan,Rp79.000,500 g,T088,Toko 088,Kepulauan Bangka Belitung,Ya,0.0
+LS-OLA-0767,Olahan Ikan Barat 767,Olahan Ikan,28500,50 g,T070,Toko 070,Sumatera Barat,1,3.9
+LS-KER-0768,Kerajinan Riau 768,Kerajinan,Rp304.500,0.7kg,T106,Toko 106,Kepulauan Riau,Tidak,3.6
+LS-SAY-0769,Sayur dan Buah Segar Bengkulu 769,Sayur dan Buah Segar,42000,850 g,T179,Toko 179,Bengkulu,1,4.2
+LS-KER-0770,Kerajinan Selatan 770,Kerajinan,Rp 272.000,"0,95 kg",T098,Toko 098,Sumatera Selatan,Tidak,4.2
+LS-KER-0771,Kerajinan Jambi 771,Kerajinan,"161.500,00",200 g,T045,Toko 045,Jambi,Tidak,4.8
+LS-KER-0772,Kerajinan Riau 772,Kerajinan,593500,1050gr,T019,Toko 019,Riau,Tidak,3.9
+LS-KER-0773,Kerajinan Riau 773,Kerajinan,Rp171.500,1000 g,T103,Toko 103,Riau,Tidak,4.3
+LS-MAK-0774,Makanan Ringan Barat 774,Makanan Ringan,Rp38.500,"0,35 kg",T002,Toko 002,Sumatera Barat,Tidak,3.3
+LS-OLA-0775,Olahan Ikan Belitung 775,Olahan Ikan,Rp56.000,0.3kg,T077,Toko 077,Kepulauan Bangka Belitung,Ya,4.1
+LS-REM-0776,Rempah Aceh 776,Rempah,50000,200 g,T168,Toko 168,Aceh,Tidak,3.7
+LS-SAY-0777,Sayur dan Buah Segar Aceh 777,Sayur dan Buah Segar,Rp66.500,1150gr,T029,Toko 029,Aceh,Ya,0.0
+LS-KOP-0778,Kopi Bengkulu 778,Kopi,Rp 121.000,300 g,T150,Toko 150,Bengkulu,Tidak,4.0
+LS-KOP-0779,Kopi Selatan 779,Kopi,Rp143.000,"0,2 kg",T135,Toko 135,Sumatera Selatan,Tidak,3.3
+LS-KOP-0780,Kopi Riau 780,Kopi,47000,150 g,T032,Toko 032,Riau,Tidak,4.8
+LS-KOP-0781,Kopi Belitung 781,Kopi,Rp130.500,0.05kg,T022,Toko 022,Kepulauan Bangka Belitung,T,4.5
+LS-KER-0782,Kerajinan Lampung 782,Kerajinan,Rp534.500,0.8kg,T057,Toko 057,Lampung,Tidak,4.8
+LS-KAI-0783,Kain Tenun Barat 783,Kain Tenun,Rp1.233.500,500 g,T062,Toko 062,Sumatera Barat,Tidak,4.6
+LS-SAY-0784,Sayur dan Buah Segar Belitung 784,Sayur dan Buah Segar,"64.500,00",500 g,T153,Toko 153,Kepulauan Bangka Belitung,Ya,3.8
+LS-SAY-0785,Sayur dan Buah Segar Selatan 785,Sayur dan Buah Segar,46500,1550 g,T156,Toko 156,Sumatera Selatan,Ya,4.0
+LS-REM-0786,Rempah Aceh 786,Rempah,Rp 71.000,0.15kg,T060,Toko 060,Aceh,T,4.0
+LS-KOP-0787,Kopi Barat 787,Kopi,Rp 98.000,300gr,T122,Toko 122,Sumatera Barat,0,4.3
+LS-SAY-0788,Sayur dan Buah Segar Selatan 788,Sayur dan Buah Segar,Rp36.000,900 g,T158,Toko 158,Sumatera Selatan,Ya,3.9
+LS-MAK-0789,Makanan Ringan Aceh 789,Makanan Ringan,Rp49.500,250 g,T051,Toko 051,Aceh,Tidak,3.9
+LS-SAY-0790,Sayur dan Buah Segar Bengkulu 790,Sayur dan Buah Segar,"57.000,00","0,75 kg",T132,Toko 132,Bengkulu,Ya,3.4
+LS-MAK-0791,Makanan Ringan Lampung 791,Makanan Ringan,"17.000,00","0,1 kg",T016,Toko 016,Lampung,Tidak,3.6
+LS-REM-0792,Rempah Utara 792,Rempah,Rp57.000,150 g,T024,Toko 024,Sumatera Utara,Tidak,5.0
+LS-KOP-0793,Kopi Aceh 793,Kopi,38500,0.3kg,T071,Toko 071,Aceh,Tidak,3.8
+LS-KOP-0794,Kopi Belitung 794,Kopi,Rp92.000,50 g,T071,Toko 071,Kepulauan Bangka Belitung,Tidak,4.8
+LS-KOP-0795,Kopi Aceh 795,Kopi,Rp71.000,200gr,T009,Toko 009,Aceh,0,3.9
+LS-SAY-0796,Sayur dan Buah Segar Riau 796,Sayur dan Buah Segar,Rp 79.500,0.8kg,T147,Toko 147,Kepulauan Riau,1,4.2
+LS-SAY-0797,Sayur dan Buah Segar Selatan 797,Sayur dan Buah Segar,Rp55.500,1050 g,T121,Toko 121,Sumatera Selatan,Ya,4.1
+LS-MAK-0798,Makanan Ringan Belitung 798,Makanan Ringan,43500,"0,3 kg",T050,Toko 050,Kepulauan Bangka Belitung,T,3.3
+LS-KER-0799,Kerajinan Riau 799,Kerajinan,"496.500,00",950 g,T066,Toko 066,Kepulauan Riau,0,4.1
+LS-OLA-0800,Olahan Ikan Riau 800,Olahan Ikan,50500,"0,1 kg",T144,Toko 144,Riau,1,4.3
+LS-OLA-0801,Olahan Ikan Barat 801,Olahan Ikan,Rp92.000,"0,15 kg",T085,Toko 085,Sumatera Barat,Ya,5.0
+LS-SAY-0802,Sayur dan Buah Segar Belitung 802,Sayur dan Buah Segar,"12.500,00",1000 g,T138,Toko 138,Kepulauan Bangka Belitung,Ya,3.6
+LS-OLA-0803,Olahan Ikan Riau 803,Olahan Ikan,Rp102.500,"0,3 kg",T133,Toko 133,Kepulauan Riau,Ya,3.7
+LS-KAI-0804,Kain Tenun Utara 804,Kain Tenun,"159.500,00",0.35kg,T050,Toko 050,Sumatera Utara,Tidak,4.8
+LS-KOP-0805,Kopi Riau 805,Kopi,88500,350gr,T094,Toko 094,Riau,0,4.5
+LS-OLA-0806,Olahan Ikan Utara 806,Olahan Ikan,40000,350 g,T056,Toko 056,Sumatera Utara,1,3.6
+LS-SAY-0807,Sayur dan Buah Segar Riau 807,Sayur dan Buah Segar,13000,1200 g,T164,Toko 164,Riau,Ya,3.2
+LS-KOP-0808,Kopi Riau 808,Kopi,Rp 39.000,50gr,T090,Toko 090,Riau,Tidak,4.1
+LS-KAI-0809,Kain Tenun Barat 809,Kain Tenun,"1.462.500,00","0,05 kg",T066,Toko 066,Sumatera Barat,T,4.3
+LS-MAK-0810,Makanan Ringan Riau 810,Makanan Ringan,"14.000,00",300 g,T095,Toko 095,Riau,0,4.9
+LS-MAK-0811,Makanan Ringan Belitung 811,Makanan Ringan,40000,150 g,T063,Toko 063,Kepulauan Bangka Belitung,Tidak,4.6
+LS-MAK-0812,Makanan Ringan Lampung 812,Makanan Ringan,Rp51.500,0.15kg,T118,Toko 118,Lampung,Tidak,3.8
+LS-KOP-0813,Kopi Riau 813,Kopi,"114.000,00",200 g,T052,Toko 052,Kepulauan Riau,Tidak,4.9
+LS-KAI-0814,Kain Tenun Selatan 814,Kain Tenun,Rp 1.302.500,0.05kg,T134,Toko 134,Sumatera Selatan,T,3.4
+LS-MAK-0815,Makanan Ringan Lampung 815,Makanan Ringan,22000,200gr,T148,Toko 148,Lampung,T,4.6
+LS-MAK-0816,Makanan Ringan Aceh 816,Makanan Ringan,"45.500,00",350gr,T069,Toko 069,Aceh,Tidak,3.4
+LS-REM-0817,Rempah Bengkulu 817,Rempah,31500,0.2kg,T047,Toko 047,Bengkulu,Tidak,4.7
+LS-KER-0818,Kerajinan Selatan 818,Kerajinan,42000,300gr,T011,Toko 011,Sumatera Selatan,Tidak,3.8
+LS-KOP-0819,Kopi Bengkulu 819,Kopi,Rp57.500,"0,2 kg",T110,Toko 110,Bengkulu,0,4.2
+LS-REM-0820,Rempah Bengkulu 820,Rempah,35000,200gr,T104,Toko 104,Bengkulu,Tidak,4.0
+LS-KER-0821,Kerajinan Lampung 821,Kerajinan,Rp563.500,550 g,T096,Toko 096,Lampung,0,4.8
+LS-SAY-0822,Sayur dan Buah Segar Riau 822,Sayur dan Buah Segar,66000,1300 g,T107,Toko 107,Riau,1,4.8
+LS-KOP-0823,Kopi Belitung 823,Kopi,Rp44.500,150 g,T059,Toko 059,Kepulauan Bangka Belitung,T,3.9
+LS-KOP-0824,Kopi Jambi 824,Kopi,Rp121.500,"0,15 kg",T123,Toko 123,Jambi,Tidak,3.7
+LS-KOP-0825,Kopi Belitung 825,Kopi,Rp80.000,400gr,T069,Toko 069,Kepulauan Bangka Belitung,Tidak,3.2
+LS-OLA-0826,Olahan Ikan Belitung 826,Olahan Ikan,Rp29.500,"0,15 kg",T177,Toko 177,Kepulauan Bangka Belitung,Ya,4.9
+LS-KOP-0827,Kopi Riau 827,Kopi ,95500,100 g,T078,Toko 078,Kepulauan Riau,0,4.3
+LS-OLA-0828,Olahan Ikan Barat 828,olahan ikan,Rp26.500,300gr,T119,Toko 119,Sumatera Barat,Ya,4.2
+LS-KOP-0829,Kopi Aceh 829,Kopi,Rp157.000,0.15kg,T019,Toko 019,Aceh,Tidak,3.4
+LS-KER-0830,Kerajinan Utara 830,Kerajinan,Rp217.500,0.9kg,T073,Toko 073,Sumatera Utara,Tidak,3.3
+LS-KER-0831,Kerajinan Lampung 831,kerajinan,Rp599.500,550gr,T138,Toko 138,Lampung,Tidak,4.8
+LS-MAK-0832,Makanan Ringan Barat 832,Makanan Ringan,49000,250gr,T128,Toko 128,Sumatera Barat,Tidak,4.1
+LS-SAY-0833,Sayur dan Buah Segar Jambi 833,Sayur dan Buah Segar,74500,1150 g,T067,Toko 067,Jambi,Ya,0.0
+LS-KER-0834,Kerajinan Riau 834,Kerajinan,Rp315.500,0.45kg,T112,Toko 112,Kepulauan Riau,Tidak,4.8
+LS-SAY-0835,Sayur dan Buah Segar Bengkulu 835,Sayur dan Buah Segar,Rp 37.000,"1,05 kg",T164,Toko 164,Bengkulu,Ya,4.6
+LS-KOP-0836,Kopi Selatan 836,Kopi,115500,50gr,T091,Toko 091,Sumatera Selatan,Tidak,4.0
+LS-MAK-0837,Makanan Ringan Bengkulu 837,Makanan Ringan,42500,250 g,T073,Toko 073,Bengkulu,Tidak,3.9
+LS-REM-0838,Rempah Jambi 838,Rempah,Rp23.000,300 g,T013,Toko 013,Jambi,Tidak,3.7
+LS-REM-0839,Rempah Bengkulu 839,Rempah,Rp46.500,"0,25 kg",T036,Toko 036,Bengkulu,Tidak,4.3
+LS-KOP-0840,Kopi Belitung 840,Kopi,Rp118.000,100 g,T120,Toko 120,Kepulauan Bangka Belitung,Tidak,0.0
+LS-MAK-0841,Makanan Ringan Jambi 841,Makanan Ringan,Rp25.000,100gr,T155,Toko 155,Jambi,0,3.3
+LS-KER-0842,Kerajinan Jambi 842,Kerajinan,395500,"0,9 kg",T107,Toko 107,Jambi,Tidak,4.6
+LS-KOP-0843,Kopi Aceh 843,Kopi,139000,150 g,T004,Toko 004,Aceh,Tidak,3.4
+LS-KAI-0844,Kain Tenun Selatan 844,Kain Tenun,Rp200.500,0.25kg,T162,Toko 162,Sumatera Selatan,Tidak,4.9
+LS-SAY-0845,Sayur dan Buah Segar Barat 845,Sayur dan Buah Segar,Rp18.500,900gr,T073,Toko 073,Sumatera Barat,Ya,3.4
+LS-KOP-0846,Kopi Riau 846,Kopi,Rp136.500,300 g,T122,Toko 122,Riau,T,4.7
+LS-REM-0847,Rempah Selatan 847,Rempah,Rp51.500,250 g,T047,Toko 047,Sumatera Selatan,T,3.3
+LS-REM-0848,Rempah Belitung 848,Rempah,60000,150 g,T067,Toko 067,Kepulauan Bangka Belitung,Tidak,4.1
+LS-SAY-0849,Sayur dan Buah Segar Bengkulu 849,SAYUR DAN BUAH SEGAR,Rp34.000,1250 g,T059,Toko 059,Bengkulu,Ya,4.8
+LS-OLA-0850,Olahan Ikan Bengkulu 850,Olahan Ikan,Rp101.500,0.15kg,T156,Toko 156,Bengkulu,Y,4.9
