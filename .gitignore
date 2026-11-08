@@ -1,9 +1,2 @@
-# data mentah diunduh ulang dengan unduh_data.py; tidak di-commit
-data/raw/
-data/KASUS.md
-data/LISENSI.md
-# Silver dan Gold boleh di-commit bila < 20 MB (dinilai dan dicocokkan); basis data besar tidak
-*.duckdb
-__pycache__/
-.ipynb_checkpoints/
-.venv/
+# Created by venv; see https://docs.python.org/3/library/venv.html
+*
