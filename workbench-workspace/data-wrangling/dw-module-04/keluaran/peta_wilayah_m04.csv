@@ -1,0 +1,49 @@
+jenis,nilai_asli,nilai_kanonik,provinsi,aturan,n_transaksi,n_web,n_app
+kota,B. Lampung,Bandar Lampung,Lampung,singkatan_atau_ejaan,1027,142,110
+kota,BANDA ACEH,Banda Aceh,Aceh,huruf_spasi,574,67,63
+kota,BANDAR LAMPUNG,Bandar Lampung,Lampung,huruf_spasi,1045,148,90
+kota,BATAM,Batam,Kepulauan Riau,huruf_spasi,590,88,59
+kota,Banda Aceh,Banda Aceh,Aceh,identik,564,64,56
+kota,Bandar Lampung,Bandar Lampung,Lampung,identik,1078,118,119
+kota,Bandarlampung,Bandar Lampung,Lampung,awalan_atau_spasi,1062,132,120
+kota,Batam,Batam,Kepulauan Riau,identik,577,77,53
+kota,Bengkulu,Bengkulu,Bengkulu,identik,584,69,63
+kota,Jambi,Jambi,Jambi,identik,720,95,75
+kota,Kota Banda Aceh,Banda Aceh,Aceh,awalan_atau_spasi,519,71,68
+kota,Kota Batam,Batam,Kepulauan Riau,awalan_atau_spasi,595,69,58
+kota,Kota Bengkulu,Bengkulu,Bengkulu,awalan_atau_spasi,614,86,71
+kota,Kota Jambi,Jambi,Jambi,awalan_atau_spasi,677,99,76
+kota,Kota Medan,Medan,Sumatera Utara,awalan_atau_spasi,1685,231,176
+kota,Kota Padang,Padang,Sumatera Barat,awalan_atau_spasi,793,105,82
+kota,MEDAN ,Medan,Sumatera Utara,huruf_spasi,1610,217,156
+kota,Medan,Medan,Sumatera Utara,identik,1630,247,166
+kota,PADANG,Padang,Sumatera Barat,huruf_spasi,790,96,103
+kota,PALEMBANG,Palembang,Sumatera Selatan,huruf_spasi,1126,143,123
+kota,PEKANBARU,Pekanbaru,Riau,huruf_spasi,748,126,88
+kota,Padang,Padang,Sumatera Barat,identik,823,117,75
+kota,Palembang,Palembang,Sumatera Selatan,identik,1076,145,139
+kota,Pangkal Pinang,Pangkalpinang,Kepulauan Bangka Belitung,awalan_atau_spasi,503,58,46
+kota,Pangkalpinang,Pangkalpinang,Kepulauan Bangka Belitung,identik,476,73,57
+kota,Pekan Baru,Pekanbaru,Riau,awalan_atau_spasi,833,114,89
+kota,Pekanbaru,Pekanbaru,Riau,identik,819,113,97
+kota,Plg,Palembang,Sumatera Selatan,singkatan_atau_ejaan,1150,150,122
+provinsi,ACEH,Aceh,Aceh,huruf_spasi,572,52,0
+provinsi,Aceh,Aceh,Aceh,identik,520,76,0
+provinsi,Babel,Kepulauan Bangka Belitung,Kepulauan Bangka Belitung,singkatan_atau_ejaan,496,60,0
+provinsi,Bengkulu,Bengkulu,Bengkulu,identik,1198,155,0
+provinsi,Jambi,Jambi,Jambi,identik,1397,194,0
+provinsi,Kepri,Kepulauan Riau,Kepulauan Riau,singkatan_atau_ejaan,923,125,0
+provinsi,Kepulauan Bangka Belitung,Kepulauan Bangka Belitung,Kepulauan Bangka Belitung,identik,483,71,0
+provinsi,Kepulauan Riau,Kepulauan Riau,Kepulauan Riau,identik,839,109,0
+provinsi,LAMPUNG,Lampung,Lampung,huruf_spasi,2094,270,0
+provinsi,Lampung,Lampung,Lampung,identik,2118,270,0
+provinsi,NAD,Aceh,Aceh,singkatan_atau_ejaan,565,74,0
+provinsi,RIAU,Riau,Riau,huruf_spasi,1232,153,0
+provinsi,Riau,Riau,Riau,identik,1168,200,0
+provinsi,Sumatera Barat,Sumatera Barat,Sumatera Barat,identik,1223,160,0
+provinsi,Sumatera Selatan,Sumatera Selatan,Sumatera Selatan,identik,1678,195,0
+provinsi,Sumatera Utara,Sumatera Utara,Sumatera Utara,identik,1635,239,0
+provinsi,Sumatra Utara,Sumatera Utara,Sumatera Utara,singkatan_atau_ejaan,1592,217,0
+provinsi,Sumbar,Sumatera Barat,Sumatera Barat,singkatan_atau_ejaan,1183,158,0
+provinsi,Sumsel,Sumatera Selatan,Sumatera Selatan,singkatan_atau_ejaan,1674,243,0
+provinsi,Sumut,Sumatera Utara,Sumatera Utara,singkatan_atau_ejaan,1698,239,0

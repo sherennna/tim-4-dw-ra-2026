@@ -1,0 +1,9 @@
+operator,didukung,pesan,cara_lain
+$sortByCount,False,"NotImplementedError: Although '$sortByCount' is a valid operator for the aggregation pipeline, it is ","$group dengan $sum, lalu $sort"
+$dateFromString,False,NotImplementedError: Although '$dateFromString' is a valid date operator for the aggregation pipeline,urai tanggal di pandas sesudah dokumen dibaca; di pipeline pakai $substr untuk bulan
+$toDate,False,OperationFailure: Unrecognized expression '$toDate',urai tanggal di pandas sesudah dokumen dibaca
+$round,False,OperationFailure: Unrecognized expression '$round',"bulatkan di pandas, atau $trunc sesudah $multiply"
+$expr pada jalur yang tidak ada,False,KeyError: 'penilaian',"batasi dulu dengan filter versi_skema, atau bungkus dengan $ifNull"
+$rename ke jalur bertitik (update),False,"NotImplementedError: Using the $rename operator with dots is a valid MongoDB operation, but it is not","update_many dengan pipeline [{'$set': {...}}], lalu $unset field lama"
+$lookup,True,,didukung tetapi tanpa indeks: lambat pada koleksi besar; gabungkan di sisi aplikasi
+cursor.explain(),False,AttributeError: 'Cursor' object has no attribute 'explain',tidak ada rencana kueri di mongomock; ukur waktu dengan time.perf_counter
