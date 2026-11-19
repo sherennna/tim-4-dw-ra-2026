@@ -1,217 +1,64 @@
-from __future__ import annotations
+"""Tahap 1 (ekstraksi): pembaca berkas World Bank WDI (JSON WebAPI v2).
 
+Setiap berkas berbentuk [kepala_halaman, [rekaman, ...]]. Kepala memuat 'total' (jumlah rekaman
+di seluruh halaman); pembaca memastikan jumlah rekaman yang dibaca sama dengan total itu, sehingga
+halaman yang hilang ketahuan. Nilai kosong (null) dipertahankan sebagai NaN, tidak dibuang.
+
+Uji cepat:  python -m src.ekstraksi.wdi
+"""
 import json
 from pathlib import Path
 
 import pandas as pd
 
-from src.common.manifest import RAW, sha256_raw
+from src.common.manifest import RAW
+from src.ekstraksi.umum import tabel_dari_rekaman, tempel_lineage
 
-SERI = ("SH.MLR.INCD.P3",)
-SNAPSHOT = "2026-10-20"
+SNAPSHOT = "wdi/2026-10-20"
 
-KOLOM = [
-    "sumber",
-    "seri_kode",
-    "var_id",
-    "wilayah_id",
-    "wilayah",
-    "turvar_id",
-    "turvar",
-    "tahun_id",
-    "tahun",
-    "periode_id",
-    "periode",
-    "nilai_teks",
-    "nilai",
-    "satuan",
-    "format",
-    "halaman",
-    "baris_asal",
-    "jenis_berkas",
-    "nama_indikator",
-    "sumber_id",
-    "sumber_nama",
-    "catatan_sumber",
-    "organisasi_sumber",
-    "topik",
-    "_berkas_raw",
-    "_sha256_raw",
-]
+JSON_DATA = ["data/kelompok-05-hal-01.json"]
+JSON_SUMBER = "metadata/sumber.json"
+JSON_INDIKATOR = ["metadata/sumber2_indikator.json", "metadata/sumber46_indikator.json"]
 
 
-def _daftar_berkas_wdi() -> list[str]:
-    manifest_path = RAW / "MANIFEST.csv"
-    df_manifest = pd.read_csv(manifest_path, dtype=str)
-    kolom_berkas = df_manifest.columns[0]
-    berkas = [
-        b.strip()
-        for b in df_manifest[kolom_berkas].dropna().tolist()
-        if b.strip().startswith(f"wdi/{SNAPSHOT}/")
-    ]
-    return sorted(berkas)
+def _baca_halaman(nama):
+    berkas = f"{SNAPSHOT}/{nama}"
+    with open(Path(RAW) / berkas, encoding="utf-8-sig") as f:
+        obj = json.load(f)
+    if not (isinstance(obj, list) and len(obj) == 2 and isinstance(obj[1], list)):
+        raise ValueError(f"{berkas}: bentuk bukan [kepala, rekaman]; kemungkinan respons galat API")
+    kepala, rekaman = obj
+    total, halaman = int(kepala["total"]), int(kepala["pages"])
+    if halaman != 1:
+        raise ValueError(f"{berkas}: {halaman} halaman, tetapi hanya satu berkas per halaman tersedia")
+    if len(rekaman) != total:
+        raise ValueError(f"{berkas}: {len(rekaman)} rekaman terbaca, kepala menyatakan total {total}")
+    return berkas, rekaman
 
 
-def _muat_katalog_sumber(berkas_sumber: str | None) -> dict[str, str]:
-    if not berkas_sumber:
-        return {}
-    path = RAW / berkas_sumber
-    if not path.exists():
-        return {}
-    muatan = json.loads(path.read_text(encoding="utf-8-sig"))
-    daftar = muatan[1] if isinstance(muatan, list) and len(muatan) > 1 else []
-    katalog: dict[str, str] = {}
-    for item in daftar:
-        if isinstance(item, dict) and item.get("id") is not None:
-            katalog[str(item["id"])] = str(item.get("name", ""))
-    return katalog
+def _baca_tabel(nama):
+    berkas, rekaman = _baca_halaman(nama)
+    return tempel_lineage(tabel_dari_rekaman(rekaman), "wdi", berkas, "json")
 
 
-def baca_satu_berkas(
-    rel_path: str,
-    seri_target: tuple[str, ...] = SERI,
-    katalog_sumber: dict[str, str] | None = None,
-) -> pd.DataFrame:
-    path = RAW / rel_path
-    digest = sha256_raw(rel_path)
-    muatan = json.loads(path.read_text(encoding="utf-8-sig"))
-
-    meta_hal = muatan[0] if isinstance(muatan, list) and len(muatan) > 0 and isinstance(muatan[0], dict) else {}
-    halaman = str(meta_hal.get("page", 1))
-    daftar = muatan[1] if isinstance(muatan, list) and len(muatan) > 1 and isinstance(muatan[1], list) else []
-
-    katalog_sumber = katalog_sumber or {}
-    baris_keluar: list[dict[str, object]] = []
-
-    for idx, item in enumerate(daftar, start=1):
-        if not isinstance(item, dict):
-            continue
-
-        # 1. JSON data observasi WDI: punya objek 'indicator': {'id': ...}
-        if isinstance(item.get("indicator"), dict):
-            ind = item["indicator"]
-            ind_id = str(ind.get("id", ""))
-            if seri_target and ind_id not in seri_target:
-                continue
-
-            negara = item.get("country") if isinstance(item.get("country"), dict) else {}
-            wilayah_nama = str(negara.get("value", ""))
-            wilayah_kode = str(item.get("countryiso3code") or negara.get("id") or "")
-            tahun_str = str(item.get("date", ""))
-            val = item.get("value")
-            nilai_teks = "" if val is None else str(val)
-            nilai_num = float(val) if isinstance(val, (int, float)) else pd.NA
-
-            baris_keluar.append(
-                {
-                    "sumber": "wdi",
-                    "seri_kode": ind_id,
-                    "var_id": ind_id,
-                    "wilayah_id": wilayah_kode,
-                    "wilayah": wilayah_nama,
-                    "turvar_id": "",
-                    "turvar": "",
-                    "tahun_id": tahun_str,
-                    "tahun": tahun_str,
-                    "periode_id": tahun_str,
-                    "periode": tahun_str,
-                    "nilai_teks": nilai_teks,
-                    "nilai": nilai_num,
-                    "satuan": str(item.get("unit") or ""),
-                    "format": "json",
-                    "halaman": halaman,
-                    "baris_asal": idx,
-                    "jenis_berkas": "data",
-                    "nama_indikator": str(ind.get("value", "")),
-                    "sumber_id": "",
-                    "sumber_nama": "",
-                    "catatan_sumber": "",
-                    "organisasi_sumber": "",
-                    "topik": "",
-                    "_berkas_raw": rel_path,
-                    "_sha256_raw": digest,
-                }
-            )
-
-        # 2. JSON metadata indikator WDI (*_indikator.json): punya kunci 'id' dan 'sourceNote'
-        elif "sourceNote" in item or "sourceOrganization" in item:
-            ind_id = str(item.get("id", ""))
-            if seri_target and ind_id not in seri_target:
-                continue
-
-            src_obj = item.get("source") if isinstance(item.get("source"), dict) else {}
-            src_id = str(src_obj.get("id", ""))
-            src_nama = str(src_obj.get("value") or katalog_sumber.get(src_id, ""))
-            topik_list = item.get("topics") if isinstance(item.get("topics"), list) else []
-            topik_teks = "; ".join(
-                str(t.get("value", "")).strip()
-                for t in topik_list
-                if isinstance(t, dict) and t.get("value")
-            )
-
-            baris_keluar.append(
-                {
-                    "sumber": "wdi",
-                    "seri_kode": ind_id,
-                    "var_id": ind_id,
-                    "wilayah_id": "",
-                    "wilayah": "",
-                    "turvar_id": "",
-                    "turvar": "",
-                    "tahun_id": "",
-                    "tahun": "",
-                    "periode_id": "",
-                    "periode": "",
-                    "nilai_teks": "",
-                    "nilai": pd.NA,
-                    "satuan": str(item.get("unit") or ""),
-                    "format": "json",
-                    "halaman": halaman,
-                    "baris_asal": idx,
-                    "jenis_berkas": "metadata_indikator",
-                    "nama_indikator": str(item.get("name", "")),
-                    "sumber_id": src_id,
-                    "sumber_nama": src_nama,
-                    "catatan_sumber": str(item.get("sourceNote") or ""),
-                    "organisasi_sumber": str(item.get("sourceOrganization") or ""),
-                    "topik": topik_teks,
-                    "_berkas_raw": rel_path,
-                    "_sha256_raw": digest,
-                }
-            )
-
-    return pd.DataFrame(baris_keluar, columns=KOLOM)
+def baca_data():
+    """Data indikator (negara x indikator x tahun). Semua indikator di berkas dipertahankan."""
+    return pd.concat([_baca_tabel(n) for n in JSON_DATA], ignore_index=True)
 
 
-def baca_semua(seri_target: tuple[str, ...] = SERI) -> tuple[pd.DataFrame, pd.DataFrame]:
-    daftar = _daftar_berkas_wdi()
-    berkas_sumber = next((b for b in daftar if b.endswith("/sumber.json")), None)
-    katalog_sumber = _muat_katalog_sumber(berkas_sumber)
+def baca_sumber():
+    return _baca_tabel(JSON_SUMBER)
 
-    kumpulan_df: list[pd.DataFrame] = []
-    ringkasan: list[dict[str, object]] = []
 
-    for rel_path in daftar:
-        df_berkas = baca_satu_berkas(rel_path, seri_target=seri_target, katalog_sumber=katalog_sumber)
-        kumpulan_df.append(df_berkas)
-        ringkasan.append(
-            {
-                "berkas": rel_path,
-                "jumlah_baris": len(df_berkas),
-                "sha256_raw": sha256_raw(rel_path)[:16] + "...",
-            }
-        )
+def baca_indikator():
+    return pd.concat([_baca_tabel(n) for n in JSON_INDIKATOR], ignore_index=True)
 
-    df_gabung = pd.concat(kumpulan_df, ignore_index=True) if kumpulan_df else pd.DataFrame(columns=KOLOM)
-    df_ringkasan = pd.DataFrame(ringkasan)
-    return df_gabung, df_ringkasan
+
+def baca_semua():
+    """{nama_tabel: DataFrame} untuk semua berkas WDI."""
+    return {"wdi": baca_data(), "wdi_sumber": baca_sumber(), "wdi_indikator": baca_indikator()}
 
 
 if __name__ == "__main__":
-    df, laporan = baca_semua()
-    print("=== Ringkasan Pembacaan WDI (4 JSON) ===")
-    print(laporan.to_string(index=False))
-    print(f"\nTotal baris hasil saringan {SERI}: {len(df)}")
-    print("Kolom lineage ada & tidak kosong:", df[["_berkas_raw", "_sha256_raw"]].notna().all().to_dict())
-    print("\nContoh 5 baris pertama:")
-    print(df[["jenis_berkas", "seri_kode", "wilayah", "tahun", "nilai_teks", "_berkas_raw"]].head(5).to_string(index=False))
+    for nama, df in baca_semua().items():
+        print(f"{nama}: {df['_berkas_raw'].nunique()} berkas, {len(df)} baris, {df.shape[1]} kolom")
