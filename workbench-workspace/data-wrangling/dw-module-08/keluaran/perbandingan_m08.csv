@@ -1,0 +1,6 @@
+kebutuhan,pilihan,alasan,bukti
+laporan omzet per provinsi per bulan,sql,agregasi lintas tabel dengan butir yang dijamin kunci primer; hasilnya dapat direkonsiliasi,JOIN 3 tabel = pandas pada 23923 baris; selisih Rp 18.276.600 terjelaskan oleh 60 baris tolakan
+menolak baris pesanan yang produknya tidak ada di katalog,sql,kunci asing menagih aturan saat menulis; koleksi dokumen menerima apa pun,"76 baris ditolak FK, 1 ditolak NOT NULL; mongomock menerima 9000 dokumen, 0 ditolak, termasuk 144 id pelanggan kosong"
+"menyimpan ulasan yang bentuknya berubah (media, tag, balasan penjual)",dokumen,bentuk baru masuk tanpa migrasi; array dan objek bersarang disimpan apa adanya,"3 bentuk dokumen dalam satu koleksi (v1 3892, v2 5108, 1559 berbalasan); harga: kueri satu versi hanya menemukan 82 atau 125 dari 207 ulasan bintang <= 2"
+"menampilkan satu pesanan lengkap (kepala, baris, ulasan) dalam satu baca",dokumen,data yang selalu dibaca bersama disimpan bersama; di SQL perlu JOIN beberapa tabel,"15744 pesanan tersebar di pesanan, baris_pesanan (23923 baris), dan ulasan (8973 baris)"
+mengoreksi nama toko atau kategori produk di satu tempat,sql,3NF menyimpan setiap fakta sekali; salinan di dalam dokumen harus diperbarui satu per satu,kategori tersalin pada 5108 dokumen ulasan v2 (20 di antaranya null); di SQL cukup 1 baris tabel produk

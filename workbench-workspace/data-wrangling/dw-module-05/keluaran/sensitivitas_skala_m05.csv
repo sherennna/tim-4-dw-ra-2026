@@ -1,0 +1,6 @@
+skala,fitur_dominan,porsi_ragam_dominan,klaster_terkecil,klaster_terbesar,silhouette,ari_acuan,irisan_tetangga
+tanpa_skala,omzet,0.7415,21,4587,0.6064,0.0513,0.0295
+minmax,rata_diskon,0.3589,1023,2082,0.3183,0.38,0.0661
+zscore,frekuensi,0.125,52,3326,0.2584,0.2801,0.102
+robust,nilai_batal,1.0,3,5922,0.9259,0.0009,0.1017
+acuan,t_rata_diskon,0.1055,1049,2075,0.121,1.0,1.0

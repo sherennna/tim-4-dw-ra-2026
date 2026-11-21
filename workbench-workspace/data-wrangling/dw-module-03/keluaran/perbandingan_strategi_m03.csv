@@ -1,0 +1,5 @@
+strategi,baris_tersisa,rata_harga,median_harga,sd_harga,nilai_barang_miliar,selisih_dari_total_bayar_persen
+biarkan,24288,248658.0,63000.0,2401479.0,13.082,40.27
+hapus_di_luar_3sd,24158,175724.0,63000.0,346842.0,9.051,-2.95
+winsorize_p1_p99,24288,169758.0,63000.0,273563.0,8.849,-5.12
+koreksi_dan_bendera,24288,163963.0,63000.0,261477.0,9.325,-0.02

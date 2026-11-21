@@ -1,0 +1,11 @@
+kueri,filter,n
+v1: rating <= 2,"{""rating"": {""$lte"": 2}}",82
+v2: penilaian.bintang <= 2,"{""penilaian.bintang"": {""$lte"": 2}}",125
+ada balasan penjual,"{""balasan_penjual"": {""$exists"": true}}",1559
+bertag 'lambat',"{""tag"": ""lambat""}",1008
+tepat dua media,"{""media"": {""$size"": 2}}",1738
+v2: aspek pengiriman < bintang,"{""versi_skema"": 2, ""$expr"": {""$lt"": [""$penilaian.aspek.pengiriman"", ""$penilaian.bintang""]}}",1688
+bintang <= 2 (kedua versi),"{""$or"": [{""rating"": {""$lte"": 2}}, {""penilaian.bintang"": {""$lte"": 2}}]}",207
+id pelanggan: field tidak ada,"{""id_pelanggan"": {""$exists"": false}, ""pelanggan.id"": {""$exists"": false}}",0
+id pelanggan: string kosong,"{""$or"": [{""id_pelanggan"": """"}, {""pelanggan.id"": """"}]}",144
+v2: kategori produk null,"{""versi_skema"": 2, ""produk.kategori"": null}",20
