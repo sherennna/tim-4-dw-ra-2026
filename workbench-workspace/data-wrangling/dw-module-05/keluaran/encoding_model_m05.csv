@@ -1,0 +1,5 @@
+encoding,model,n_kolom,r2_latih,r2_uji
+label,LinearRegression,4,0.3914,0.3914
+label,DecisionTreeRegressor,4,0.5424,0.5424
+onehot,LinearRegression,26,0.5176,0.5176
+onehot,DecisionTreeRegressor,26,0.5395,0.5395

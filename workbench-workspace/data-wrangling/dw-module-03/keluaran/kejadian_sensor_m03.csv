@@ -1,0 +1,46 @@
+id_gudang,mulai,selesai,jenis,n_titik,bukti,tindakan
+GDG-BDL,2026-05-01 20:10:00,2026-05-01 20:10:00,lonjakan,1,"85,00 °C; median Hampel 4,08 °C; mustahil di gudang berpendingin",dikoreksi ke median Hampel pada suhu_c_bersih
+GDG-BDL,2026-05-03 10:30:00,2026-05-03 10:30:00,lonjakan,1,"85,00 °C; median Hampel 4,31 °C; mustahil di gudang berpendingin",dikoreksi ke median Hampel pada suhu_c_bersih
+GDG-BDL,2026-05-04 14:00:00,2026-05-04 14:00:00,lonjakan,1,"85,00 °C; median Hampel 4,14 °C; mustahil di gudang berpendingin",dikoreksi ke median Hampel pada suhu_c_bersih
+GDG-BDL,2026-05-07 01:10:00,2026-05-07 01:10:00,lonjakan,1,"85,00 °C; median Hampel 4,32 °C; mustahil di gudang berpendingin",dikoreksi ke median Hampel pada suhu_c_bersih
+GDG-BDL,2026-05-07 12:30:00,2026-05-07 12:30:00,lonjakan,1,"85,00 °C; median Hampel 4,28 °C; mustahil di gudang berpendingin",dikoreksi ke median Hampel pada suhu_c_bersih
+GDG-BDL,2026-05-11 22:00:00,2026-05-11 22:00:00,lonjakan,1,"85,00 °C; median Hampel 4,12 °C; mustahil di gudang berpendingin",dikoreksi ke median Hampel pada suhu_c_bersih
+GDG-BDL,2026-05-22 11:10:00,2026-05-22 11:10:00,lonjakan,1,"85,00 °C; median Hampel 4,47 °C; mustahil di gudang berpendingin",dikoreksi ke median Hampel pada suhu_c_bersih
+GDG-BDL,2026-05-22 22:20:00,2026-05-22 22:20:00,lonjakan,1,"85,00 °C; median Hampel 3,93 °C; mustahil di gudang berpendingin",dikoreksi ke median Hampel pada suhu_c_bersih
+GDG-BDL,2026-05-25 09:20:00,2026-05-25 09:20:00,lonjakan,1,"85,00 °C; median Hampel 4,68 °C; mustahil di gudang berpendingin",dikoreksi ke median Hampel pada suhu_c_bersih
+GDG-BDL,2026-05-27 23:50:00,2026-05-27 23:50:00,lonjakan,1,"85,00 °C; median Hampel 4,09 °C; mustahil di gudang berpendingin",dikoreksi ke median Hampel pada suhu_c_bersih
+GDG-BDL,2026-06-05 14:00:00,2026-06-05 14:00:00,lonjakan,1,"85,00 °C; median Hampel 3,78 °C; mustahil di gudang berpendingin",dikoreksi ke median Hampel pada suhu_c_bersih
+GDG-BDL,2026-06-06 19:50:00,2026-06-06 19:50:00,lonjakan,1,"85,00 °C; median Hampel 4,16 °C; mustahil di gudang berpendingin",dikoreksi ke median Hampel pada suhu_c_bersih
+GDG-BDL,2026-06-07 09:20:00,2026-06-07 09:20:00,lonjakan,1,"85,00 °C; median Hampel 4,05 °C; mustahil di gudang berpendingin",dikoreksi ke median Hampel pada suhu_c_bersih
+GDG-BDL,2026-06-10 00:00:00,2026-06-10 00:00:00,lonjakan,1,"85,00 °C; median Hampel 4,39 °C; mustahil di gudang berpendingin",dikoreksi ke median Hampel pada suhu_c_bersih
+GDG-BDL,2026-06-10 08:00:00,2026-06-10 13:50:00,sensor_macet,36,"36 titik identik 4,20 °C berturut-turut; sd 1 jam praktis 0",suhu_c_bersih dikosongkan; suhu sebenarnya tidak diketahui
+GDG-BDL,2026-06-10 23:10:00,2026-06-10 23:10:00,lonjakan,1,"85,00 °C; median Hampel 4,17 °C; mustahil di gudang berpendingin",dikoreksi ke median Hampel pada suhu_c_bersih
+GDG-BDL,2026-06-18 21:00:00,2026-06-18 21:00:00,lonjakan,1,"85,00 °C; median Hampel 3,95 °C; mustahil di gudang berpendingin",dikoreksi ke median Hampel pada suhu_c_bersih
+GDG-BDL,2026-06-24 15:40:00,2026-06-24 15:40:00,lonjakan,1,"85,00 °C; median Hampel 3,69 °C; mustahil di gudang berpendingin",dikoreksi ke median Hampel pada suhu_c_bersih
+GDG-BDL,2026-06-25 14:30:00,2026-06-25 14:30:00,lonjakan,1,"85,00 °C; median Hampel 4,17 °C; mustahil di gudang berpendingin",dikoreksi ke median Hampel pada suhu_c_bersih
+GDG-MDN,2026-05-04 04:40:00,2026-05-04 04:40:00,lonjakan,1,"85,00 °C; median Hampel 4,68 °C; mustahil di gudang berpendingin",dikoreksi ke median Hampel pada suhu_c_bersih
+GDG-MDN,2026-05-05 01:30:00,2026-05-05 01:30:00,lonjakan,1,"85,00 °C; median Hampel 4,38 °C; mustahil di gudang berpendingin",dikoreksi ke median Hampel pada suhu_c_bersih
+GDG-MDN,2026-05-08 02:50:00,2026-05-08 02:50:00,lonjakan,1,"85,00 °C; median Hampel 4,23 °C; mustahil di gudang berpendingin",dikoreksi ke median Hampel pada suhu_c_bersih
+GDG-MDN,2026-05-13 00:00:00,2026-05-13 00:00:00,lonjakan,1,"85,00 °C; median Hampel 3,70 °C; mustahil di gudang berpendingin",dikoreksi ke median Hampel pada suhu_c_bersih
+GDG-MDN,2026-05-15 17:40:00,2026-05-15 17:40:00,lonjakan,1,"85,00 °C; median Hampel 3,80 °C; mustahil di gudang berpendingin",dikoreksi ke median Hampel pada suhu_c_bersih
+GDG-MDN,2026-05-18 02:00:00,2026-05-18 07:50:00,celah_data,36,"36 titik tanpa nilai (baris tidak terkirim, tidak diisi Modul 2)",tetap kosong
+GDG-MDN,2026-05-19 16:20:00,2026-05-19 16:20:00,lonjakan,1,"85,00 °C; median Hampel 3,70 °C; mustahil di gudang berpendingin",dikoreksi ke median Hampel pada suhu_c_bersih
+GDG-MDN,2026-05-22 10:20:00,2026-05-22 10:20:00,lonjakan,1,"85,00 °C; median Hampel 4,21 °C; mustahil di gudang berpendingin",dikoreksi ke median Hampel pada suhu_c_bersih
+GDG-MDN,2026-05-22 20:30:00,2026-05-22 20:30:00,lonjakan,1,"85,00 °C; median Hampel 3,84 °C; mustahil di gudang berpendingin",dikoreksi ke median Hampel pada suhu_c_bersih
+GDG-MDN,2026-05-26 21:50:00,2026-05-26 21:50:00,lonjakan,1,"85,00 °C; median Hampel 3,97 °C; mustahil di gudang berpendingin",dikoreksi ke median Hampel pada suhu_c_bersih
+GDG-MDN,2026-05-29 23:20:00,2026-05-29 23:20:00,lonjakan,1,"85,00 °C; median Hampel 3,86 °C; mustahil di gudang berpendingin",dikoreksi ke median Hampel pada suhu_c_bersih
+GDG-MDN,2026-06-02 09:40:00,2026-06-02 09:40:00,lonjakan,1,"85,00 °C; median Hampel 4,53 °C; mustahil di gudang berpendingin",dikoreksi ke median Hampel pada suhu_c_bersih
+GDG-MDN,2026-06-06 23:20:00,2026-06-06 23:20:00,lonjakan,1,"85,00 °C; median Hampel 3,96 °C; mustahil di gudang berpendingin",dikoreksi ke median Hampel pada suhu_c_bersih
+GDG-MDN,2026-06-11 21:10:00,2026-06-11 21:10:00,lonjakan,1,"85,00 °C; median Hampel 3,68 °C; mustahil di gudang berpendingin",dikoreksi ke median Hampel pada suhu_c_bersih
+GDG-MDN,2026-06-13 02:10:00,2026-06-13 02:10:00,lonjakan,1,"85,00 °C; median Hampel 4,88 °C; mustahil di gudang berpendingin",dikoreksi ke median Hampel pada suhu_c_bersih
+GDG-MDN,2026-06-17 14:50:00,2026-06-17 14:50:00,lonjakan,1,"85,00 °C; median Hampel 3,65 °C; mustahil di gudang berpendingin",dikoreksi ke median Hampel pada suhu_c_bersih
+GDG-PLM,2026-05-06 14:40:00,2026-05-06 14:40:00,lonjakan,1,"85,00 °C; median Hampel 3,44 °C; mustahil di gudang berpendingin",dikoreksi ke median Hampel pada suhu_c_bersih
+GDG-PLM,2026-05-14 07:50:00,2026-05-14 07:50:00,lonjakan,1,"85,00 °C; median Hampel 4,21 °C; mustahil di gudang berpendingin",dikoreksi ke median Hampel pada suhu_c_bersih
+GDG-PLM,2026-05-30 05:10:00,2026-05-30 05:10:00,lonjakan,1,"85,00 °C; median Hampel 4,37 °C; mustahil di gudang berpendingin",dikoreksi ke median Hampel pada suhu_c_bersih
+GDG-PLM,2026-05-30 22:50:00,2026-05-30 22:50:00,lonjakan,1,"85,00 °C; median Hampel 3,71 °C; mustahil di gudang berpendingin",dikoreksi ke median Hampel pada suhu_c_bersih
+GDG-PLM,2026-05-31 10:10:00,2026-05-31 10:10:00,lonjakan,1,"85,00 °C; median Hampel 3,94 °C; mustahil di gudang berpendingin",dikoreksi ke median Hampel pada suhu_c_bersih
+GDG-PLM,2026-06-01 12:20:00,2026-06-01 12:20:00,lonjakan,1,"85,00 °C; median Hampel 3,60 °C; mustahil di gudang berpendingin",dikoreksi ke median Hampel pada suhu_c_bersih
+GDG-PLM,2026-06-03 13:30:00,2026-06-03 21:50:00,kegagalan_kompresor,51,"naik berkelanjutan sampai 13,46 °C pukul 17.20; 31 titik di atas 8 °C; median 1 jam > baseline + 2 °C selama 41 titik","anomali_nyata: tidak dihaluskan, tidak dikoreksi; dilaporkan ke operasional"
+GDG-PLM,2026-06-17 03:20:00,2026-06-17 03:20:00,lonjakan,1,"85,00 °C; median Hampel 4,32 °C; mustahil di gudang berpendingin",dikoreksi ke median Hampel pada suhu_c_bersih
+GDG-PLM,2026-06-22 11:20:00,2026-06-22 11:20:00,lonjakan,1,"85,00 °C; median Hampel 3,74 °C; mustahil di gudang berpendingin",dikoreksi ke median Hampel pada suhu_c_bersih
+GDG-PLM,2026-06-26 07:20:00,2026-06-26 07:20:00,lonjakan,1,"85,00 °C; median Hampel 4,20 °C; mustahil di gudang berpendingin",dikoreksi ke median Hampel pada suhu_c_bersih

@@ -1,0 +1,75 @@
+{
+  "data": [
+    {
+      "provinsi": "Aceh",
+      "n_produk": 97,
+      "n_toko": 19,
+      "median_harga_katalog_rp": 62000.0,
+      "rata_rating_toko": 4.09
+    },
+    {
+      "provinsi": "Bengkulu",
+      "n_produk": 87,
+      "n_toko": 19,
+      "median_harga_katalog_rp": 59500.0,
+      "rata_rating_toko": 4.06
+    },
+    {
+      "provinsi": "Jambi",
+      "n_produk": 116,
+      "n_toko": 18,
+      "median_harga_katalog_rp": 66250.0,
+      "rata_rating_toko": 4.09
+    },
+    {
+      "provinsi": "Kepulauan Bangka Belitung",
+      "n_produk": 112,
+      "n_toko": 25,
+      "median_harga_katalog_rp": 70000.0,
+      "rata_rating_toko": 4.25
+    },
+    {
+      "provinsi": "Kepulauan Riau",
+      "n_produk": 80,
+      "n_toko": 14,
+      "median_harga_katalog_rp": 66000.0,
+      "rata_rating_toko": 4.1
+    },
+    {
+      "provinsi": "Lampung",
+      "n_produk": 64,
+      "n_toko": 12,
+      "median_harga_katalog_rp": 69000.0,
+      "rata_rating_toko": 4.09
+    },
+    {
+      "provinsi": "Riau",
+      "n_produk": 68,
+      "n_toko": 17,
+      "median_harga_katalog_rp": 58250.0,
+      "rata_rating_toko": 4.01
+    },
+    {
+      "provinsi": "Sumatera Barat",
+      "n_produk": 90,
+      "n_toko": 21,
+      "median_harga_katalog_rp": 58750.0,
+      "rata_rating_toko": 4.14
+    },
+    {
+      "provinsi": "Sumatera Selatan",
+      "n_produk": 80,
+      "n_toko": 17,
+      "median_harga_katalog_rp": 57000.0,
+      "rata_rating_toko": 4.17
+    },
+    {
+      "provinsi": "Sumatera Utara",
+      "n_produk": 56,
+      "n_toko": 15,
+      "median_harga_katalog_rp": 68500.0,
+      "rata_rating_toko": 4.19
+    }
+  ],
+  "jumlah": 10
+}

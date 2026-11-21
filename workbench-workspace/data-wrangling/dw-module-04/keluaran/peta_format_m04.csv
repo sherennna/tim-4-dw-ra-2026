@@ -1,0 +1,190 @@
+kolom,nilai_asli,nilai_kanonik,aturan,n_baris
+transaksi.status,dibatalkan,dibatalkan,identik,1582
+transaksi.status,selesai,selesai,identik,19671
+transaksi.status,diproses,diproses,identik,1614
+transaksi.status,dikembalikan,dikembalikan,identik,955
+transaksi.status,SELESAI,selesai,huruf_spasi,401
+transaksi.status,DIPROSES,diproses,huruf_spasi,22
+transaksi.status,DIBATALKAN,dibatalkan,huruf_spasi,21
+transaksi.status,DIKEMBALIKAN,dikembalikan,huruf_spasi,22
+transaksi.metode_bayar,Transfer Bank,Transfer Bank,identik,2053
+transaksi.metode_bayar,Kartu Kredit,Kartu Kredit,identik,523
+transaksi.metode_bayar,Transfer bank,Transfer Bank,huruf_spasi,2010
+transaksi.metode_bayar,e-wallet,E-Wallet,huruf_spasi,2095
+transaksi.metode_bayar,COD,COD,identik,1473
+transaksi.metode_bayar,cod,COD,huruf_spasi,1511
+transaksi.metode_bayar,kartu kredit,Kartu Kredit,huruf_spasi,534
+transaksi.metode_bayar,E-Wallet,E-Wallet,identik,2040
+transaksi.metode_bayar,PayLater,Paylater,huruf_spasi,986
+transaksi.metode_bayar,Paylater,Paylater,identik,934
+transaksi.metode_bayar,EWALLET,E-Wallet,pengetahuan_domain,1940
+transaksi.metode_bayar,OVO,E-Wallet,pengetahuan_domain,2000
+transaksi.metode_bayar,GoPay,E-Wallet,pengetahuan_domain,2180
+transaksi.metode_bayar,transfer,Transfer Bank,pengetahuan_domain,2072
+transaksi.metode_bayar,Bayar di Tempat,COD,pengetahuan_domain,1381
+transaksi.metode_bayar,CC,Kartu Kredit,pengetahuan_domain,556
+transaksi.kota_tujuan,Kota Bengkulu,Bengkulu,pengetahuan_domain,614
+transaksi.kota_tujuan,Batam,Batam,identik,577
+transaksi.kota_tujuan,Pangkalpinang,Pangkalpinang,identik,476
+transaksi.kota_tujuan,Bengkulu,Bengkulu,identik,584
+transaksi.kota_tujuan,MEDAN ,Medan,huruf_spasi,1610
+transaksi.kota_tujuan,Palembang,Palembang,identik,1076
+transaksi.kota_tujuan,Kota Jambi,Jambi,pengetahuan_domain,677
+transaksi.kota_tujuan,PALEMBANG,Palembang,huruf_spasi,1126
+transaksi.kota_tujuan,Kota Banda Aceh,Banda Aceh,pengetahuan_domain,519
+transaksi.kota_tujuan,PADANG,Padang,huruf_spasi,790
+transaksi.kota_tujuan,Kota Batam,Batam,pengetahuan_domain,595
+transaksi.kota_tujuan,Kota Medan,Medan,pengetahuan_domain,1685
+transaksi.kota_tujuan,Pekan Baru,Pekanbaru,pengetahuan_domain,833
+transaksi.kota_tujuan,Jambi,Jambi,identik,720
+transaksi.kota_tujuan,BATAM,Batam,huruf_spasi,590
+transaksi.kota_tujuan,Medan,Medan,identik,1630
+transaksi.kota_tujuan,Bandarlampung,Bandar Lampung,pengetahuan_domain,1062
+transaksi.kota_tujuan,PEKANBARU,Pekanbaru,huruf_spasi,748
+transaksi.kota_tujuan,BANDAR LAMPUNG,Bandar Lampung,huruf_spasi,1045
+transaksi.kota_tujuan,Bandar Lampung,Bandar Lampung,identik,1078
+transaksi.kota_tujuan,Padang,Padang,identik,823
+transaksi.kota_tujuan,Banda Aceh,Banda Aceh,identik,564
+transaksi.kota_tujuan,Pekanbaru,Pekanbaru,identik,819
+transaksi.kota_tujuan,BANDA ACEH,Banda Aceh,huruf_spasi,574
+transaksi.kota_tujuan,Pangkal Pinang,Pangkalpinang,pengetahuan_domain,503
+transaksi.kota_tujuan,Kota Padang,Padang,pengetahuan_domain,793
+transaksi.kota_tujuan,Plg,Palembang,pengetahuan_domain,1150
+transaksi.kota_tujuan,B. Lampung,Bandar Lampung,pengetahuan_domain,1027
+transaksi.provinsi_tujuan,Bengkulu,Bengkulu,identik,1198
+transaksi.provinsi_tujuan,Kepulauan Riau,Kepulauan Riau,identik,839
+transaksi.provinsi_tujuan,Sumatera Selatan,Sumatera Selatan,identik,1678
+transaksi.provinsi_tujuan,Jambi,Jambi,identik,1397
+transaksi.provinsi_tujuan,ACEH,Aceh,huruf_spasi,572
+transaksi.provinsi_tujuan,Sumatera Utara,Sumatera Utara,identik,1635
+transaksi.provinsi_tujuan,LAMPUNG,Lampung,huruf_spasi,2094
+transaksi.provinsi_tujuan,Riau,Riau,identik,1168
+transaksi.provinsi_tujuan,Lampung,Lampung,identik,2118
+transaksi.provinsi_tujuan,RIAU,Riau,huruf_spasi,1232
+transaksi.provinsi_tujuan,Sumatera Barat,Sumatera Barat,identik,1223
+transaksi.provinsi_tujuan,Kepulauan Bangka Belitung,Kepulauan Bangka Belitung,identik,483
+transaksi.provinsi_tujuan,Aceh,Aceh,identik,520
+transaksi.provinsi_tujuan,NAD,Aceh,pengetahuan_domain,565
+transaksi.provinsi_tujuan,Sumut,Sumatera Utara,pengetahuan_domain,1698
+transaksi.provinsi_tujuan,Sumatra Utara,Sumatera Utara,pengetahuan_domain,1592
+transaksi.provinsi_tujuan,Sumbar,Sumatera Barat,pengetahuan_domain,1183
+transaksi.provinsi_tujuan,Sumsel,Sumatera Selatan,pengetahuan_domain,1674
+transaksi.provinsi_tujuan,Babel,Kepulauan Bangka Belitung,pengetahuan_domain,496
+transaksi.provinsi_tujuan,Kepri,Kepulauan Riau,pengetahuan_domain,923
+pelanggan_web.kota,Kota Bengkulu,Bengkulu,pengetahuan_domain,86
+pelanggan_web.kota,Batam,Batam,identik,77
+pelanggan_web.kota,Pangkalpinang,Pangkalpinang,identik,73
+pelanggan_web.kota,Bengkulu,Bengkulu,identik,69
+pelanggan_web.kota,MEDAN ,Medan,huruf_spasi,217
+pelanggan_web.kota,Palembang,Palembang,identik,145
+pelanggan_web.kota,Kota Jambi,Jambi,pengetahuan_domain,99
+pelanggan_web.kota,PALEMBANG,Palembang,huruf_spasi,143
+pelanggan_web.kota,Kota Banda Aceh,Banda Aceh,pengetahuan_domain,71
+pelanggan_web.kota,PADANG,Padang,huruf_spasi,96
+pelanggan_web.kota,Kota Batam,Batam,pengetahuan_domain,69
+pelanggan_web.kota,Kota Medan,Medan,pengetahuan_domain,231
+pelanggan_web.kota,Pekan Baru,Pekanbaru,pengetahuan_domain,114
+pelanggan_web.kota,Jambi,Jambi,identik,95
+pelanggan_web.kota,BATAM,Batam,huruf_spasi,88
+pelanggan_web.kota,Medan,Medan,identik,247
+pelanggan_web.kota,Bandarlampung,Bandar Lampung,pengetahuan_domain,132
+pelanggan_web.kota,PEKANBARU,Pekanbaru,huruf_spasi,126
+pelanggan_web.kota,BANDAR LAMPUNG,Bandar Lampung,huruf_spasi,148
+pelanggan_web.kota,Bandar Lampung,Bandar Lampung,identik,118
+pelanggan_web.kota,Padang,Padang,identik,117
+pelanggan_web.kota,Banda Aceh,Banda Aceh,identik,64
+pelanggan_web.kota,Pekanbaru,Pekanbaru,identik,113
+pelanggan_web.kota,BANDA ACEH,Banda Aceh,huruf_spasi,67
+pelanggan_web.kota,Pangkal Pinang,Pangkalpinang,pengetahuan_domain,58
+pelanggan_web.kota,Kota Padang,Padang,pengetahuan_domain,105
+pelanggan_web.kota,Plg,Palembang,pengetahuan_domain,150
+pelanggan_web.kota,B. Lampung,Bandar Lampung,pengetahuan_domain,142
+pelanggan_web.provinsi,Bengkulu,Bengkulu,identik,155
+pelanggan_web.provinsi,Kepulauan Riau,Kepulauan Riau,identik,109
+pelanggan_web.provinsi,Sumatera Selatan,Sumatera Selatan,identik,195
+pelanggan_web.provinsi,Jambi,Jambi,identik,194
+pelanggan_web.provinsi,ACEH,Aceh,huruf_spasi,52
+pelanggan_web.provinsi,Sumatera Utara,Sumatera Utara,identik,239
+pelanggan_web.provinsi,LAMPUNG,Lampung,huruf_spasi,270
+pelanggan_web.provinsi,Riau,Riau,identik,200
+pelanggan_web.provinsi,Lampung,Lampung,identik,270
+pelanggan_web.provinsi,RIAU,Riau,huruf_spasi,153
+pelanggan_web.provinsi,Sumatera Barat,Sumatera Barat,identik,160
+pelanggan_web.provinsi,Kepulauan Bangka Belitung,Kepulauan Bangka Belitung,identik,71
+pelanggan_web.provinsi,Aceh,Aceh,identik,76
+pelanggan_web.provinsi,NAD,Aceh,pengetahuan_domain,74
+pelanggan_web.provinsi,Sumut,Sumatera Utara,pengetahuan_domain,239
+pelanggan_web.provinsi,Sumatra Utara,Sumatera Utara,pengetahuan_domain,217
+pelanggan_web.provinsi,Sumbar,Sumatera Barat,pengetahuan_domain,158
+pelanggan_web.provinsi,Sumsel,Sumatera Selatan,pengetahuan_domain,243
+pelanggan_web.provinsi,Babel,Kepulauan Bangka Belitung,pengetahuan_domain,60
+pelanggan_web.provinsi,Kepri,Kepulauan Riau,pengetahuan_domain,125
+pelanggan_app.city,Kota Bengkulu,Bengkulu,pengetahuan_domain,71
+pelanggan_app.city,Batam,Batam,identik,53
+pelanggan_app.city,Pangkalpinang,Pangkalpinang,identik,57
+pelanggan_app.city,Bengkulu,Bengkulu,identik,63
+pelanggan_app.city,MEDAN ,Medan,huruf_spasi,156
+pelanggan_app.city,Palembang,Palembang,identik,139
+pelanggan_app.city,Kota Jambi,Jambi,pengetahuan_domain,76
+pelanggan_app.city,PALEMBANG,Palembang,huruf_spasi,123
+pelanggan_app.city,Kota Banda Aceh,Banda Aceh,pengetahuan_domain,68
+pelanggan_app.city,PADANG,Padang,huruf_spasi,103
+pelanggan_app.city,Kota Batam,Batam,pengetahuan_domain,58
+pelanggan_app.city,Kota Medan,Medan,pengetahuan_domain,176
+pelanggan_app.city,Pekan Baru,Pekanbaru,pengetahuan_domain,89
+pelanggan_app.city,Jambi,Jambi,identik,75
+pelanggan_app.city,BATAM,Batam,huruf_spasi,59
+pelanggan_app.city,Medan,Medan,identik,166
+pelanggan_app.city,Bandarlampung,Bandar Lampung,pengetahuan_domain,120
+pelanggan_app.city,PEKANBARU,Pekanbaru,huruf_spasi,88
+pelanggan_app.city,BANDAR LAMPUNG,Bandar Lampung,huruf_spasi,90
+pelanggan_app.city,Bandar Lampung,Bandar Lampung,identik,119
+pelanggan_app.city,Padang,Padang,identik,75
+pelanggan_app.city,Banda Aceh,Banda Aceh,identik,56
+pelanggan_app.city,Pekanbaru,Pekanbaru,identik,97
+pelanggan_app.city,BANDA ACEH,Banda Aceh,huruf_spasi,63
+pelanggan_app.city,Pangkal Pinang,Pangkalpinang,pengetahuan_domain,46
+pelanggan_app.city,Kota Padang,Padang,pengetahuan_domain,82
+pelanggan_app.city,Plg,Palembang,pengetahuan_domain,122
+pelanggan_app.city,B. Lampung,Bandar Lampung,pengetahuan_domain,110
+produk.kategori,Kopi,Kopi,identik,157
+produk.kategori,Sayur dan Buah Segar,Sayur dan Buah Segar,identik,104
+produk.kategori,Rempah,Rempah,identik,128
+produk.kategori,Kain Tenun,Kain Tenun,identik,57
+produk.kategori,Makanan Ringan,Makanan Ringan,identik,152
+produk.kategori,Kerajinan,Kerajinan,identik,112
+produk.kategori,Olahan Ikan,Olahan Ikan,identik,113
+produk.kategori,OLAHAN IKAN,Olahan Ikan,huruf_spasi,1
+produk.kategori,REMPAH,Rempah,huruf_spasi,2
+produk.kategori,Kopi ,Kopi,huruf_spasi,3
+produk.kategori,MAKANAN RINGAN,Makanan Ringan,huruf_spasi,4
+produk.kategori,kopi,Kopi,huruf_spasi,1
+produk.kategori,Olahan Ikan ,Olahan Ikan,huruf_spasi,1
+produk.kategori,KERAJINAN,Kerajinan,huruf_spasi,1
+produk.kategori,Kain Tenun ,Kain Tenun,huruf_spasi,2
+produk.kategori,makanan ringan,Makanan Ringan,huruf_spasi,3
+produk.kategori,SAYUR DAN BUAH SEGAR,Sayur dan Buah Segar,huruf_spasi,2
+produk.kategori,KAIN TENUN,Kain Tenun,huruf_spasi,1
+produk.kategori,Rempah ,Rempah,huruf_spasi,2
+produk.kategori,KOPI,Kopi,huruf_spasi,1
+produk.kategori,sayur dan buah segar,Sayur dan Buah Segar,huruf_spasi,1
+produk.kategori,olahan ikan,Olahan Ikan,huruf_spasi,1
+produk.kategori,kerajinan,Kerajinan,huruf_spasi,1
+produk.perlu_pendingin,Ya,True,pengetahuan_domain,152
+produk.perlu_pendingin,Y,True,pengetahuan_domain,30
+produk.perlu_pendingin,1,True,pengetahuan_domain,41
+produk.perlu_pendingin,Tidak,False,pengetahuan_domain,439
+produk.perlu_pendingin,T,False,pengetahuan_domain,90
+produk.perlu_pendingin,0,False,pengetahuan_domain,98
+pelanggan_web.jenis_kelamin,L,L,identik,537
+pelanggan_web.jenis_kelamin,l,L,huruf_spasi,493
+pelanggan_web.jenis_kelamin,Laki-laki,L,pengetahuan_domain,484
+pelanggan_web.jenis_kelamin,P,P,identik,524
+pelanggan_web.jenis_kelamin,p,P,huruf_spasi,487
+pelanggan_web.jenis_kelamin,Perempuan,P,pengetahuan_domain,529
+pelanggan_web.jenis_kelamin,,,kosong,106
+pelanggan_app.gender,M,L,pengetahuan_domain,667
+pelanggan_app.gender,male,L,pengetahuan_domain,639
+pelanggan_app.gender,F,P,pengetahuan_domain,598
+pelanggan_app.gender,female,P,pengetahuan_domain,584
+pelanggan_app.gender,,,kosong,112

@@ -1,0 +1,4 @@
+model,n_dokumen,ukuran_kb,waktu_ms,omzet_total,sama_dengan_sql
+sql_3nf,39667,7128.0,22.934,8010787975,True
+embed,15744,8812.7,3220.352,8010787975,True
+reference,39667,9391.1,4762.593,8010787975,True

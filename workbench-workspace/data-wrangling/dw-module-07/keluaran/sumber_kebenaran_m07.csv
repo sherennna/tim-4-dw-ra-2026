@@ -1,0 +1,8 @@
+kolom,sumber_utama,cadangan,alasan,bukti
+nama_toko,api,web;katalog,API terstruktur dan bertanda updated_at; web dan katalog hanya salinan tampilan,nama API = web pada 173 toko
+provinsi,api,web;katalog,provinsi_toko katalog berbeda-beda di antara produk satu toko (cadangan terakhir: modus); web dinormalkan,166 dari 177 toko katalog punya >1 provinsi; API = web pada 169 dari 169
+kota,api,web,katalog tidak memuat kota,web tanpa kota 5 toko
+rating_toko,api,web;katalog,"web menampilkan rating basi pada sebagian toko; rating katalog per produk dan memuat penanda 0,0 (cadangan terakhir: rata-rata rating positif)",web ≠ API pada 4 toko; API = rata-rata rating positif katalog pada 173 toko
+jumlah_ulasan,api,web,mengikuti sumber rating agar rating dan jumlah ulasan sepasang,katalog tidak memuat jumlah ulasan
+harga_katalog_rp,katalog,-,harga daftar resmi penjual; harga web adalah harga tayang (promo/terbaru),"promo 45, berbeda 19 produk"
+harga_tayang_rp,web,-,"harga yang benar-benar dilihat pembeli saat diambil; disimpan terpisah, tidak menimpa katalog",804 produk berharga tayang

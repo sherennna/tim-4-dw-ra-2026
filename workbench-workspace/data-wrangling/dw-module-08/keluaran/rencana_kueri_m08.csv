@@ -1,0 +1,11 @@
+kueri,kondisi,rencana,n_baris,waktu_ms
+baris_per_pesanan,tanpa_indeks,SEARCH baris_pesanan USING INDEX sqlite_autoindex_baris_pesanan_1 (id_pesanan=?),2,0.0311
+baris_per_pesanan,dengan_indeks,SEARCH baris_pesanan USING INDEX sqlite_autoindex_baris_pesanan_1 (id_pesanan=?),2,0.0288
+baris_per_produk,tanpa_indeks,SCAN baris_pesanan,50,1.3891
+baris_per_produk,dengan_indeks,SEARCH baris_pesanan USING INDEX ix_baris_produk (kode_produk=?),50,0.0694
+bulan_fungsi,tanpa_indeks,SCAN pesanan,1005,1.2658
+bulan_fungsi,dengan_indeks,SCAN pesanan,1005,1.2093
+bulan_rentang,tanpa_indeks,SCAN pesanan,1005,0.8816
+bulan_rentang,dengan_indeks,SEARCH pesanan USING INDEX ix_pesanan_waktu (waktu_pesan>? AND waktu_pesan<?),1005,0.4567
+pesanan_per_pelanggan,tanpa_indeks,SCAN pesanan,9,0.7106
+pesanan_per_pelanggan,dengan_indeks,SEARCH pesanan USING INDEX ix_pesanan_pelanggan (id_pelanggan=?),9,0.0614
