@@ -38,3 +38,5 @@ vs DuckDB/Dask, dan keterbatasan yang tersisa.
 ## Pembagian kerja
 | Anggota | NIM | Komponen | Tugas sampingan | Bagian laporan yang ditulis |
 | Talitha Justine | 124450076 | Integrasi, penyimpanan, dan skala | Analis Utama | Masalah data dan penanganannya |
+### Bantuan Pengerjaan Lintas Anggota — Sprint 1
+- **Kartu #7 (Tahap 3 — Grid 38 Provinsi × Periode & Strategi Missing):** Djofy Prianda Banu (`124450117`) membantu menyusun dan menjalankan modul `src/silver/grid.py`, menghasilkan laporan `reports/kelengkapan-panel.md` dan `reports/kelengkapan-panel.csv`, serta mencatat keputusan `K-015` s.d. `K-019` di `log-keputusan.csv` atas nama pemilik tugas Jihan Putri Yani (`121450161`).
