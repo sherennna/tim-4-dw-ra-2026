@@ -1,9 +1,0 @@
-kolom,rata_latih,sb_latih,rata_uji,sb_uji,uji_di_luar_rentang_latih_persen
-t_frekuensi,0.0,1.0,-0.8731,0.5559,0.0
-t_omzet,0.0,1.0,-0.576,1.0034,0.0
-t_nilai_rata_pesanan,-0.0,1.0,-0.2013,1.1563,0.0
-t_jumlah_unit,-0.0,1.0,-0.6601,0.8195,0.0
-t_nilai_batal,0.0,1.0,-0.3767,0.5992,0.0
-t_n_kategori,-0.0,1.0,-0.6968,0.6758,0.0
-t_rata_diskon,-0.0,1.0,-0.0051,1.234,0.0
-t_recency_hari,-0.0,1.0,-0.8808,0.2255,0.0
