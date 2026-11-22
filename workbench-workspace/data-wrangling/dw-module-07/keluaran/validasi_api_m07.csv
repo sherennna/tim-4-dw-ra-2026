@@ -1,5 +1,0 @@
-posisi,id_toko,kolom,nilai,masalah,tindakan
-21,T022,rating,"'4,2'",tipe str,"dikonversi: koma -> titik, cocok dengan v2"
-37,T038,rating,"'4,5'",tipe str,"dikonversi: koma -> titik, cocok dengan v2"
-47,T047,id_toko,T047,kunci ganda (identik),dibuang (salinan identik)
-102,T103,rating,"'4,2'",tipe str,"dikonversi: koma -> titik, cocok dengan v2"

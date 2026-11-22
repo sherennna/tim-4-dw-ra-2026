@@ -1,4 +1,0 @@
-percobaan,baris_awal,baris_akhir,equals_langsung,equals_setelah_dirapikan,yang_disamakan
-1_lebar_panjang_lebar_pv_omzet,10,10,True,True,reset_index() sebelum melt; urutan indeks dan kolom (reindex); nama sumbu tidak memengaruhi equals
-2_panjang_lebar_panjang_omzet_2025-01,71,80,False,True,"dropna baris sel kosong; urutkan provinsi,kategori; reset_index(drop=True)"
-3_panjang_lebar_panjang_pesanan_2025-01,71,80,False,True,dropna; urutkan; reset_index(drop=True); astype int64 (unstack menjadikan kolom float64 karena NaN)

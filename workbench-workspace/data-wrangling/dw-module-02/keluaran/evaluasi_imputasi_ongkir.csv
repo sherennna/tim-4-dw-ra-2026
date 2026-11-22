@@ -1,5 +1,0 @@
-metode,n_uji,MAE,median_galat_absolut,bias,persen_tepat,rasio_sd
-rata_rata_global,2317,9355.9,6159.4,544.4,0.0,0.928
-median_global,2317,7110.5,2500.0,-4615.0,0.35,0.931
-median_provinsi,2317,5724.4,0.0,-5724.4,73.2,0.932
-deduktif_lalu_median_provinsi,2317,140.1,0.0,-19.2,98.83,1.007
