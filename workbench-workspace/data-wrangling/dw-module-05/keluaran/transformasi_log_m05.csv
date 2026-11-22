@@ -1,0 +1,9 @@
+fitur,skew_asli,skew_log1p,n_nol,pakai_log,alasan
+frekuensi,1.3251306483788807,0.4133741743534375,0,True,skew > 1 dan log1p memperkecil kemencengan
+omzet,4.8000979141716495,-0.17203307016281083,0,True,skew > 1 dan log1p memperkecil kemencengan
+nilai_rata_pesanan,10.149593934936492,0.16651783555529528,0,True,skew > 1 dan log1p memperkecil kemencengan
+jumlah_unit,7.836239555972978,0.4067811499910532,0,True,skew > 1 dan log1p memperkecil kemencengan
+n_kategori,0.5955241726706024,-0.06767586499813791,4,False,"|skew| <= 1: sudah cukup simetris, log1p tidak diperlukan"
+rata_diskon,0.45462637388328647,-1.2531118307435636,491,False,"|skew| <= 1: sudah cukup simetris, log1p tidak diperlukan"
+nilai_batal,13.656102451626731,1.331723147263765,3237,True,skew > 1 dan log1p memperkecil kemencengan
+recency_hari,0.8280662286250995,-1.0755043445556811,23,False,"|skew| <= 1: sudah cukup simetris, log1p tidak diperlukan"
