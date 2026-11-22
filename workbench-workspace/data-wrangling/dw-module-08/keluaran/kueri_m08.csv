@@ -1,4 +1,0 @@
-kueri,pembanding,n_baris,sama,selisih
-omzet_provinsi,pandas: semua baris transaksi_m04,10,False,18276600
-omzet_provinsi,pandas: tanpa baris yang ditolak,10,True,0
-peringkat_produk,pandas: tanpa baris yang ditolak,30,True,0
