@@ -1,4 +1,4 @@
-"""Tahap 8 — Validasi dasar Silver (pandera) untuk Kasus 04."""
+"""Tahap 8 — Validasi dasar Silver (pandera) serta validasi Gold & rekonsiliasi untuk Kasus 04."""
 from __future__ import annotations
 
 from pathlib import Path
@@ -8,6 +8,7 @@ import pandera.pandas as pa
 
 from src.common.skema import periksa_silver
 from src.validasi.aturan import DAFTAR_ATURAN, skema_silver, tandai_silver
+from src.validasi.gold import validasi_gold_dan_rekonsiliasi
 
 JALUR_SILVER_DEFAULT = Path("data/silver/silver.parquet")
 
@@ -37,7 +38,7 @@ def validasi_silver(df: pd.DataFrame) -> dict:
 
 
 def jalankan(silver: pd.DataFrame | None = None, gold=None) -> dict:
-    """Titik masuk dari pipeline.py (tidak bergantung pada Gold Sprint 3 bila silver sudah ada)."""
+    """Titik masuk dari pipeline.py untuk validasi Silver serta Gold & rekonsiliasi."""
     if silver is None:
         if not JALUR_SILVER_DEFAULT.exists():
             raise FileNotFoundError(
@@ -46,10 +47,19 @@ def jalankan(silver: pd.DataFrame | None = None, gold=None) -> dict:
         silver = pd.read_parquet(JALUR_SILVER_DEFAULT)
 
     ringkasan = validasi_silver(silver)
+    ringkasan_gold = validasi_gold_dan_rekonsiliasi(ringkasan["df_silver"], gold=gold)
+
+    total_aturan = ringkasan["aturan_validasi"] + ringkasan_gold["aturan_gold_validasi"]
+    total_lolos = ringkasan["aturan_lolos"] + ringkasan_gold["aturan_gold_lolos"]
+
+    ringkasan.update(ringkasan_gold)
+    ringkasan["aturan_validasi"] = total_aturan
+    ringkasan["aturan_lolos"] = total_lolos
+
     print(
-        f"validasi   : {ringkasan['aturan_lolos']}/{ringkasan['aturan_validasi']} aturan lolos "
-        f"({ringkasan['jumlah_baris']} baris; outlier_malaria={ringkasan['baris_outlier_malaria']}, "
-        f"proyeksi_who={ringkasan['baris_proyeksi_who']})"
+        f"validasi   : {total_lolos}/{total_aturan} aturan lolos "
+        f"(Silver {ringkasan['jumlah_baris']} baris; Gold {ringkasan_gold['jumlah_baris_gold']} baris; "
+        f"rekon={ringkasan_gold['status_rekonsiliasi']})"
     )
     return ringkasan
 

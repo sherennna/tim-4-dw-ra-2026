@@ -35,7 +35,16 @@ Berikut contoh penelusuran satu baris observasi pada `data/silver/silver.parquet
 
 ## data/gold/<tabel>.parquet
 
-*Akan dilengkapi pada Sprint 2–3 setelah tabel panel provinsi dan tabel rekonsiliasi nasional terbentuk.*
+Tabel lapisan Gold untuk panel provinsi x periode per seri dan rekonsiliasi nasional setelah aturan sel (#20) diterapkan pada Sprint 2. Sel kosong (*gap*) tidak diisi secara fiktif tanpa keputusan tertulis di `log-keputusan.csv`.
 
 | Kolom | Tipe | Satuan/format | Boleh kosong | Rentang atau nilai sah | Asal (berkas/aturan) | Keterangan |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| `seri_kode` | `string` | - | tidak | `var1393`, `var1480`, `var1435`, pembanding WHO/WDI | Aturan reshape Gold (#21) & `log-keputusan.csv` | Kode seri indikator pada grid Gold. |
+| `wilayah_kode` | `int64` | kode BPS x 100 | tidak | `9999` atau `1100`-`9600` | Skema wilayah Silver (`src/common/skema.py`) | Kode provinsi atau nasional (`9999` dilaporkan terpisah). |
+| `periode` | `string` | `YYYY` | tidak | `2000`-`2030` | Kolom `periode` Silver | Tahun observasi pada grid Gold. |
+| `nilai` | `float64` | Mengikuti `satuan` | ya | Sesuai satuan seri (`per 1.000 penduduk`, `persen`) | Nilai tervalidasi Silver / aturan sel (#20) | Nilai observasi pada sel; tetap kosong jika celah/belum terbit tanpa keputusan pengisian. |
+| `status_sel` | `string` | - | tidak | `terisi`, `celah`, `belum_terbit`, `patahan` | Aturan kelengkapan & penanda sel Gold (#21) | Klasifikasi utama kondisi sel pada grid provinsi x periode. |
+| `penanda_celah` | `bool` | - | tidak | `True`, `False` | Aturan sel (#20), penanda (#21) & `log-keputusan.csv` | `True` jika sel kosong (*gap*) yang seharusnya ada dan belum diisi tanpa keputusan tertulis. |
+| `penanda_belum_terbit` | `bool` | - | tidak | `True`, `False` | Aturan mode hukum / rilis seri (#21) | `True` jika provinsi belum berdiri/terbit pada tahun tersebut atau di luar rilis/jendela seri. |
+| `penanda_patahan` | `bool` | - | tidak | `True`, `False` | Profil seri & aturan diskontinuitas (#21) | `True` jika terdapat patahan (*break*) / perubahan metodologi atau diskontinuitas seri. |
+| `catatan_kondisi` | `string` | - | ya | Teks ringkas / ID keputusan (`K-xxx`) | `log-keputusan.csv` & aturan (#21) | Rujukan alasan kondisi sel (mis. `K-019`, provinsi baru, atau diskontinuitas). |

@@ -51,3 +51,14 @@ Mode sel tidak berlaku: hukum. Sel berlaku = 38 provinsi dikurangi provinsi yang
 | var1393 | 2010 | 2021 | 12 |
 | var1435 | 2015 | 2025 | 11 |
 | var1480 | 2007 | 2018 | 3 |
+
+## Ringkasan Sebelum vs Sesudah Aturan Sel (Tahap 4 - Gold)
+
+- **Sebelum aturan sel:** Grid provinsi x periode awal masih mencakup kombinasi wilayah/tahun yang belum terbit atau belum berdiri secara hukum pada tahun observasi, serta berpotensi memuat duplikasi/ketidakselarasan sebelum aturan satu nilai per sel (#20) diterapkan.
+- **Sesudah aturan sel (mode hukum + jendela bersama 2015-2021):** Sel yang di luar masa berlakunya wilayah/seri diklasifikasikan sebagai **belum terbit**, celah observasi (*gap*) **tidak diisi** tanpa keputusan tertulis dan dirujuk ke `log-keputusan.csv`, sedangkan titik diskontinuitas/perubahan seri ditandai sebagai **patahan** (*break*).
+
+| seri | rentang data seri | jendela analisis bersama | perlakuan sel kosong (gap) | penanda kondisi sel |
+|---|---|---|---|---|
+| var1393 | 2010-2021 | 2015-2021 | tidak diisi tanpa keputusan tertulis | celah, belum terbit, patahan |
+| var1480 | 2007-2018 | 2015-2021 (titik survei 2018; 2016 nasional) | tidak diisi tanpa keputusan tertulis | celah, belum terbit, patahan |
+| var1435 | 2015-2025 | 2015-2021 (cakupan penuh s.d. 2025) | tidak diisi tanpa keputusan tertulis | celah, belum terbit, patahan |
