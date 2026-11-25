@@ -126,10 +126,13 @@ def susun_silver(mentah: dict[str, pd.DataFrame]) -> pd.DataFrame:
     for kol in ["sumber", "seri_kode", "nama_wilayah", "periode", "jenis_periode", "rincian", "satuan", "_berkas_raw", "_sha256_raw"]:
         silver[kol] = silver[kol].astype(str)
 
-    silver = silver.sort_values(["sumber", "seri_kode", "wilayah_kode", "periode", "rincian", "_berkas_raw"]).reset_index(drop=True)
+    silver = (
+        silver.sort_values(["sumber", "seri_kode", "wilayah_kode", "periode", "rincian", "_berkas_raw"])
+        .drop_duplicates(subset=["sumber", "seri_kode", "wilayah_kode", "periode", "rincian"], keep="first")
+        .reset_index(drop=True)
+    )
     silver = tandai_silver(silver)
     return silver
-
 
 def ringkas(silver: pd.DataFrame) -> dict[str, int]:
     """Hitung metrik Silver untuk results/<nim>/metrics.json."""
