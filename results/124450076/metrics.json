@@ -2,7 +2,9 @@
   "metrik": {
     "berkas_dibaca": 16,
     "baris_mentah": 11080,
-    "format": 2
+    "format": 2,
+    "pasangan_rekonsiliasi": 33,
+    "selisih_median": -3.229
   },
   "seed": 0,
   "data_hash": "dd3beec9b9256d6be5fade17cdba35b97500660c5a97cc03e594e6f9f9742d0b",
