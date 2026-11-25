@@ -28,20 +28,28 @@ DAFTAR_ATURAN_GOLD = [
 
 def _muat_tabel_gold(gold) -> pd.DataFrame:
     """Ambil tabel Gold berformat panjang (long) dari dict gold atau berkas data/gold/."""
+    df = pd.DataFrame()
     if isinstance(gold, pd.DataFrame) and not gold.empty:
-        return gold.copy()
-    if isinstance(gold, dict):
+        df = gold.copy()
+    elif isinstance(gold, dict):
         for kunci in ("panel_long", "silver_terpilih", "gold", "panel"):
             val = gold.get(kunci)
             if isinstance(val, pd.DataFrame) and not val.empty:
-                return val.copy()
-    if JALUR_GOLD_KANDIDAT.exists():
-        return pd.read_parquet(JALUR_GOLD_KANDIDAT)
-    if JALUR_PANEL_GOLD.exists():
-        return pd.read_parquet(JALUR_PANEL_GOLD)
-    if JALUR_PANEL_GOLD_CSV.exists():
-        return pd.read_csv(JALUR_PANEL_GOLD_CSV)
-    return pd.DataFrame()
+                df = val.copy()
+                break
+    if df.empty:
+        for jalur in (
+            Path("data/gold/panel_provinsi.parquet"),
+            JALUR_GOLD_KANDIDAT,
+            JALUR_PANEL_GOLD,
+            JALUR_PANEL_GOLD_CSV,
+        ):
+            if jalur.exists():
+                df = pd.read_csv(jalur) if jalur.suffix == ".csv" else pd.read_parquet(jalur)
+                break
+    if not df.empty:
+        df = df.rename(columns={"provinsi_kode": "wilayah_kode", "indikator": "seri_kode"})
+    return df
 
 
 def _muat_tabel_rekonsiliasi(gold) -> pd.DataFrame:
