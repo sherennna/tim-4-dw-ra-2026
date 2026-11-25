@@ -1,7 +1,9 @@
 {
   "metrik": {
-    "aturan_validasi": 5,
-    "aturan_lolos": 5
+    "aturan_validasi": 9,
+    "aturan_lolos": 9,
+    "aturan_silver_lolos": 5,
+    "aturan_gold_lolos": 4
   },
   "seed": 0,
   "data_hash": "dd3beec9b9256d6be5fade17cdba35b97500660c5a97cc03e594e6f9f9742d0b",
