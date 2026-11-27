@@ -7,8 +7,11 @@ dan `log-keputusan.csv` yang sudah di-*commit*.
 Kasus, seri yang ditangani, dan satu kalimat temuan utama tentang kualitas datanya.
 
 ## Data dan lineage
-Sumber dan format mentah, jumlah berkas, cara `_berkas_raw`/`_sha256_raw` dibentuk, dan hasil tarik
-ulang API (bila dilakukan): apa yang berubah sejak snapshot 17–20 Oktober 2026.
+- **Sumber dan format mentah (Bronze):** 16 berkas mentah di `data/raw/` yang diunduh pada 17-20 Oktober 2026 dari tiga sumber resmi: BPS Web API (format JSON dan CSV untuk `var1393`, `var1480`, `var1435`), WHO Global Health Observatory / GHO (format JSON untuk `MALARIA_EST_INCIDENCE`, `NCDMORT3070`, `M_Est_tob_curr_std`), dan World Bank WDI (format CSV dan SDMX-XML untuk `SH.MLR.INCD.P3`). Tidak dilakukan penarikan ulang API di luar snapshot resmi agar seluruh tim bekerja pada *freeze* data yang identik.
+- **Pelacakan lineage (`_berkas_raw` dan `_sha256_raw`):** Setiap berkas di `data/raw/` diverifikasi terhadap `MANIFEST.csv` menggunakan hash SHA-256 sebelum diekstrak. Kolom `_berkas_raw` menyimpan jalur relatif berkas asal dan `_sha256_raw` menyimpan sidik jari SHA-256 berkas tersebut di setiap baris Silver, lalu diteruskan ke panel Gold (`silver_row_id`, `berkas_raw`, `sha256_raw`) sehingga setiap angka analisis dapat dilacak kembali hingga berkas mentahnya.
+- **Pemilihan basis data relasional SQL (DuckDB) vs penyimpanan dokumen JSON mentah:**
+  - **Lapis Bronze (Dokumen JSON/CSV/XML mentah):** Menyimpan respons API BPS dan WHO GHO apa adanya sebagai dokumen (`data/raw/`) sangat cocok pada lapis mentah karena struktur bersarang (*nested JSON* metadata variabel, dimensi, dan catatan kaki) belum seragam antar-sumber, sehingga penyimpanan berbasis dokumen menjaga keaslian bukti audit tanpa kehilangan atribut sebelum pembersihan.
+  - **Lapis Silver & Gold (Basis data relasional SQL - DuckDB):** Setelah data dinormalisasi menjadi skema tabular tetap, penyimpanan relasional dipilih karena: (1) **penegakan integritas skema dan kunci primer komposit** secara otomatis (`(sumber, seri_kode, wilayah_kode, periode, rincian)` di Silver, `(provinsi_kode, periode, indikator)` di `panel_provinsi`, `(sumber, indikator, rincian, periode)` di `nasional`, dan `(pasangan, periode)` di `rekonsiliasi_nasional`) mencegah duplikasi sel; (2) **kueri analitik lintas tabel (*JOIN*, agregasi panel, dan filter indikator)** jauh lebih cepat dan ringkas dibandingkan memindai ulang dokumen JSON; serta (3) **DuckDB bersifat *embedded* (tanpa server terpisah)** dan membaca/menulis Parquet secara langsung, sehingga *pipeline* `python pipeline.py` dapat direproduksi penuh oleh seluruh anggota tim hanya dengan dependensi Python standar.
 
 ## Masalah data dan penanganannya
 
