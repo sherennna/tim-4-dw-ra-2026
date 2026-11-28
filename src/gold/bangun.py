@@ -56,10 +56,11 @@ def bangun_nasional(s: pd.DataFrame) -> pd.DataFrame:
     n = _dedup(n, ["sumber", "seri_kode", "rincian", "periode"])
     n = n.rename(columns={"seri_kode": "indikator"})
     n["periode"] = n["periode"].astype(int)
+    n["asal_angka_nasional"] = np.where(n["sumber"] == "bps", "baris Indonesia", "pembanding")
     n = _tambah_aturan_sel(n)
     kolom = ["sumber", "indikator", "rincian", "periode", "nilai", "satuan",
-             "nilai_log1p", "flag_sel", "silver_row_id", "silver_row_id_setara",
-             "berkas_raw", "sha256_raw"]
+             "asal_angka_nasional", "nilai_log1p", "flag_sel",
+             "silver_row_id", "silver_row_id_setara", "berkas_raw", "sha256_raw"]
     return n[kolom].sort_values(["sumber", "indikator", "rincian", "periode"]).reset_index(drop=True)
 
 
@@ -87,4 +88,3 @@ def tulis_gold() -> dict:
     nas.to_parquet(GOLD / "nasional.parquet", index=False)
     return {"seri_panel": panel["indikator"].nunique(), "baris_panel": len(panel),
             "baris_nasional": len(nas), "baris_gold": len(panel) + len(nas)}
-            

@@ -42,6 +42,7 @@ CREATE TABLE IF NOT EXISTS nasional (
     periode               INTEGER NOT NULL,
     nilai                 DOUBLE  NOT NULL,
     satuan                TEXT    NOT NULL,
+    asal_angka_nasional   TEXT    NOT NULL,
     nilai_log1p           DOUBLE,
     flag_sel              TEXT    NOT NULL,
     silver_row_id         BIGINT  NOT NULL,
