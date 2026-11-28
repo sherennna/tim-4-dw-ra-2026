@@ -21,7 +21,7 @@ def main():
     for nama, langkah in [("ekstraksi", lambda h: ekstraksi.jalankan()),
                           ("silver", lambda h: silver.jalankan(h["ekstraksi"])),
                           ("gold", lambda h: gold.jalankan(h["silver"])),
-                          ("validasi", lambda h: validasi.jalankan(h["silver"], ...)),
+                          ("validasi", lambda h: validasi.jalankan(h["silver"], h["gold"])),
                           ("sql", lambda h: muat_sql.muat_ke_sql())]:
         mulai = time.time()
         hasil[nama] = langkah(hasil)
